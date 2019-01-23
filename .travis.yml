@@ -1,28 +1,24 @@
+git:
+  depth: 1
 addons:
   apt:
     packages:
     - python-pygments
 install:
 - rm -rf public || exit 0
-script:
-- chmod +x ./build.sh
-- "./build.sh"
-before_deploy:
+before_script:
 - openssl aes-256-cbc -K $encrypted_05e3463f8f2c_key -iv $encrypted_05e3463f8f2c_iv
   -in id_rsa.enc -out ./id_rsa -d
 - eval "$(ssh-agent -s)"
 - chmod 600 ./id_rsa
 - ssh-add ./id_rsa
+script:
+- chmod +x ./build.sh
+- "./build.sh"
 addons:
   ssh_known_hosts:
   - stage.maniacallabs.com
 deploy:
-  # deploy to stage on all commits
-  - provider: script
-    skip_cleanup: true
-    script: rsync -rav --delete $TRAVIS_BUILD_DIR/public/ cyrberus@stage.maniacallabs.com:/home/cyrberus/stage.maniacallabs.com/
-    on:
-      all_branches: true
   - provider: pages
     fqdn: ManiacalLabs.com
     skip_cleanup: true
