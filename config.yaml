@@ -41,3 +41,25 @@ menu:
     - name: Contact
       weight: 50
       url: /contact/
+
+privacy:
+  disqus:
+    disable: false
+  googleAnalytics:
+    anonymizeIP: true
+    disable: false
+    respectDoNotTrack: true
+    useSessionStorage: true
+  instagram:
+    disable: false
+    simple: true
+  twitter:
+    disable: false
+    enableDNT: true
+    simple: true
+  vimeo:
+    disable: false
+    simple: true
+  youtube:
+    disable: false
+    privacyEnhanced: true
