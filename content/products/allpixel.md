@@ -8,6 +8,7 @@ thumb: /images/products/apm.png
 type: page
 aliases:
   - /allpixel/
+  - /AllPixel/
 weight: 10
 
 ---

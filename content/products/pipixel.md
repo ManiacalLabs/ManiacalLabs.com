@@ -8,6 +8,7 @@ type: page
 thumb: /images/products/pipixel.png
 aliases:
     - /pipixel/
+    - /PiPixel/
 weight: 20
 ---
 
