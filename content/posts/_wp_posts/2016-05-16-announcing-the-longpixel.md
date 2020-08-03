@@ -11,7 +11,7 @@ In 2014 we launched the [AllPixel](/AllPixel): an easy way to control various ki
 
 {{< youtube QIRYZglR6cM >}}
 
-The [LongPixel](/LongPixel) is able to drive 12-24V Common Anode RGB LED analog strips (the kind that have +V, R, G, and B wires). By using the WS2801 LED driver chip, multiple LongPixels can be chained together and treated as a "strip" of digitally addressable super-LEDs. The [LongPixel](/LongPixel) can work with just about any platform that supports SPI communication, including the Arduino, the Raspberry Pi, and our AllPixel LED controller.  The awesome [FastLED](http://fastled.io) Arduino/AVR library and our own [BiblioPixel](/BiblioPixel) Python library are great control software options. Screw terminals, standard headers, and integrated mounting points make hardware setup a snap.
+The [LongPixel](/LongPixel) is able to drive 12-24V Common Anode RGB LED analog strips (the kind that have +V, R, G, and B wires). By using the WS2801 LED driver chip, multiple LongPixels can be chained together and treated as a "strip" of digitally addressable super-LEDs. The [LongPixel](/LongPixel) can work with just about any platform that supports SPI communication, including the Arduino, the Raspberry Pi, and our AllPixel LED controller.  The awesome [FastLED](http://fastled.io) Arduino/AVR library and our own [BiblioPixel](/bibliopixel) Python library are great control software options. Screw terminals, standard headers, and integrated mounting points make hardware setup a snap.
 
 Some example uses: Architectural Lighting, Costumes, Under counters or cabinets, TV Bias Lighting, or Music Interactive Lighting.
 

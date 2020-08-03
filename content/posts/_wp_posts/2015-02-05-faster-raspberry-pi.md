@@ -15,4 +15,4 @@ Previously, I [talked about](/2015/01/01/single-board-linux-computer-rundown/) t
 
 Quad-Core 900MHz CPU with 1GB of RAM in the same lovable Pi package and the same great community?!?! Yes please!
 
-Of course, I already have one on order and will be posting a speed comparison of the new and old Pi running [BiblioPixel](http://github.com/maniacallabs/BiblioPixel) performance tests as soon as it's in. There's little doubt it will work as well as the old pi :)
+Of course, I already have one on order and will be posting a speed comparison of the new and old Pi running [BiblioPixel](http://github.com/maniacallabs/bibliopixel) performance tests as soon as it's in. There's little doubt it will work as well as the old pi :)

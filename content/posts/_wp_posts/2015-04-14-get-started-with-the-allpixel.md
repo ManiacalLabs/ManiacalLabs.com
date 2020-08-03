@@ -24,7 +24,7 @@ It will walk you through every step. From installing the optional components to 
 
 If you want to know more about BiblioPixel:
 
-[BiblioPixel wiki](https://github.com/ManiacalLabs/BiblioPixel/wiki).
+[BiblioPixel wiki](https://github.com/ManiacalLabs/bibliopixel/wiki).
 
 Need help getting everything setup? Want to show off what you made? Go here:
 

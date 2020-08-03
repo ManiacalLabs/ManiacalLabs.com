@@ -20,7 +20,7 @@ Last time on the Maniacal Labs Blog... we told you about the awesome [new multip
 
 
 
-All the code from the video is below. More details are on the [BiblioPixel Wiki](https://github.com/ManiacalLabs/BiblioPixel/wiki). And be sure to visit the [Maniacal Labs Forum](http://forum.maniacallabs.com/) to discuss usage or ask questions. Happy making!
+All the code from the video is below. More details are on the [BiblioPixel Wiki](https://github.com/ManiacalLabs/bibliopixel/wiki). And be sure to visit the [Maniacal Labs Forum](http://forum.maniacallabs.com/) to discuss usage or ask questions. Happy making!
 
 
 

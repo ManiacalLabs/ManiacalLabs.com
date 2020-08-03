@@ -18,7 +18,7 @@ The POVStick consists of 2 meters of 48 LED/m LPD8806 strips, for a total of 96 
 
 {{< gallery dir="/wp-content/galleries/2014-11-19-weekend-project-povstick/0/" />}}
 
-Next is the special that makes it all work... the software. Fortunately, BiblioPixel is really easy to enhance and extend, so I came up with the LEDPOV class. This builds on top of [LEDMatrix](https://github.com/ManiacalLabs/BiblioPixel/wiki/LEDMatrix) but in stead of displaying the full matrix, breaks the image up into vertical columns and displays those one at a time, split over the given total frame time.
+Next is the special that makes it all work... the software. Fortunately, BiblioPixel is really easy to enhance and extend, so I came up with the LEDPOV class. This builds on top of [LEDMatrix](https://github.com/ManiacalLabs/bibliopixel/wiki/LEDMatrix) but in stead of displaying the full matrix, breaks the image up into vertical columns and displays those one at a time, split over the given total frame time.
 
 
 

@@ -6,10 +6,10 @@ title: BiblioPixel v3.0 Is Here!
 type: post
 url: /2017/06/26/bibliopixel-v3-0-is-here/
 ---
-{{< figure src="/wp-content/uploads/2017/06/BiblioPixel-1.png" caption="" >}}
+{{< figure src="/wp-content/uploads/2017/06/bibliopixel-1.png" caption="" >}}
 
 
-It's amazing to think that nearly 5 years ago, before Maniacal Labs even, I released [RPi-LPD8806](https://github.com/adammhaile/RPi-LPD8806), which would eventually become [BiblioPixel](/BiblioPixel), our pure Python pixel animation framework. Back then it was only for the Raspberry Pi and only for LPD8806 LEDs... and I barely knew Python at the time!
+It's amazing to think that nearly 5 years ago, before Maniacal Labs even, I released [RPi-LPD8806](https://github.com/adammhaile/RPi-LPD8806), which would eventually become [BiblioPixel](/bibliopixel), our pure Python pixel animation framework. Back then it was only for the Raspberry Pi and only for LPD8806 LEDs... and I barely knew Python at the time!
 
 Over the years, it has morphed and grown into a massively capable framework with support for so much more than that original library. But no year in BiblioPixel's history has been more significant than this last year. I'd always had future plans for it but mainly updates happened as necessary to support other projects I was working on. The most significant, of course, being the [AllPixel](/AllPixel). But for more than a year now, [Tom Ritchford](http://tom.ritchford.com/) (who actually first contacted me because of RPi-LPD8806 way back in 2013) has taken the vision of BiblioPixel to a whole new level. And if you'll believe it, this is just the start.
 
@@ -31,9 +31,9 @@ What's new? Just to name a few highlights...
   * Tight integration with BiblioPixelAnimations, our repository of pre-made animations.
 
 
-Even with all this, it's still about 90% compatible with all your old code and only requires [minimal modifications](https://github.com/ManiacalLabs/BiblioPixel/wiki/Porting-from-2.x-to-3.x).
+Even with all this, it's still about 90% compatible with all your old code and only requires [minimal modifications](https://github.com/ManiacalLabs/bibliopixel/wiki/Porting-from-2.x-to-3.x).
 
-Get started and [install now](https://github.com/ManiacalLabs/BiblioPixel/wiki/Installation)!
+Get started and [install now](https://github.com/ManiacalLabs/bibliopixel/wiki/Installation)!
 
 
 

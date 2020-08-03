@@ -27,7 +27,7 @@ Once you've got your AllPixel, don't forget to check out these resources to get 
 
 [AllPixel Quick Start Guide](https://github.com/ManiacalLabs/AllPixel/wiki)
 
-[BiblioPixel wiki](https://github.com/ManiacalLabs/BiblioPixel/wiki)
+[BiblioPixel wiki](https://github.com/ManiacalLabs/bibliopixel/wiki)
 
 [Maniacal Labs Forum](http://forum.maniacallabs.com)
 

@@ -29,7 +29,7 @@ I first used an external power supply to test the animations so I could get a pr
 
 {{< figure src="/wp-content/uploads/2014/12/TinyTim_Front.jpg" caption="TinyTim_Front" >}}
 
-So basically what your left with is a slick-looking 8x8 USB LED matrix. Using the [BiblioPixel](https://github.com/ManiacalLabs/BiblioPixel) Python library, which directly supports the AllPixel, coding up animations is not to complex, even for a non-Software Engineer such as myself. Since it's Python-based, it can run on a wide variety of platforms. I happened to pick up a Raspberry Pi A+ not too long ago, and I figured I'd give it a whirl driving the display.
+So basically what your left with is a slick-looking 8x8 USB LED matrix. Using the [BiblioPixel](https://github.com/ManiacalLabs/bibliopixel) Python library, which directly supports the AllPixel, coding up animations is not to complex, even for a non-Software Engineer such as myself. Since it's Python-based, it can run on a wide variety of platforms. I happened to pick up a Raspberry Pi A+ not too long ago, and I figured I'd give it a whirl driving the display.
 
 {{< figure src="/wp-content/uploads/2014/12/TinyTim_Final.jpg" caption="TinyTim_Final" >}}
 Of course, it works a treat. No muss, no fuss, easy to set up and take down for other applications.

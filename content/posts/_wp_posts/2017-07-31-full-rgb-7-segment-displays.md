@@ -17,6 +17,6 @@ But we're not just writing this to promote a campaign... Maksim was kind enough 
 
 {{< youtube k-Ka0yioXvA >}}
 
-The new NeoSegment module for BiblioPixel automatically handles dealing with writing numbers and text to each digit and provides a full built-in font covering a good facsimile of every character. For all the details on using it with the NeoSegment, check out the [GitHub Repo](https://github.com/ManiacalLabs/BiblioPixelNeoSegment).
+The new NeoSegment module for BiblioPixel automatically handles dealing with writing numbers and text to each digit and provides a full built-in font covering a good facsimile of every character. For all the details on using it with the NeoSegment, check out the [GitHub Repo](https://github.com/ManiacalLabs/bibliopixelNeoSegment).
 
 We wish the best of luck to Maksim on this and future projects and hope to see awesome projects made with BiblioPixel and the NeoSegment!

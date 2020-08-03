@@ -7,7 +7,7 @@ type: post
 url: /2017/07/19/introducing-simpixel/
 ---
 
-[BiblioPixel](/BiblioPixel) supports a wide array of hardware through its driver system but one of the biggest annoyances was always having to actually _have_ that hardware in order to test your code. That's why, very early on, we added the visualizer to the library which worked well for small displays, but was never great with high pixel counts or fast framerates. For over two years we've wanted to replace it with something better but could never settle on something that would have high performance and run on every operating system that BiblioPixel already does.
+[BiblioPixel](/bibliopixel) supports a wide array of hardware through its driver system but one of the biggest annoyances was always having to actually _have_ that hardware in order to test your code. That's why, very early on, we added the visualizer to the library which worked well for small displays, but was never great with high pixel counts or fast framerates. For over two years we've wanted to replace it with something better but could never settle on something that would have high performance and run on every operating system that BiblioPixel already does.
 
 But at the 2015 [SparkCon](http://sparkcon.com), here in Raleigh, we met [Michael Clayton](https://palebluepixel.org/) who I actually now work with at Red Hat. At SparkCon, Michael showed off his awesome [Kimotion](https://palebluepixel.org/projects/kimotion/) project which shows high performance, WebGL-based, animations in a browser using data captured from an XBox Kinect sensor via a Python server. This was clearly perfect for replacing the visualizer in BiblioPixel but the idea remained just an idea for another year while other things were worked on.
 
@@ -17,7 +17,7 @@ But after some further discussion with Michael we decided that, mainly because h
 
 This baby will do buttery smooth 60 frames per second with thousands of pixels without skipping a beat. We actually use it to stress test BiblioPixel!
 
-Being that it's written in JavaScript and WebGL, all you need to run it is any relatively modern web browser. BiblioPixel communicates with it over super fast websockets which actually means you can even connect to another system on the same network for the pixel data.  Check out [Michael's blog post](https://palebluepixel.org/2017/03/10/meet-simpixel/) for more information about how SimPixel works. In general, we use it locally on the same machine. This is what enables the [`bibliopixel demo`](https://github.com/ManiacalLabs/BiblioPixel/wiki/Demo-Command) command in the new BiblioPixel v3.0 to show off the functionality of BiblioPixel without any required hardware. It's so easy even, that you can go from nothing installed to seeing awesome pixels in 16 seconds!
+Being that it's written in JavaScript and WebGL, all you need to run it is any relatively modern web browser. BiblioPixel communicates with it over super fast websockets which actually means you can even connect to another system on the same network for the pixel data.  Check out [Michael's blog post](https://palebluepixel.org/2017/03/10/meet-simpixel/) for more information about how SimPixel works. In general, we use it locally on the same machine. This is what enables the [`bibliopixel demo`](https://github.com/ManiacalLabs/bibliopixel/wiki/Demo-Command) command in the new BiblioPixel v3.0 to show off the functionality of BiblioPixel without any required hardware. It's so easy even, that you can go from nothing installed to seeing awesome pixels in 16 seconds!
 
 {{< youtube CXOJoKK4nzQ >}}
 
@@ -30,6 +30,6 @@ pip install bibliopixel
 bibliopixel demo
 ```
 
-That's it! Install BiblioPixel and then run the demo! http://SimPixel.io will automatically launch and connect to the BiblioPixel animations that are now running. SimPixel is also fully supported in BiblioPixel's new "[Projects](https://github.com/ManiacalLabs/BiblioPixel/wiki/Projects)" feature, meaning you can create your own setup with nothing but some basic configuration.
+That's it! Install BiblioPixel and then run the demo! http://SimPixel.io will automatically launch and connect to the BiblioPixel animations that are now running. SimPixel is also fully supported in BiblioPixel's new "[Projects](https://github.com/ManiacalLabs/bibliopixel/wiki/Projects)" feature, meaning you can create your own setup with nothing but some basic configuration.
 
 Stay tuned as we'll be highlighting more of BiblioPixel's great new features soon :)

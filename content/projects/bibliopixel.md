@@ -8,8 +8,7 @@ type: page
 thumb: /images/bibliopixel.png
 aliases:
     - /bibliopixel/
-    - /BiblioPixel/
 ---
 
-{{< redirect "https://github.com/ManiacalLabs/BiblioPixel/wiki" >}}
+{{< redirect "https://github.com/ManiacalLabs/bibliopixel/wiki" >}}
 

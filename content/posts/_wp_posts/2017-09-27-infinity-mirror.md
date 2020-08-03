@@ -11,10 +11,10 @@ When it comes to LED related builds there's one right of passage that we somehow
 
 {{< youtube z1lSGxYMoW4 >}}
 
-We have a ridiculously long backlog of things we'd like to build and very often they stay on the list until one day when an idea strikes or a perfect core component presents itself. In this case it was finding a good deal on 144 pixel/m APA102 LED strips that were initially intended for use with another project. The eureka moment here was when the realization was made that a ring of 120 pixels would make for a fantastic clock (see end of video above) because, well, we try to make a clock out of everything. Why is 120 pixels perfect? Because 120 is divisible by 60, 24, and 12 evenly, making it absolutely ideal for a clock. And what better way to show off our latest product, the [PiPixel](/PiPixel)?!
+We have a ridiculously long backlog of things we'd like to build and very often they stay on the list until one day when an idea strikes or a perfect core component presents itself. In this case it was finding a good deal on 144 pixel/m APA102 LED strips that were initially intended for use with another project. The eureka moment here was when the realization was made that a ring of 120 pixels would make for a fantastic clock (see end of video above) because, well, we try to make a clock out of everything. Why is 120 pixels perfect? Because 120 is divisible by 60, 24, and 12 evenly, making it absolutely ideal for a clock. And what better way to show off our latest product, the [PiPixel](/pipixel)?!
 {{< figure src="/wp-content/uploads/2017/09/Mirror.jpg" caption="" >}}
 
-{{< figure src="/wp-content/uploads/2017/09/PiPixel-1.jpg" caption="" >}}
+{{< figure src="/wp-content/uploads/2017/09/pipixel-1.jpg" caption="" >}}
 
 
 <!-- more -->
@@ -29,12 +29,12 @@ The only other major components bringing the whole thing together are the four "
 
 You can view and download all the component files via the [Fusion 360 project](http://a360.co/2ytYnjY).
 
-One other item that the above CAD design includes is a stand for the mirror. It neatly holds the whole assembly upright, provides a clean and hidden pass-through for the wires, as well as a convenient mount for a Pi Zero or full size Raspberry Pi to drive the whole thing. We've of course chose to use our new [PiPixel](/PiPixel) LED hookup Pi HAT to get this up and running in no time.
+One other item that the above CAD design includes is a stand for the mirror. It neatly holds the whole assembly upright, provides a clean and hidden pass-through for the wires, as well as a convenient mount for a Pi Zero or full size Raspberry Pi to drive the whole thing. We've of course chose to use our new [PiPixel](/pipixel) LED hookup Pi HAT to get this up and running in no time.
 
-This of course means that driving animations on the mirror is super easy using our latest and greatest [BiblioPixel](/BiblioPixel) features. The quickest way being to run:
+This of course means that driving animations on the mirror is super easy using our latest and greatest [BiblioPixel](/bibliopixel) features. The quickest way being to run:
 
 ```
-bibliopixel run https://github.com/adammhaile/BiblioPixelProjects/blob/master/SparkCon2017/Infinity.json
+bibliopixel run https://github.com/adammhaile/bibliopixelProjects/blob/master/SparkCon2017/Infinity.json
 ```
 
 If you look directly at that JSON file you will see that some manipulation of the ring layout had to be done in the `layout` section. We used `rotation` to rotate the orientation of the ring 180 degrees because the ring starts on the bottom, so that the wires could be hidden in the stand. Also, the `reverse_angle` option was used because the LEDs were installed into the ring frame counter-clockwise instead of clockwise. This was merely an oversight during construction :P

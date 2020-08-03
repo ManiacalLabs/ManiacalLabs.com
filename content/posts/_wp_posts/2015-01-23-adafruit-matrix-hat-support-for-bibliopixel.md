@@ -12,7 +12,7 @@ categories:
 - Projects
 ---
 
-So, last week, [Adafruit](http://adafruit.com) launched [this little beauty](http://www.adafruit.com/product/2345). Having just acquired a handful of Pi B+ and A+ boards and already having a 32x32 matrix that I'd been meaning to use, this was a complete insta-buy™. And, of course, I had to make it work with [BiblioPixel](https://github.com/ManiacalLabs/BiblioPixel)! Well, it showed up last night and the coding commenced!
+So, last week, [Adafruit](http://adafruit.com) launched [this little beauty](http://www.adafruit.com/product/2345). Having just acquired a handful of Pi B+ and A+ boards and already having a 32x32 matrix that I'd been meaning to use, this was a complete insta-buy™. And, of course, I had to make it work with [BiblioPixel](https://github.com/ManiacalLabs/bibliopixel)! Well, it showed up last night and the coding commenced!
 
 Fortunately, Adafruit already had a [library](https://github.com/adafruit/rpi-rgb-led-matrix) ready to go with a handy python wrapper, since the main code is all C. Unfortunately, the python wrapper was really basic and only provided setting individual pixels. I tried this method first, but 1024 pixels all set one at a time in python was just not nearly fast enough. So...
 
