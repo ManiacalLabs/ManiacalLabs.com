@@ -1,6 +1,6 @@
 ---
 title: CyberPlotter
-date: 2020-08-25T19:55:56-04:00
+date: 2020-09-03T01:00:00-04:00
 draft: false
 tags: []
 categories: []
@@ -22,7 +22,8 @@ It needed to not only have a large working area but have but the flexibility to 
 
 So when things, well... got crazy in March 2020, I decided it was a good time to barricade myself in the shop and start chipping away at a design. And, well, it turned it to be a pretty awesome machine, if I do say so myself :) 
 
- -- pic of machine IRL here --
+{{< figure src="plotter_irl.jpg">}}
+
  
 ## Specs
 
@@ -43,13 +44,11 @@ Let's get right to the good stuff, shall we?
 
 ## Tools
 
- -- pic of tool heads here --
-
 Originally I had considered creating a system that could do automatic tool changes, likely using the new E3D tool changer specification. But I quickly realized that I wanted to have larger tools than that could support and that a 3 minute manual change was perfectly fine for my needs. It could certainly support an automatic change system, I just didn't need the feature. But getting even a manual tool change down to a couple minutes still took some careful consideration.
 
 The core of the system is a series of custom designed circuit boards each with the same mounting pattern, basic size, and electrical connections.
 
--- pic of PCBs here --
+{{< figure src="pcbs.jpg" >}}
 
 The signal input is handled via a standard shielded ethernet cable while ground, 5V, 12V, and 24V power is supplied by a 2x2 molex connector. This allowed me to simply run a standard Cat6 shielded ethernet cable and 4 wire power cable through the drag chains. Both the ethernet and molex connectors are also designed to be robust through many connect/disconnect cycles and are already designed specifically for carrying data signals and power, respectively.
 
@@ -70,7 +69,7 @@ The final part of the tool system is that it uses a standard M4 bolt mounting pa
 
 ### Z-Axis
 
--- pic of Z axis --
+{{< figure src="z_axis.png" >}}
 
 The Z-axis, design-wise, is more of a meta-tool and was honestly an afterthought during the process. While not strictly necessary for things like a pen-plotter I realized that it might be worth having at least a little Z movement available. Since the controller could support it without issue, I decided to go ahead as long as it didn't cause more trouble than it was worth.
 
@@ -80,7 +79,7 @@ One of the tricker bits of this axis, however, is the custom PCB that not only p
 
 ### Laser
 
--- pic of laser --
+{{< figure src="laser.jpg" >}}
 
 You've got to have at least one laser! 
 
@@ -94,7 +93,7 @@ The bread and butter of the plotter world. I, of course, had to have a pen lift 
 
 This went through multiple revisions before I finalized on the current design:
 
--- pic of all versions --
+{{< figure src="pen_versions.png" >}}
 
 In the end, I remembered my "Spared no expense" mantra and just went ahead with using an MGN9 linear rail. This may seem like completely and utter overkill  but it **vastly** simplifies the design. For one, the most important thing for a pen lift mechanism is to be able to lift the pen and place it back down in exactly the same spot. Previous versions, that used a levered mechanism were not particularly great at doing this. But the MGN rail is already designed to move smoothly in exactly one dimension. This also allowed for the whole system to be basically 3 components. The rail, a pen holder that bolts to the rail, and a servo.
 
@@ -102,27 +101,42 @@ The control setup is where things get interesting. Technically the smoothieboard
 
 This allows for the software to not even be aware that it's controlling something other than a laser. The only tweak that generally needs to be made is a very slight delay at the start and stop of each line to allow the pen to move. 
 
--- video of pen plotting --
+{{< youtube lBYMKzrXiTg >}}
+<br/><br/>
+
+It's absolutely amazing to be able to do huge plots like this 500mm x 500mm Delaunay sphere.
+
+{{< figure src="sphere.jpg" >}}
+
+
 
 ### Airbrush
 
 This was my first attempt to make something out of the ordinary. I found a couple very old videos of actual, proper, paint airbrushes being attached to a CNC machine but they had to be modified to work in that orientation. But the thing that kept coming back to mind was this cool marker airbrush made by [Copic](https://copic.jp/en/product/abs/). Based on that I tried to copy the same basic concept but with a standard Sharpie marker. Amazingly, even the first rough proof-of-concept worked surprisingly well.
 
--- pic from POC --
+{{< figure src="airbrush_poc.jpg" >}}
 
 In order to make things as simple as possible I used a basic 24V pneumatic solenoid which was then connected to a coupler and a standard MK8 style 3D printer nozzle. Aside from being abundantly available it also allows for quickly changing the nozzle size and therefore change the flow and pressure characteristics. 
 
--- video of airbrush working --
+{{< youtube SIzmbvQwSyo >}}
 
 I tried a box full of various markers and, honestly, the best was always the venerable Sharpie. They are consistent and laser a long time before going dry.
 
 Like the pen lift mechanism, the airbrush is controlled via an ATTiny85 but with a and MOSFET at the output instead. The ATTiny is not strictly required in this case but it allows me to do some signal filtering as well as make sure that the MOSFET gets enough current to be driven quickly.
 
+Oh... and purely because Sharpie makes fluorescent markers, it has UV lights :D
+
+{{< figure src="uv.jpg" >}}
+
 ### Camera
+
+{{< figure src="camera.jpg" >}}
 
 Yes - a camera. This is where I started to get a little crazy. The idea was to mount a high resolution camera with a microscope lens that could be precisely moved around to take a grid of pictures which could be later stitched together. As it stands right now this is still in the proof of concept stage. It basically works but I still need flesh out the process some more.
 
 The hard part was not really the hardware in this case but the control software. This called for something that could both control the movement of the machine but coordinate that movement with taking pictures from the camera. What I eventually came up with is **very** much in the alpha stage - I call it [PlotterCon](https://github.com/adammhaile/plottercon). It's written in wxPython and uses the `printcore` module that's the core of [Pronterface](https://github.com/kliment/Printrun) for all machine communications.
+
+{{< figure src="plottercon.jpg" >}}
 
 I've designed the software to be a framework for any custom plotter control. For example, I would like to make a stippling tool and would need to likely find circles in an SVG file and process them into individual points to be impacted by the tool. This should be easy enough to add to PlotterCon since all the core control features already exist.
 
