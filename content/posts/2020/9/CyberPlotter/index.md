@@ -20,7 +20,7 @@ It needed to not only have a large working area but have but the flexibility to 
 
 {{< figure src="spared-no-expense.jpg" >}}
 
-So when things, well... got crazy in March 2020, I decided it was a good time to barricade myself in the shop and start chipping away at a design. And, well, it turned it to be a pretty awesome machine, if I do say so myself :) 
+So when things, well... got crazy in March 2020, I decided it was a good time to barricade myself in the shop and start chipping away at a design. And, well, it turned it out to be a pretty awesome machine, if I do say so myself :) 
 
 {{< figure src="plotter_irl.jpg">}}
 
@@ -50,7 +50,7 @@ The core of the system is a series of custom designed circuit boards each with t
 
 {{< figure src="pcbs.jpg" >}}
 
-The signal input is handled via a standard shielded ethernet cable while ground, 5V, 12V, and 24V power is supplied by a 2x2 molex connector. This allowed me to simply run a standard Cat6 shielded ethernet cable and 4 wire power cable through the drag chains. Both the ethernet and molex connectors are also designed to be robust through many connect/disconnect cycles and are already designed specifically for carrying data signals and power, respectively.
+The signal input is handled via a standard shielded ethernet cable while ground, 5V, 12V, and 24V power are supplied by a 2x2 molex connector. This allowed me to simply run a standard Cat6 shielded ethernet cable and 4 wire power cable through the drag chains. Both the ethernet and molex connectors are also designed to be robust through many connect/disconnect cycles and are already designed specifically for carrying data signals and power, respectively.
 
 By using an 8-pin ethernet cable, I also have plenty of room to grow in case any future tools need another signal. Right now the connections are as follows:
 
@@ -63,7 +63,7 @@ By using an 8-pin ethernet cable, I also have plenty of room to grow in case any
 7. Z-Limit
 8. Ground
 
-The Smoothieboard has the ability to set a "TTL" output pin which is required for some types of laser cutters. However, it was useful in this case as it flips to a high logic state whenever the laser PWM signal is anything other that 0. Bascially every tool other than the laser requires this simpler on/off state. This signal gets utilized in some creative wasy that will be described later.
+The Smoothieboard has the ability to set a "TTL" output pin which is required for some types of laser cutters. However, it was useful in this case as it flips to a high logic state whenever the laser PWM signal is anything other that 0. Basically every tool other than the laser requires this simpler on/off state. This signal gets utilized in some creative ways that will be described later.
 
 The final part of the tool system is that it uses a standard M4 bolt mounting pattern on every tool. The X-axis carriage has a plate with captive M4 nuts and each tool can be simply fastened to this plate with M4x18mm bolts and then have the power and signal lines connected.
 
@@ -75,7 +75,7 @@ The Z-axis, design-wise, is more of a meta-tool and was honestly an afterthought
 
 The design I came up with bolts to the X-axis with the same exact mounting system the rest of the tools use and then provides the reciprocal mounting surface for tools to be mounted on. The back plate contains a motor, M5 screw rod, and two 4mm linear rods. A front plate then contains four LMU4 linear bearings and a captive M5 nut. This allows for about 40mm of Z-axis travel with decent enough accuracy and incredibly low speed. I honestly hesitate to call it a real Z-axis as it was simply designed to be as compact as possible and provide very basic up and down movement during setup but then to never move again.
 
-One of the tricker bits of this axis, however, is the custom PCB that not only passes along the power and signal lines but contains a built in motor driver. Controlling the motor directly from the Smoothieboard would require 4 dedicated lines *just* for the motor and at least one more for the Z-axis limit swtich. But I realized that I already had power available and then could control the motor with only step and direction signals. With the limit switch I was at three wires total, saving me two. This also prevents any issues that might arrise from having over 2 meters of stepper motor wires running next to signal lines. 
+One of the tricker bits of this axis, however, is the custom PCB that not only passes along the power and signal lines but contains a built in motor driver. Controlling the motor directly from the Smoothieboard would require 4 dedicated lines *just* for the motor and at least one more for the Z-axis limit switch. But I realized that I already had power available and then could control the motor with only step and direction signals. With the limit switch I was at three wires total, saving me two. This also prevents any issues that might arise from having over 2 meters of stepper motor wires running next to signal lines. 
 
 ### Laser
 
@@ -91,11 +91,11 @@ Because I literally have a box full of various diode laser modules (from Engravi
 
 The bread and butter of the plotter world. I, of course, had to have a pen lift mechanism - otherwise how could I ever be part of [#plottertwitter](https://twitter.com/hashtag/plottertwitter)?
 
-This went through multiple revisions before I finalized on the current design:
+This went through multiple revisions before I finalized the current design:
 
 {{< figure src="pen_versions.png" >}}
 
-In the end, I remembered my "Spared no expense" mantra and just went ahead with using an MGN9 linear rail. This may seem like completely and utter overkill  but it **vastly** simplifies the design. For one, the most important thing for a pen lift mechanism is to be able to lift the pen and place it back down in exactly the same spot. Previous versions, that used a levered mechanism were not particularly great at doing this. But the MGN rail is already designed to move smoothly in exactly one dimension. This also allowed for the whole system to be basically 3 components. The rail, a pen holder that bolts to the rail, and a servo.
+In the end, I remembered my "Spared no expense" mantra and just went ahead with using an MGN9 linear rail. This may seem like complete and utter overkill but it **vastly** simplifies the design. For one, the most important thing for a pen lift mechanism is to be able to lift the pen and place it back down in exactly the same spot. Previous versions that used a levered mechanism were not particularly great at doing this. But the MGN rail is already designed to move smoothly in exactly one dimension. This also allowed for the whole system to be basically 3 components. The rail, a pen holder that bolts to the rail, and a servo.
 
 The control setup is where things get interesting. Technically the smoothieboard can control a servo directly, however this would require yet another control line (even if there are space for them) but, more importantly, would require changes to the controller config and the control software. Instead the hookup PCB contains an ATTiny85 microcontroller that does little more than read the tool on/off signal and then output a servo control signal.
 
@@ -120,9 +120,9 @@ In order to make things as simple as possible I used a basic 24V pneumatic solen
 
 {{< youtube SIzmbvQwSyo >}}
 
-I tried a box full of various markers and, honestly, the best was always the venerable Sharpie. They are consistent and laser a long time before going dry.
+I tried a box full of various markers and, honestly, the best was always the venerable Sharpie. They are consistent and last a long time before going dry.
 
-Like the pen lift mechanism, the airbrush is controlled via an ATTiny85 but with a and MOSFET at the output instead. The ATTiny is not strictly required in this case but it allows me to do some signal filtering as well as make sure that the MOSFET gets enough current to be driven quickly.
+Like the pen lift mechanism, the airbrush is controlled via an ATTiny85 but with a MOSFET at the output instead. The ATTiny is not strictly required in this case but it allows me to do some signal filtering as well as make sure that the MOSFET gets enough current to be driven quickly.
 
 Oh... and purely because Sharpie makes fluorescent markers, it has UV lights :D
 
@@ -134,7 +134,7 @@ Oh... and purely because Sharpie makes fluorescent markers, it has UV lights :D
 
 Yes - a camera. This is where I started to get a little crazy. The idea was to mount a high resolution camera with a microscope lens that could be precisely moved around to take a grid of pictures which could be later stitched together. As it stands right now this is still in the proof of concept stage. It basically works but I still need flesh out the process some more.
 
-The hard part was not really the hardware in this case but the control software. This called for something that could both control the movement of the machine but coordinate that movement with taking pictures from the camera. What I eventually came up with is **very** much in the alpha stage - I call it [PlotterCon](https://github.com/adammhaile/plottercon). It's written in wxPython and uses the `printcore` module that's the core of [Pronterface](https://github.com/kliment/Printrun) for all machine communications.
+The hard part was not really the hardware in this case but the control software. This called for something that could both control the movement of the machine but coordinate that movement with taking pictures from the camera. What I eventually came up with is **very** much in the alpha stage - I call it [PlotterCon](https://github.com/adammhaile/PlotterCon). It's written in wxPython and uses the `printcore` module that's the core of [Pronterface](https://github.com/kliment/Printrun) for all machine communications.
 
 {{< figure src="plottercon.jpg" >}}
 
@@ -152,7 +152,7 @@ I have more tools in mind and will be continuing to hack at the design as needed
 - Mini plasma cutter
 - 3D printer with extreme XY and very limited Z height
 
-While all the design files for the entire machine are available (and linked below) there is no plan or desire to release this as a kit or even with extensive build documentatin, like with the Engravinator. The full Fusion 360 project is available and if you use my design to build your own I'd love to see it! But you'll have to handle the build with just the design files alone :)
+While all the design files for the entire machine are available (and linked below) there is no plan or desire to release this as a kit or even with extensive build documentation, like with the Engravinator. The full Fusion 360 project is available and if you use my design to build your own I'd love to see it! But you'll have to handle the build with just the design files alone :)
 
 ## Design Files
 
