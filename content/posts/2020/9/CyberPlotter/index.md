@@ -165,4 +165,6 @@ Basically everything you need is contained in the [CyberPlotter GitHub Repo](htt
 
 While I won't be providing a step by step build guide or anything please don't hesitate to reach out on the [Maniacal Labs Forum](https://forum.maniacallabs.com/) if you are interested in building all or even part of this machine and have questions.
 
+I've also put up a gallery of a handful more random pictures from throughout the design and build process on [Google Photos](https://photos.app.goo.gl/7eR7wozWzBtCJnM49).
+
 And if you stay tuned to our website you might even get to see something that fits nicely between the CyberPlotter and the Engravinator soon... that only takes a couple hours to build :)
