@@ -22,7 +22,7 @@ So, with that said, this site and our social media will still stick around and a
 
 We’ll also be having a huge clearance sale on our [Tindie Store](https://www.tindie.com/stores/ManiacalLabs/) and once things are gone they’re gone. But you can always, of course, make your own using the designs from our [GitHub](https://github.com/ManiacalLabs/) repos linked on our site or on the Tindie store pages.
 
-We are forever greatful to those who came along on this ride with us and wish you all the best in your open source endeavours. 
+We are forever grateful to those who came along on this ride with us and wish you all the best in your open source endeavors. 
 
 Never Stop Making.
 
