@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/tools/</link>
+    <description>Recent content in Tools on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Jan 2015 14:48:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Single Board Linux Computer Rundown</title>
+      <link>https://ManiacalLabs.com/2015/01/01/single-board-linux-computer-rundown/</link>
+      <pubDate>Thu, 01 Jan 2015 14:48:54 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/01/01/single-board-linux-computer-rundown/</guid>
+      <description>Happy New Year!
+While one of the many reasons we created the AllPixel was to be able to control LED strips from &amp;ldquo;traditional&amp;rdquo; desktops and laptops (with the extra processing power they provide), we are always on the lookout for something smaller and cheaper that can just be left in a project. We talked a lot about the ever popular Raspberry Pi and Beagle Bone Black, but as this list from LinuxGizmos.</description>
+    </item>
+    
+    <item>
+      <title>FG085 MiniDDS Function Generator Build Pics</title>
+      <link>https://ManiacalLabs.com/2014/09/02/fg085buildpics/</link>
+      <pubDate>Wed, 03 Sep 2014 00:46:20 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/09/02/fg085buildpics/</guid>
+      <description>Not much for today, just a few pics from my build of this nifty kit from Sparkfun: FG085 MiniDDS Function Generator. I figure an inexpensive function generator would be a good idea to buy first and see how much I actually use it before sinking bigger bucks into a piece of full-on test gear. Overall, I&amp;rsquo;m happy with this kit, aside from a few minor quirks here and there. No show-stoppers though.</description>
+    </item>
+    
+    <item>
+      <title>Open Source PCB: ATTinyX5 Dev Board</title>
+      <link>https://ManiacalLabs.com/2014/08/12/open-source-pcb-attinyx5-dev-board/</link>
+      <pubDate>Tue, 12 Aug 2014 13:00:32 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/08/12/open-source-pcb-attinyx5-dev-board/</guid>
+      <description>While the standard Arduino (especially variants like the Pro Mini) truly is a lilliputian computing device, even it sometimes seems like trying to swat a fly with a sledgehammer. Sometimes you just need a few I/O pins for a status light, timer, tiny sensor, etc. Enter the ATTinyX5 series of chips.
+The ATTiny25, ATTiny45, and ATTiny85 have 8 pins, 6 I/O and 2048&amp;frasl;128, 4096&amp;frasl;256 and 8192&amp;frasl;512 bytes of flash/RAM respectively. The &amp;lsquo;85 can be had for just over $1 from sites like Mouser.</description>
+    </item>
+    
+    <item>
+      <title>Finally, A Windows Package Manager - With Chocolate!</title>
+      <link>https://ManiacalLabs.com/2014/07/15/finally-a-windows-package-manager-with-chocolate/</link>
+      <pubDate>Tue, 15 Jul 2014 13:00:40 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/07/15/finally-a-windows-package-manager-with-chocolate/</guid>
+      <description>To the chagrin of the open source community, I&amp;rsquo;m a Windows guy. I do really like Linux based systems, but much of my professional career has remained at least partly in the Windows world. 15 years of using Visual Studio (the only Microsoft product I truly like) have brought me to prefer it greatly over any IDE out there. I even use it for all my Arduino/AVR work, but that&amp;rsquo;s another post.</description>
+    </item>
+    
+    <item>
+      <title>3D Modelling Software Review #1</title>
+      <link>https://ManiacalLabs.com/2014/03/25/123ddesign_app/</link>
+      <pubDate>Tue, 25 Mar 2014 04:05:05 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/03/25/123ddesign_app/</guid>
+      <description>Hey Igors, Miles here.
+Yes, I&amp;rsquo;ve decided that fans of Maniacal Labs are hereby dubbed Igor, regardless of gender (I suppose female Igors might want to be referred to as Igorina, but I will allow them to petition for this at a later date [Fans of the great Sir Terry Pratchett, REJOICE!]).
+The other maniacs and I have decided to do some reviews of modelling software that is available as freeware out there on the internet tubes.</description>
+    </item>
+    
+    <item>
+      <title>Stick A Pin In It</title>
+      <link>https://ManiacalLabs.com/2014/01/28/stick-a-pin-in-it/</link>
+      <pubDate>Tue, 28 Jan 2014 21:42:34 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/01/28/stick-a-pin-in-it/</guid>
+      <description>Stick a Pin in It
+   I&amp;rsquo;ve been working on a side project that uses some of the WS2812 based LED strips, just like the &amp;ldquo;NeoPixel&amp;rdquo; strips from Adafruit. Unfortunately, I began having problems with the strips in that they suddenly stopped responding to any control signals being sent to them.</description>
+    </item>
+    
+    <item>
+      <title>PCB Fail</title>
+      <link>https://ManiacalLabs.com/2014/01/15/pcb-fail/</link>
+      <pubDate>Wed, 15 Jan 2014 14:10:53 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/01/15/pcb-fail/</guid>
+      <description>PCB Fail
+   Ever since first trying KiCad and OSH Park I have been a little hooked on being able to throw together a custom PC, have it professionally manufactured, and shipped to me within a couple weeks.</description>
+    </item>
+    
+    <item>
+      <title>Getting all your LEDs in a row</title>
+      <link>https://ManiacalLabs.com/2013/09/07/getting-all-your-leds-in-a-row/</link>
+      <pubDate>Sat, 07 Sep 2013 04:16:01 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/09/07/getting-all-your-leds-in-a-row/</guid>
+      <description>Probably the hardest part of assembling our Binary Epoch Clock Kit is keeping the LEDs aligned and all pointing the same direction. So we designed this simple tool to help out with that process. Not only does it help keep all of the LEDs aligned, but it makes soldering them in much, much quicker.
+Normally, per our instructions, you would solder the LEDs in four at a time. But with this, simply insert all of the LEDs and then fit the jig onto the front of the clock PCB.</description>
+    </item>
+    
+  </channel>
+</rss>

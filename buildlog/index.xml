@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Buildlogs on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/buildlog/</link>
+    <description>Recent content in Buildlogs on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Jul 2018 17:58:05 -0400</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/buildlog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Virtual Pinball Table - Input!</title>
+      <link>https://ManiacalLabs.com/buildlog/2018/7/virtual_pinball_table_input/</link>
+      <pubDate>Tue, 24 Jul 2018 17:58:05 -0400</pubDate>
+      
+      <guid>https://ManiacalLabs.com/buildlog/2018/7/virtual_pinball_table_input/</guid>
+      <description>Yes, there is a virtual pinball table in existence at the Maniacal Labs Satellite Office (aka my house). More on this later, and in more detail! But for now, just a quick blurb on that project.
+In short, the table consists of a TV on a 2x4 frame, raised and angled in such a way&amp;hellip;
+You know a picture would be much better&amp;hellip;
+The PC runs the software (Pinball FX 2 on Steam), and I&amp;rsquo;m pretty happy with the basic feel of it so far.</description>
+    </item>
+    
+    <item>
+      <title>Laser Cut Filament Spool Rack</title>
+      <link>https://ManiacalLabs.com/buildlog/2018/7/laser_cut_filament_spool_rack/</link>
+      <pubDate>Sat, 14 Jul 2018 06:46:54 -0400</pubDate>
+      
+      <guid>https://ManiacalLabs.com/buildlog/2018/7/laser_cut_filament_spool_rack/</guid>
+      <description>As a lover of 3D printing, I of course, have a ton of filament for use with my Formbot T-Rex 2+. For reasons unknown to me, my office at home had a closet with a desk and power built into it. So way back when we got our MakerBot in 2013 it was quickly decided that it would be a great place for the printer. I&amp;rsquo;ve done a number of improvements over the years like sealing up the doors to make the whole thing a heated chamber (this works especially well with the Formbot&amp;rsquo;s 800W heated bed) and building some slide out shelves on the bottom.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ManiacalLabs.com/buildlog/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/buildlog/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

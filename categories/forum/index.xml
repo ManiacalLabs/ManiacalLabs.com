@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Forum on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/forum/</link>
+    <description>Recent content in Forum on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Jun 2015 18:23:57 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/forum/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>From the Forum: Gazebo Lighting Prototype</title>
+      <link>https://ManiacalLabs.com/2015/06/22/from-the-forum-gazebo-lighting-prototype/</link>
+      <pubDate>Mon, 22 Jun 2015 18:23:57 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/06/22/from-the-forum-gazebo-lighting-prototype/</guid>
+      <description>[landgrvi] has been posting in the Maniacal Labs forum about some awesome gazebo lighting he has been working on. He&amp;rsquo;s using the new LEDCircle class to run some really neat circular animations.
+Check out this awesome small scale prototype!
+  </description>
+    </item>
+    
+    <item>
+      <title>New Site! New Forum! Kickstarter Progress!</title>
+      <link>https://ManiacalLabs.com/2015/01/04/new-site-new-forum-kickstarter-progress/</link>
+      <pubDate>Sun, 04 Jan 2015 13:45:17 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/01/04/new-site-new-forum-kickstarter-progress/</guid>
+      <description>It is a bit crazy to see how far we&amp;rsquo;ve come since Maniacal Labs started by launching the Binary Epoch Clock back in 2013. Well, unlike the quick success we&amp;rsquo;ve had with the AllPixel, we just recently sold out of the Epoch Clock kits. But that allowed us to do something we&amp;rsquo;ve wanted to for some time now&amp;hellip; ditch our web store and redesign the site. So we hope you like the new, cleaner design!</description>
+    </item>
+    
+  </channel>
+</rss>

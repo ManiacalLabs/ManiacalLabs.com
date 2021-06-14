@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arduino on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/arduino/</link>
+    <description>Recent content in Arduino on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Aug 2016 13:00:17 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/arduino/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New Library: ESP Serial WiFi Manager</title>
+      <link>https://ManiacalLabs.com/2016/08/09/new-library-esp-serial-wifi-manager/</link>
+      <pubDate>Tue, 09 Aug 2016 13:00:17 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2016/08/09/new-library-esp-serial-wifi-manager/</guid>
+      <description>The ESP8266 Arduino package provides a great and familiar to use ecosystem for developing code on the chip. However, most examples for WiFi network connection and management involve building and uploading new code every time you want to change the network settings. That&amp;rsquo;s just more than should be required if you want to simply connect an existing and complete project to a new network.
+A forthcoming project in which we plan to use a large number of the Adafruit ESP8266 Feather boards for was going to be far to cumbersome to manage if we had to upload new code not only to change the WiFi network but to set static IPs.</description>
+    </item>
+    
+    <item>
+      <title>The ESP8266: Taking the New Hotness for a Spin</title>
+      <link>https://ManiacalLabs.com/2015/02/16/esp8266-the-new-hotness/</link>
+      <pubDate>Mon, 16 Feb 2015 14:29:10 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/02/16/esp8266-the-new-hotness/</guid>
+      <description>ESP8266
+   You’ve probably heard about this little module by now; a cheap, wifi-enabled bit of wizardry that is all the rage. Using serial communication, you can talk to the device and send commands out to the interwebs.</description>
+    </item>
+    
+    <item>
+      <title>Open Source PCB: ATTinyX5 Dev Board</title>
+      <link>https://ManiacalLabs.com/2014/08/12/open-source-pcb-attinyx5-dev-board/</link>
+      <pubDate>Tue, 12 Aug 2014 13:00:32 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/08/12/open-source-pcb-attinyx5-dev-board/</guid>
+      <description>While the standard Arduino (especially variants like the Pro Mini) truly is a lilliputian computing device, even it sometimes seems like trying to swat a fly with a sledgehammer. Sometimes you just need a few I/O pins for a status light, timer, tiny sensor, etc. Enter the ATTinyX5 series of chips.
+The ATTiny25, ATTiny45, and ATTiny85 have 8 pins, 6 I/O and 2048&amp;frasl;128, 4096&amp;frasl;256 and 8192&amp;frasl;512 bytes of flash/RAM respectively. The &amp;lsquo;85 can be had for just over $1 from sites like Mouser.</description>
+    </item>
+    
+    <item>
+      <title>Finally, A Windows Package Manager - With Chocolate!</title>
+      <link>https://ManiacalLabs.com/2014/07/15/finally-a-windows-package-manager-with-chocolate/</link>
+      <pubDate>Tue, 15 Jul 2014 13:00:40 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/07/15/finally-a-windows-package-manager-with-chocolate/</guid>
+      <description>To the chagrin of the open source community, I&amp;rsquo;m a Windows guy. I do really like Linux based systems, but much of my professional career has remained at least partly in the Windows world. 15 years of using Visual Studio (the only Microsoft product I truly like) have brought me to prefer it greatly over any IDE out there. I even use it for all my Arduino/AVR work, but that&amp;rsquo;s another post.</description>
+    </item>
+    
+    <item>
+      <title>PCB Fail</title>
+      <link>https://ManiacalLabs.com/2014/01/15/pcb-fail/</link>
+      <pubDate>Wed, 15 Jan 2014 14:10:53 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/01/15/pcb-fail/</guid>
+      <description>PCB Fail
+   Ever since first trying KiCad and OSH Park I have been a little hooked on being able to throw together a custom PC, have it professionally manufactured, and shipped to me within a couple weeks.</description>
+    </item>
+    
+    <item>
+      <title>Doing things the &#34;hard&#34; way</title>
+      <link>https://ManiacalLabs.com/2013/12/23/doing-things-the-hard-way/</link>
+      <pubDate>Mon, 23 Dec 2013 21:26:34 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/12/23/doing-things-the-hard-way/</guid>
+      <description>I&amp;rsquo;m in the middle of designing a new Maniacal Labs product (more on that in another post) and have been working with a library intended for the ATMega328 but need it working on an ATTiny4313. If you ever feel cramped for flash space while working on an Arduino project, try out the ATTiny series of chips and you will quickly feel like 32KB of flash is downright massive! The ATTiny4313 is a decently capable chip, with only 5 less I/O pins than the ATMega328 but a somewhat less proportional 4KB of flash.</description>
+    </item>
+    
+  </channel>
+</rss>

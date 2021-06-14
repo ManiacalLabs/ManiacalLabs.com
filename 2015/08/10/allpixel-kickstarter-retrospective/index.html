@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta name="generator" content="Hugo 0.54.0" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> AllPixel Kickstarter Retrospective </title>
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  <meta name="author" content="maniacal labs">
+
+
+  <meta property="og:title" content="AllPixel Kickstarter Retrospective" />
+<meta property="og:description" content="MainKSThumb
+   The following is an account of our experience with bringing the AllPixel LED Controller to market through Kickstarter. We don&rsquo;t pretend to be experts. This just a record of what we tried, what seemed to work for us, and why we think it worked." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ManiacalLabs.com/2015/08/10/allpixel-kickstarter-retrospective/" />
+<meta property="article:published_time" content="2015-08-10T13:00:13&#43;00:00"/>
+<meta property="article:modified_time" content="2015-08-10T13:00:13&#43;00:00"/>
+
+  
+
+  
+  
+  
+  
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-41371810-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  
+
+  <link rel="canonical" href="https://ManiacalLabs.com/2015/08/10/allpixel-kickstarter-retrospective/">  
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  <link rel="shortcut icon" type="image/png" href="data:image/png;base64,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">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+
+  <link href="https://ManiacalLabs.com/css/font.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/kube.min.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/kube.legenda.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/highlight.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/master.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/kube.demo.css" rel="stylesheet" type="text/css">
+
+ <link href="https://ManiacalLabs.com/css/custom.css" rel="stylesheet" type="text/css">
+
+  <script src="https://ManiacalLabs.com/js/jquery-2.1.4.min.js" type="text/javascript">
+  </script>
+
+  <script type="text/javascript" src="https://ManiacalLabs.com/js/tocbot.min.js"></script>
+
+  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/d7b7e2f1b852bedbcc9503f71/24f91ff71f999da17a5b29481.js");</script>
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#f36926",
+        "text": "#000000"
+      },
+      "button": {
+        "background": "#000000",
+        "text": "#f36926"
+      }
+    },
+    "position": "top",
+    "static": true,
+    "theme": "edgeless"
+  })});
+  </script>
+
+</head>
+
+
+<body class="page-kube">
+  <header> <div class="show-sm">
+    <div id="nav-toggle-box">
+      <div id="nav-toggle-brand">
+        <a href="https://ManiacalLabs.com/">Maniacal Labs</a>
+      </div><a data-component="toggleme" data-target="#top" href="#" id="nav-toggle"><i class="kube-menu"></i></a>
+    </div>
+  </div>
+  <div class="hide-sm" id="top">
+    <div id="top-brand">
+      <a href="https://ManiacalLabs.com/" title="home"><img src="https://ManiacalLabs.com/images/logo-beaker.png"></a>
+    </div>
+    <nav id="top-nav-main">
+      <ul>
+       
+       
+    <li><a href="https://ManiacalLabs.com/products/" >Products</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/posts/" >Blog</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/projects/" >Projects</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/buildlog/" >Build Log</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/about/" >About</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/contact/" >Contact</a></li>
+    
+        <li><a href="http://GitHub.com/ManiacalLabs"><i class="fab fa-github"></i></a></li>
+<li><a href="http://twitter.com/ManiacalLabs"><i class="fab fa-twitter"></i></a></li>
+<li><a href="http://Facebook.com/ManiacalLabs"><i class="fab fa-facebook"></i></a></li>
+<li><a href="http://Instagram.com/ManiacalLabs"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </nav>
+    <nav id="top-nav-extra">
+      <ul>
+        
+      </ul>
+    </nav>
+  </div>
+ </header>
+  <main>
+
+<div id="hero" class="wrap">
+  <h1>AllPixel Kickstarter Retrospective</h1>
+    <p></p>
+</div>
+<ul id="posts">
+
+ 
+
+
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://ManiacalLabs.com/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://ManiacalLabs.com/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2014/11/MainKSThumb.png" alt="MainKSThumb"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2014/11/MainKSThumb.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>MainKSThumb</p>
+      </figcaption>
+  </figure>
+</div>
+
+<p>The following is an account of our experience with bringing the <a href="https://ManiacalLabs.com/AllPixel">AllPixel</a> LED Controller to market through Kickstarter. We don&rsquo;t pretend to be experts. This just a record of what we tried, what seemed to work for us, and why we <em>think</em> it worked. While some of this applies to crowd-funding in general, much of it is specific to the realm of electronics.</p>
+
+<!-- more -->
+
+<h3 id="history">History</h3>
+
+<p>Maniacal Labs got its start way back in 2013 with the release of our, admittedly not successful, <a href="https://ManiacalLabs.com/products/becv1">Binary Epoch Clock</a>. In hind-sight, it was too much of a niche, personal, project to be successful. We thought it was a cool novelty, but that was really all it ever was.</p>
+
+<p>We toyed around with various ideas for some time, most of them time related as we have a bit of an obsession with unique time-pieces. But, again, these were all just too niche to do well in mass market. We even tried, unsuccessfully, launching another <a href="https://ManiacalLabs.com/2013/11/11/announcing-the-prismachron/">clock design</a> on <a href="https://www.tindie.com/products/ManiacalLabs/prismachron-clock/">Tindie</a>.</p>
+
+<p>But then came the <a href="https://ManiacalLabs.com/nc-maker-faire-2014/">2014 NC Maker Faire</a>. Since the Epoch clock hadn&rsquo;t really been selling anyways, we decided it would be a good opportunity to just show of some of our personal projects. None of them were commercially viable, but they made for much better demonstrations. We arrived with a variety of <a href="https://ManiacalLabs.com/nc-maker-faire-2014/">projects</a> but it was quickly apparent that the LED displays were the biggest draw.</p>
+
+<p>By the end of the day we had spoken with so many people and answered so many questions that our voices were all but gone. So many of those questions were about how to use the LEDs in our displays. How to program them. How to interface with them. How to power them. These questions mulled in our brains for a couple of weeks until we realized that it didn&rsquo;t have to be so complicated. There had to be a way to make it generic and easy. A way to control <em>all</em> the pixels :) Many prototypes later&hellip;</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2014/11/IMG_0528-16x9.jpg" alt="IMG_0528-16x9"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2014/11/IMG_0528-16x9.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>IMG_0528-16x9</p>
+      </figcaption>
+  </figure>
+</div>
+
+<p>We&rsquo;ve already gone into the details of the AllPixel&rsquo;s creation in <a href="https://ManiacalLabs.com/2014/11/13/allpixel-update-staff-pick/">another article</a>, so we won&rsquo;t do that again. But if you want to learn more details of the development process, it&rsquo;s a good read.</p>
+
+<h3 id="preparing-for-launch">Preparing for Launch</h3>
+
+<p>We&rsquo;ve seen far too many Kickstarter campaigns that promise a multitude of things, should the goal be met. Things that haven&rsquo;t even been fully developed at the time of launch. Almost invariably, all of these were either considerably late in delivering or fell through completely. So, to us, the key was to keep things simple and not launch until we knew it could be done. So, unlike those other campaigns, we were not looking for funding to <em>develop</em> the product&hellip; we just needed the final funding to put it into production.</p>
+
+<p>Many think that doing this is just not possible without significant up-front investment, that it&rsquo;s just too expensive. But that just doesn&rsquo;t have to be true. It may be hard to believe, but the total development costs of the AllPixel were just $395.18:</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/ProtoCosts.png" alt="ProtoCosts"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/ProtoCosts.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>ProtoCosts</p>
+      </figcaption>
+  </figure>
+</div>
+
+<p>This did not include our time, of course, but right now we both have day jobs and would be doing this anyway. But certainly don&rsquo;t quit your day job or do this the first time for the sole purpose of making your fortune. It&rsquo;s best to just be content with getting your name and your design out there.</p>
+
+<p>Beyond having a fully functional, ready to go design, we also wanted to keep the rewards as simple as possible. This meant very few tiers and nothing that didn&rsquo;t directly relate to the product, such as shirts or stickers. All that will do is make more work for you later and cut into your profit and time.</p>
+
+<h3 id="budgeting">Budgeting</h3>
+
+<p>Make spreadsheets. <em>A lot</em> of spreadsheets! You cannot set a price until you know how much the product will cost to produce and ship but don&rsquo;t forget that this include more than just PCBs and components. There&rsquo;s PCB fabrication, assembly, setup, shipping components to the assembler, testing, IC programming, kitting, packaging, and final shipping to the backer (more on shipping below). For every reward component, add a column to your spreadsheet accounting for all of the above listed costs. But you&rsquo;re not done yet! You also need to account for Kickstarter payment fees of 10% of the actual reward price, not the component cost. Then it&rsquo;s best to <em>include a 10% fudge factor</em> applied to all cost calculations. This ensures that if anything unexpected comes up, you are less likely to wind up taking a loss. Our total costs rose to about 7% over the original estimate (without the 10% factor) so we were certainly glad to have that buffer.</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/SMDPartCosts.png" alt="SMDPartCosts"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/SMDPartCosts.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>SMDPartCosts</p>
+      </figcaption>
+  </figure>
+</div>
+
+<p>Note that the cost of the Kickstarter fees is a little recursive in that they factor into your total cost, but are dependent on your sale price. In the spreadsheet above that this is factored into the calculations.</p>
+
+<p>Adding things like stickers and shirts would have just complicated this even further. Such things are typically <em>very</em> dependent on volume meaning that our costs could have varied wildly depending on how many backers chose rewards that included those items. Save yourself the trouble and just stick to the basics.</p>
+
+<h3 id="taxes">Taxes</h3>
+
+<p><strong><em>DISCLAIMER: We are NOT tax professionals. We highly recommend consulting with a tax professional before launching a crowd-funding campaign.</em></strong></p>
+
+<p>We can&rsquo;t talk about budgeting without talking about taxes. First point of note is that you cannot look at your profit calculations from above and just take that number as is. Remember that, at some point after your campaign, the government will want their cut. How much that is will depend on a wide number of things, particularly if the profits are going to an individual, partnership, corporation, non-profit, etc. In the case of Maniacal Labs, we are a registered LLC but we still have to file all income on our <em>personal</em> tax returns, regardless of if the company has paid out profits to us as individuals.</p>
+
+<p>Basically, be prepared to fork over anywhere from 30-50% of your profits in taxes. But note that this is <em>profit</em>, not gross earnings. So, in general, you are only paying taxes on whatever is left from the campaign <em>after</em> spending funds on components, promotion, shipping, packing, etc. Also, if you then take what is actual profit and invest it into new product development or a new manufacturing run of products, then that is, in many cases, tax exempt.</p>
+
+<p>Last is timing of your campaign. We&rsquo;ll come right out and say that, from a tax perspective, we launched our campaign at the <em>worst</em> possible time&hellip; November. The problem being that a one month campaign will end before the end of the year and you will get the funds but not have time to <em>spend</em> any of those funds before the end of the fiscal year. As far as the government is typically concerned, this makes <em>everything</em> profit and therefore you would owe taxes on the whole amount. Fortunately for us, we have a great tax guy and we found out there is a way to defer paying taxes on that money by declaring it &ldquo;undelivered goods&rdquo;. This acknowledges that we got the money but that we still need to actually produce the product and that we will claim it on our taxes next year. So, just know that it is not impossible to launch in November, but be <em>absolutely</em> sure that you consult a trusted tax professional before moving forward!</p>
+
+<h3 id="pricing-and-reward-tiers">Pricing and Reward Tiers</h3>
+
+<p>Pricing is hard. No question about it. You don&rsquo;t want to undervalue your product and you certainly don&rsquo;t want to <em>overvalue</em> it either. Most products start high and then adjust down as demand dictates but this is <em>not</em> an option for Kickstarter. Once you set your reward prices, they are fixed! But all is not lost&hellip;</p>
+
+<p>One great suggestion we got was to have a regular reward tier and an early-bird tier that was slightly cheaper. While you cannot change pricing after launch, you <em>can</em> change tier limits. If you find that not enough people are going for the regular reward tier but <em>are</em> going for the early-bird tier, you can always just open up the limits on that tier. Obviously, be sure that the pricing on that tier is not detrimental, but would you rather get get 100 extra pledges at a 20% discount or only 10 more at the regular price?</p>
+
+<p>Early bird reward tiers also help to give the campaign some extra momentum at the very beginning. If, in the early days, a campaign has already gained many supporters, it will be far more likely to continue to gain support even after those cheaper tiers are gone. For example, take a look at the char below:</p>
+
+<p><strong>REWARD CHOICE CHART</strong></p>
+
+<p>The $20 and $30 levels were early-bird specials of the respective $25 and $35 levels. Once the early-bird limit was reached, the pledges did not drop off. But it probably would have been much harder to land the higher priced pledges if we had not already shown support from hundreds of other backers at the early-bird levels.</p>
+
+<p>Those four levels were certainly the core of our campaign, earning $13,680 or 63% of the total pledges. While, as we stated above, we were hesitant to add too many extra items, those that we did have certainly made a difference.</p>
+
+<p>This first major extra was the 5 meter rolls of LEDs. Provided as a $120 tier option (which included the $30/$35 tier plus a roll of LEDs) this added 67 rolls of LEDs and added another $4,965 / 22.8% to our bottom line. This was easy for us to add because they were a pre-made and pre-packaged product that all we had to do was obtain and ship. By acquiring them directly from the manufacturer in China (which happened to be down the street from Seeed) we were able to offer them at a steeply discounted price while still turning some profit on each.</p>
+
+<p>Second, at the suggestion of a friend, we added the $456 Christmas Kit. This was just a silly thing of which there was a very low limit, took little effort, and had decent profit margins. But it still made us $2980 / 13.7% of our total funds. Not bad :)</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/Rewards.png" alt="Rewards"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/Rewards.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Rewards</p>
+      </figcaption>
+  </figure>
+</div>
+
+<p>Last, and referenced before, was the PowerTap. Sometimes the small things surprise you.</p>
+
+<p>The PowerTap was literally the result of 15 minutes playing around in KiCAD on a side idea that was not meant to be part of the campaign. The final shipped version of that board is basically unchanged from the original design which took so little time. But the rewards <em>with</em> PowerTaps were <em>far</em> more popular than those without, with nearly three times the pledges! We may never know how well the campaign would have done without the PowerTap but that was certainly 15 minutes well spent. It&rsquo;s worth nothing that, unlike the AllPixel, the PowerTap had a very low profit margin, barely a $1, but since all those pledges <em>also</em> included an AllPixel it was certainly well worth it.</p>
+
+<p>We determined all of the reward tier pricing based on the cost breakdown spreadsheet from above. We had to find a good balance between sale price, profit margin, and minimum quantity to make everything viable. Blah blah&hellip; not sure what else to say&hellip;&hellip;&hellip;&hellip;.</p>
+
+<h3 id="liftoff">Liftoff</h3>
+
+<p>For the record, we wish we had a giant red button to press, initiating go-live of the campaign.
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/08/BigRedButton-1024x951.jpg" alt="BigRedButton"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/08/BigRedButton-1024x951.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>BigRedButton</p>
+      </figcaption>
+  </figure>
+</div></p>
+
+<p>This will happen next time :)</p>
+
+<p>Finally launching the campaign was by far the scariest part. You are going to feel like you forgot something. You probably <em>did</em> forget something. We forgot to include a few things in the budgeting&hellip; so, hooray for that fudge factor! Kickstarter now lets you send a private draft view of your campaign to anyone you choose. Find a trusted friend that has a serious Kickstarter habit and, even better, one who has launched their own and see what they think. This really helped us fine tune the pricing, wording, spelling, etc. before launch.</p>
+
+<p>Kickstarter used to have an approval process by which your campaign could not go live until one of their staff approved it. Be it a good thing or not, this process no longer exists. When you push the go-live button, it&rsquo;s live. It&rsquo;s important to note that if you set the campaign as, for example, 30 days in length, it will end in 30 days, exactly, from the moment you click that button. So consider the time of day and day of the week you want it to end beforehand.</p>
+
+<p>But now, people need to know about it&hellip;</p>
+
+<h3 id="backer-acquisition">Backer Acquisition</h3>
+
+<p>Some Kickstarters have huge marketing campaigns behind them. We spent $300 on R&amp;D, so there wasn&rsquo;t exactly the funds to advertise. There&rsquo;s certainly more we could have done or things we could have done better, but here was our basic strategy for getting the word out.</p>
+
+<ul>
+<li><strong>Tell Everyone</strong>: We typically are the quiet types and not ones to spam everyone we know about whatever we are doing. But this was a time to forget all of that. Sure, we certainly tried to target that spamming since our grandparents are probably not the target demographic, but we told everyone who might even know someone else who would be interested. This involved a lot of posting to Facebook, Twitter, Google+, Forums, mailing lists, and emailing directly just about anyone we knew with the slightly interest in electronics, software, or LEDs.</li>
+</ul>
+
+<p>It was extremely helpful to keep a series of, for lack of a better term, form letters to send out. Writing a well thought out message to someone without sounding greedy or desperate is <em>hard</em>. So it was a lot easier to do it once, and then tweak things a bit for each recipient. Even though we had a couple masters, we even kept a document containing the contents of every message we sent out and to who. This served both to remind us of who was already contacted as well as gave us that many more previously written messages to start from.</p>
+
+<ul>
+<li><strong>Show Off</strong>: An awesome intro video is great, but they are intentionally short and to the point. Or at least they should be. But sometimes what is going to get someone really interested is a more in depth demonstration of what can be done with your product. During the campaign, we posted a ton of fun examples of all the things that could be done such as: <a href="https://ManiacalLabs.com/2014/11/19/weekend-project-povstick/">POVStick</a>, <a href="https://ManiacalLabs.com/2014/11/25/fft-audio-animation-with-bibliopixel-and-the-allpixel/">FFT Audio</a>, and <a href="https://ManiacalLabs.com/2014/11/24/sharing-among-the-community/">Community Collaboration</a>.</li>
+<li><strong>Get People Talking</strong>: This is by far the hardest&hellip; getting others to talk about your cool new thing. Even we fell into the trap of thinking there was one or two key sites that, if they posted about our campaign, would rocket us to the top. Not so much&hellip;</li>
+</ul>
+
+<p>Sites like Hack A Day are extremely popular in this community and we thought that, if they posted, about the AllPixel, we&rsquo;d be set. And <a href="http://hackaday.com/2014/11/20/a-usb-controlled-pov-light-stick/">they did</a>. But of our 384 backers, we got&hellip; 5 that clicked through from Hack A Day and pledged. Now, don&rsquo;t get us wrong, we aren&rsquo;t trying to knock Hack A Day, we love them. But we fell into that trap of thinking that there was one magic bullet that would fix it all.</p>
+
+<p>The biggest shock to us was that, in the end, a whopping 60.5% of our backers came from users browsing Kickstarter! If anything, this confirms right away that one of the best advantages of Kickstarter is the exposure it gives. We spent countless hours trying to get the word out yet the vast majority of our backers came either directly through Kickstarter or direct to it from our own site. See the graph below for more:</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/Backers.png" alt="Backers"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/Backers.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Backers</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/Funding.png" alt="Funding"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/Funding.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Funding</p>
+      </figcaption>
+  </figure>
+</div>
+
+<h3 id="reward-fulfillment">Reward Fulfillment</h3>
+
+<p>Once you&rsquo;ve got the funds, now you have to actually <em>do</em> something with all that money! One thing to note first is that it can take some time to get everything. From the end of the campaign, it took about 2 weeks to process all of the payments and then another 2 weeks to actually have the money available for withdrawal. Since our campaign ended, Kickstarter switched from Amazon Payments to Stripe, so this may have changed.</p>
+
+<p>When you do have the money in hand, contact your manufacturer <em>immediately</em>! The quicker you can get all the details nailed down, the quicker they can start making everything. Also note that, if your manufacturer is overseas, it may take some time to wire the funds to them. Wiring $12,000 to China is certainly a strange experience!</p>
+
+<p>Now is the time where your initial fulfillment time estimates will be put to the test. We initially calculated, based on estimates from Seeed, that we could likely ship by late February. But this accounted for no error. So, just to be safe, we gave ourselves a two month buffer and promised an April shipment date. Remember, shipping late always looks bad. People will complain if you said April and ship May 1st. So, when we shipped March 30th, we looked great. It turned out we did need that extra time, because we forgot that most of China shuts down for a few weeks in February for Chinese New Year.</p>
+
+<p>Now is also when your original cost estimates will be tested. If you did not plan well, you may either be left with a lot of debt or no way to fulfill the rewards. Fortunately, our estimates were quite sufficient, just check out the chart below:</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/Funds.png" alt="Funds"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/Funds.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Funds</p>
+      </figcaption>
+  </figure>
+</div>
+
+<h3 id="shipping">Shipping</h3>
+
+<p>Our original plan was to kit, pack, and ship everything ourselves. That was also when we thought we would be lucky to get 100 backers. But, instead, we shipped 428 AllPixels, 636 PowerTaps, and 67 rolls of LEDs. Certainly <em>not</em> something that the two of use would want to handle all ourselves. We would have required 141 customs forms just for all the non USA shipping!
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/Backers-1024x576.png" alt="Backers"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/Backers-1024x576.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Backers</p>
+      </figcaption>
+  </figure>
+</div></p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/BackerMap-1024x575.png" alt="BackerMap"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/BackerMap-1024x575.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>BackerMap</p>
+      </figcaption>
+  </figure>
+</div>
+
+<p>Fortunately, Seeed came to our rescue again by offering to kit, pack, and ship <em>everything</em>. Originally we thought this would be cost prohibitive, but between their better buying power for packing materials and shipping and saving our own time, the $2,643.55 spent on packing and shipping was <em>well</em> worth every penny. As you may note, from the estimates chart above, we <em>had</em> already accounted for packing and shipping costs. Seeed&rsquo;s prices were a little higher than we originally budgeted for, but that&rsquo;s why you keep that 10% fudge factor! Also note, that we later calculated that it would have cost nearly $700 just to ship all the final boards to the USA for us to pack and ship ourselves!</p>
+
+<p>The downside to all of this was that now <em>everything</em> was being shipped overseas, regardless of where the backer was located. Overseas shipping is not without its occasional failures, which we certainly experienced. As of the writing of this, we had five shipments that showed up <em>very</em> late, as much as 3 months, after being stuck in customs, and only one that simply never made it and had to be replaced. But a 1.6% error rate in shipping doesn&rsquo;t really seem all that bad to us. Fortunately, none of them were higher price rewards.</p>
+
+<h3 id="after-the-dust-settles">After the Dust Settles</h3>
+
+<p>This is where we are at now. The backers have their rewards and are hopefully making awesome stuff. But that&rsquo;s where it has probably been the most frustrating. While some people are certainly very willing to share and show off what they are working on, that has by far been the minority. Now is the time to build a community around the product and that has probably taken even more marketing effort than the Kickstarter did. We no longer have our product showing up on the front pages of Kickstarter anymore.</p>
+
+<p>We&rsquo;ve created a <a href="http://forum.maniacallabs.com/">forum</a> and post to <a href="https://www.facebook.com/ManiacalLabs">Facebook</a> and <a href="https://www.twitter.com/ManiacalLabs">Twitter</a> as much as possible. But when you have a user-base of only about 400 people and only a handful of those will ever interact with you publicly, it&rsquo;s still hard.</p>
+
+<p>Having day jobs doesn&rsquo;t help. We cannot work on new projects to show off the AllPixel and BiblioPixel nearly as much as we would like. But we are not about to stop or slow down.</p>
+
+<p>Hopefully this has shed a little light on the inner workings of a Kickstarter campaign for those curious. Feel free to leave any questions in the comments below.</p>
+
+  
+</ul>
+</main>
+  <footer> 
+    <footer id="footer">
+    <nav>
+      <ul>
+        
+        
+       <li><a href="https://ManiacalLabs.com/products/" >Products</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/posts/" >Blog</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/projects/" >Projects</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/buildlog/" >Build Log</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/about/" >About</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/contact/" >Contact</a></li>
+       
+       <li><a href="http://GitHub.com/ManiacalLabs"><i class="fab fa-github"></i></a></li>
+<li><a href="http://twitter.com/ManiacalLabs"><i class="fab fa-twitter"></i></a></li>
+<li><a href="http://Facebook.com/ManiacalLabs"><i class="fab fa-facebook"></i></a></li>
+<li><a href="http://Instagram.com/ManiacalLabs"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2018 Maniacal Labs, LLC</p>
+  </footer> 
+</footer>
+
+
+  <script src="https://ManiacalLabs.com/js/kube.js" type="text/javascript">
+  </script>
+  <script src="https://ManiacalLabs.com/js/kube.legenda.js" type="text/javascript">
+  </script>
+  <script src="https://ManiacalLabs.com/js/master.js" type="text/javascript">
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta name="generator" content="Hugo 0.54.0" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Weekend Project: NExuS </title>
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  <meta name="author" content="adam">
+
+
+  <meta property="og:title" content="Weekend Project: NExuS" />
+<meta property="og:description" content="NExuS
+   Introduction I&rsquo;ve had an NES (my wife&rsquo;s actual childhood NES, in fact) sitting in my parts drawer, with the intent of ripping it apart, gutting it, and jamming in a Raspberry Pi to make an awesome emulation box since&hellip; well, ever since the Raspberry Pi came out." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ManiacalLabs.com/2015/07/27/weekend-project-nexus/" />
+<meta property="article:published_time" content="2015-07-27T14:34:18&#43;00:00"/>
+<meta property="article:modified_time" content="2015-07-27T14:34:18&#43;00:00"/>
+
+  
+
+  
+  
+  
+  
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-41371810-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  
+
+  <link rel="canonical" href="https://ManiacalLabs.com/2015/07/27/weekend-project-nexus/">  
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  <link rel="shortcut icon" type="image/png" href="data:image/png;base64,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">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+
+  <link href="https://ManiacalLabs.com/css/font.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/kube.min.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/kube.legenda.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/highlight.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/master.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/kube.demo.css" rel="stylesheet" type="text/css">
+
+ <link href="https://ManiacalLabs.com/css/custom.css" rel="stylesheet" type="text/css">
+
+  <script src="https://ManiacalLabs.com/js/jquery-2.1.4.min.js" type="text/javascript">
+  </script>
+
+  <script type="text/javascript" src="https://ManiacalLabs.com/js/tocbot.min.js"></script>
+
+  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/d7b7e2f1b852bedbcc9503f71/24f91ff71f999da17a5b29481.js");</script>
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#f36926",
+        "text": "#000000"
+      },
+      "button": {
+        "background": "#000000",
+        "text": "#f36926"
+      }
+    },
+    "position": "top",
+    "static": true,
+    "theme": "edgeless"
+  })});
+  </script>
+
+</head>
+
+
+<body class="page-kube">
+  <header> <div class="show-sm">
+    <div id="nav-toggle-box">
+      <div id="nav-toggle-brand">
+        <a href="https://ManiacalLabs.com/">Maniacal Labs</a>
+      </div><a data-component="toggleme" data-target="#top" href="#" id="nav-toggle"><i class="kube-menu"></i></a>
+    </div>
+  </div>
+  <div class="hide-sm" id="top">
+    <div id="top-brand">
+      <a href="https://ManiacalLabs.com/" title="home"><img src="https://ManiacalLabs.com/images/logo-beaker.png"></a>
+    </div>
+    <nav id="top-nav-main">
+      <ul>
+       
+       
+    <li><a href="https://ManiacalLabs.com/products/" >Products</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/posts/" >Blog</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/projects/" >Projects</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/buildlog/" >Build Log</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/about/" >About</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/contact/" >Contact</a></li>
+    
+        <li><a href="http://GitHub.com/ManiacalLabs"><i class="fab fa-github"></i></a></li>
+<li><a href="http://twitter.com/ManiacalLabs"><i class="fab fa-twitter"></i></a></li>
+<li><a href="http://Facebook.com/ManiacalLabs"><i class="fab fa-facebook"></i></a></li>
+<li><a href="http://Instagram.com/ManiacalLabs"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </nav>
+    <nav id="top-nav-extra">
+      <ul>
+        
+      </ul>
+    </nav>
+  </div>
+ </header>
+  <main>
+
+<div id="hero" class="wrap">
+  <h1>Weekend Project: NExuS</h1>
+    <p></p>
+</div>
+<ul id="posts">
+
+ 
+
+
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://ManiacalLabs.com/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://ManiacalLabs.com/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150703_214728-1024x768.jpg" alt="NExuS"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150703_214728-1024x768.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>NExuS</p>
+      </figcaption>
+  </figure>
+</div>
+
+<h3 id="introduction">Introduction</h3>
+
+<p>I&rsquo;ve had an NES (my wife&rsquo;s actual childhood NES, in fact) sitting in my parts drawer, with the intent of ripping it apart, gutting it, and jamming in a Raspberry Pi to make an awesome emulation box since&hellip; well, ever since the Raspberry Pi came out. Then the Raspberry Pi 2 was released and I got one to use <em>that</em> instead. It can play PSOne games, after all. But other projects got in the way and I just hadn&rsquo;t gotten around to it. But a few weeks ago, I was on Amazon.com for something else, and they suggested the <a href="https://en.wikipedia.org/wiki/Nexus_Player">Nexus Player</a> which I already have and love. I&rsquo;d been wanting to pick one up anyways to replace the combination of an old Roku and a Raspberry Pi running Raspbmc on our living room TV.</p>
+
+<p>Luck had it that the Nexus Player was on sale and I suddenly had a thought&hellip; It runs Android. It could do much more than just retro games. And, surely there are supported game console emulators&hellip; A few minutes of searching confirmed that yes, there were some great ones for <a href="https://play.google.com/store/apps/details?id=com.explusalpha.NesEmu">NES</a>, <a href="https://play.google.com/store/apps/details?id=com.explusalpha.Snes9xPlus">SNES</a>, <a href="https://play.google.com/store/apps/details?id=com.explusalpha.A2600Emu">Atari</a>, and a few others. It supported the main three that my wife and I were interested in, so I ordered the Nexus Player and, later that night, started gutting the NES.</p>
+
+<!-- more -->
+
+<h3 id="the-plan">The Plan</h3>
+
+<p>My main desires for this build was that the NES look completely stock and unchanged from the front and that original, unmodified, NES gamepads worked via the original gamepad ports. Fortunately, this turned out not to be <em>too</em> bad. First, I needed all the extra parts that would allow me to break out power, network, and video for the Nexus player, and to hook up some extra peripherals. Some I already had lying around, some I had to order but for all parts, these are the exact items:</p>
+
+<ul>
+<li><a href="http://www.amazon.com/gp/product/B00S8SPF06">microUSB to microUSB Extension Cable</a></li>
+<li><a href="http://www.amazon.com/gp/product/B00H8QL53A">IEC320 C7 Socket</a></li>
+<li><a href="http://www.amazon.com/gp/product/B00B2HP83E">Ethernet Coupler</a></li>
+<li><a href="http://www.amazon.com/gp/product/B004C4SHTG">8&rdquo; HDMI Extension</a></li>
+<li><a href="http://www.amazon.com/gp/product/B00OP4KFJI">Right Angle microUSB Cable</a></li>
+<li><a href="http://www.amazon.com/gp/product/B00L32UUJK">microUSB Ethernet Adapter and USB Hub</a></li>
+</ul>
+
+<p>Also needed were:</p>
+
+<ul>
+<li>NES Gamepad Hookup PCB (more on this below)</li>
+<li>M4-0.7 screws (10-16mm length)</li>
+<li>Printed brackets (more on this below)</li>
+<li>16 AWG Wire</li>
+<li>Female 2-prong socket end</li>
+<li>Hot Glue</li>
+<li>Quick Set Epoxy</li>
+<li>Low Grit Sandpaper</li>
+</ul>
+
+<h3 id="teardown">Teardown</h3>
+
+<p>I miss the 80&rsquo;s. For a lot of reasons, but one of them being that they just don&rsquo;t make things now like they did back then. The NES, unlike modern consoles, was crazy easy to pull apart. Every screw, except two, in the entire thing was exactly the same, and they were all basic phillips head! Start by removing 6 screws on the bottom, then flip it over and remove the top.
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150703_214851-1024x768.jpg" alt="NExuS"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150703_214851-1024x768.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>NExuS</p>
+      </figcaption>
+  </figure>
+</div></p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150703_222204-1024x768.jpg" alt="NExuS"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150703_222204-1024x768.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>NExuS</p>
+      </figcaption>
+  </figure>
+</div>
+
+<p>Next, remove all the interior screws you see and pull out the motherboard. You will have to also disconnect the power connector and two gamepad connectors.
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150703_222406-1024x768.jpg" alt="NExuS"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150703_222406-1024x768.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>NExuS</p>
+      </figcaption>
+  </figure>
+</div></p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150703_223022-1024x768.jpg" alt="NExuS"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150703_223022-1024x768.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>NExuS</p>
+      </figcaption>
+  </figure>
+</div>
+
+<p>As you can see, the Nexus Player fits quite nicely in between all the original screw posts, though a bit of cutting will still be in order.
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150703_223046-1024x768.jpg" alt="NExuS"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150703_223046-1024x768.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>NExuS</p>
+      </figcaption>
+  </figure>
+</div></p>
+
+<h3 id="gamepads">GamePads</h3>
+
+<p>The gamepads were the major detail I wanted to get absolutely right on this build. Plug in an original NES gamepad and it works. Period. Fortunately, this wasn&rsquo;t too bad of a task. One of my favorite Arduino boards the <a href="https://www.sparkfun.com/products/12640">Arduino Pro Micro</a> from SparkFun and an <a href="https://github.com/joshmarinacci/nespad-arduino">NES gamepad library</a> got things started nicely.</p>
+
+<p>I prefer to have easy to hookup, custom PCBs for projects like this but in this case I just wanted to get things working and I had a close-enough alternative. The gamepad sockets do have 7-pin molex-type connectors on them, but they were sadly a weird ~1.5mm pin pitch instead of the usual 2.5mm (0.1&rdquo;) so I&rsquo;d have to find the right connector and footprint. Maybe someday, but I already had a breakout PCB for another gamepad project (more on that in a future post) which would work close enough by ditching the connectors and soldering the wires directly to the board. This PCB simply breaks out the right pins from for the gamepads and provides a socket to place the Arduino Pro Micro in. We do this a lot and find it an easy method to get a semi custom arduino without having to actually build all the arduino parts into our PCB.
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/pcb.png" alt="NExuS PCB"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/pcb.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>NExuS PCB</p>
+      </figcaption>
+  </figure>
+</div></p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/nes_pinout.png" alt="nes_pinout"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/nes_pinout.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>nes_pinout</p>
+      </figcaption>
+  </figure>
+</div>
+
+<p>Check the gamepad pinout. The NC pins are the purple and blue wires seen in the picture below. We&rsquo;ll use P0-P5 on the custom board, in which the square pads are ground (which we won&rsquo;t use) and the round are input (which we will) and the even numbered pins for gamepad 1 and the odd numbered pins for gamepad 2. Hookup red (clock) to P0, orange (strobe) to P2, and yellow (data) to P4. Then for gamepad 2, use P1, P3, and P5 in the same order. There&rsquo;s a set of 3 pin and a 4 pin connector beneath where the Pro Micro goes. Hookup brown (ground) and white (5V) as you see in the picture below.
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150703_230439-e1437784994651-1024x768.jpg" alt="NExuS"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150703_230439-e1437784994651-1024x768.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>NExuS</p>
+      </figcaption>
+  </figure>
+</div></p>
+
+<p>You can find the KiCAD files for the PCB on <a href="https://github.com/adammhaile/SerialGamePad/tree/master/PCB">GitHub</a> or, if you would rather, order one directly from <a href="https://oshpark.com/shared_projects/CGz2Rpnd">OSHPark</a>. It was actually OSHPark&rsquo;s minimum of 3 rule that made this even possible&hellip; I had 2 left over :)</p>
+
+<p>Now, to make this actually <em>do</em> something. The reason I use an Arduino Pro Micro is that it is based on the awesome ATMega32u4 (just like the <a href="https://ManiacalLabs.com/AllPixel">AllPixel</a>) which includes on-chip USB functionality. This makes it really easy to make the board show up as a USB keyboard and send keystrokes to a computer. 100 lines of code was all it took to convert the gamepad button presses (for both gamepads simultaneously!) into keystrokes that could be used on anything that supports USB keyboards (yes, the Nexus Player does&hellip; more on that in a minute). <a href="https://github.com/ManiacalLabs/NExuS">Download the firmware here</a> to check it out and load it yourself. Note that, since there are two separate gamepads, the firmware uses pretty normal keys for gamepad 1 (arrows, A, B, Enter, Space) and others for gamepad 2. This is no big deal as the above mentioned emulators allow you to map the keys however you want.</p>
+
+<h3 id="stuffing">Stuffing</h3>
+
+<p>So, now I know the gamepads work. Time to put it all back together. I wanted to make sure I didn&rsquo;t damage the Nexus Player but a lot of this could probably be done with hot glue and creative zip ties, but when you&rsquo;ve got a 3D printer&hellip;
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150707_225717-1024x768.jpg" alt="NExuS"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150707_225717-1024x768.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>NExuS</p>
+      </figcaption>
+  </figure>
+</div></p>
+
+<p>3D printed brackets to the rescue! The above are for the Nexus Player itself (top) and the ethernet/USB adapter (bottom) and are available on the <a href="https://github.com/ManiacalLabs/NExuS">NExuS GitHub repo</a>. But first we have to make a little extra room for the Nexus Player. Use some angled snips to cut off the screw post on the ridge that runs from the expansion port hole (the NES sadly never used this) to the back of the case. Also snip off the little domed plastic nub next to it. Then take some 60 grit sand paper, sand down anything that&rsquo;s left of what you cut off and then rough up that area and on the other side of the expansion port hole.
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150707_230453-1024x768.jpg" alt="NExuS"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150707_230453-1024x768.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>NExuS</p>
+      </figcaption>
+  </figure>
+</div></p>
+
+<p>I also decided to place the Ethernet Adapter / USB Hub right inside the cartridge slot. Line up the placement with the brackets on the top of the case and rough up the area below those brackets as well. I recommend marking off their location with a permanent marker to maintain their placement. Do this for the Nexus Player brackets as well, after testing their placement to be sure it fits. They should fit snug up against the curved side of the NP, which will be held in place once the top part of the bracket is screwed down.</p>
+
+<p>Prepare some quick set epoxy and carefully place the brackets as shown in the picture below. As long as the case is on a flat surface and the plastic was properly roughed up, there should be no need to clamp anything in place. Just leave it sit for a good hour to fully set.
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150708_162849-1024x768.jpg" alt="NExuS"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150708_162849-1024x768.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>NExuS</p>
+      </figcaption>
+  </figure>
+</div></p>
+
+<p>Next, cut a hole where the back power and video ports were with a small-toothed saw or a file. Then, to the right of that, drill out a slot large enough for the IEC320 power socket to fit. I used a <sup>1</sup>&frasl;<sub>2</sub>&rdquo; drill bit to start and then carefully pushed the spinning bit sideways to chew out the rest of the slot. Not pretty, but it worked.
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150708_175753-1024x768.jpg" alt="NExuS"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150708_175753-1024x768.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>NExuS</p>
+      </figcaption>
+  </figure>
+</div></p>
+
+<p>Rough up the bottom of the case near the opening you just cut for the inputs and epoxy in the HDMI and Ethernet bracket (InputBracket.123dx from the repository linked above) like you did with the other brackets.</p>
+
+<p>Before installing the power socket, take the the 16AWG wire and solder a 10&rdquo; length to each of the IEC socket pins. Then cover them with heat shrink tubing. Once this is some, you can epoxy that into the drilled slot on the back. <em>This</em> will take some sort of clamp since it&rsquo;s at an odd angle and there&rsquo;s not much to adhere to anyways.
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150708_212643-1024x768.jpg" alt="NExuS"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150708_212643-1024x768.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>NExuS</p>
+      </figcaption>
+  </figure>
+</div></p>
+
+<p>Once that has all set, install the 2-prong female socket to the other end of those wires. This is how the NP power brick will be connected. Then install everything like you see below:
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150708_193425-1024x768.jpg" alt="NExuS"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150708_193425-1024x768.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>NExuS</p>
+      </figcaption>
+  </figure>
+</div></p>
+
+<p>Screw the tops of the brackets in with M4-0.7 screws. I used 16mm long screws but 10mm would work. I used hot glue to hold the NP power brick in place so that it could be easily removed if need be in the future. I also recommend fully covering the power socket back with hot glue, for safety. The gamepad PCB was screwed through its center hole to one of the existing screw posts. Note that all the NP cables should be connected <em>before</em> securing it with the brackets. The microUSB extension cable should be plugged into the microUSB port on the NP between the HDMI and power ports. Contrary to the NP documentation, this is <em>not</em> just for debugging purposes.</p>
+
+<p>On the top of the case, install the Ethernet / USB adapter with the bracket tops and M4 screws like before.
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150708_193441-1024x768.jpg" alt="NExuS"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150708_193441-1024x768.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>NExuS</p>
+      </figcaption>
+  </figure>
+</div></p>
+
+<p>Now, use the microUSB extension cable that&rsquo;s already plugged into the NP to connect the adapter. Use a ~12&rdquo; length of Ethernet cable to connect from the end of the adapter to the Ethernet coupler at the back. Then use the right angle microUSB cable to connect one of the three adapter ports to the Arduino Pro Micro board.
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150708_204853-768x1024.jpg" alt="NExuS"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2015/07/IMG_20150708_204853-768x1024.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>NExuS</p>
+      </figcaption>
+  </figure>
+</div></p>
+
+<p>That&rsquo;s it. Close it back up, screw the case back together and you should be ready to go :)</p>
+
+<h3 id="software">Software</h3>
+
+<p>All the emulators linked above are made by the same developer and use the same (open source) interface, so I&rsquo;ll just go over setting up <a href="https://play.google.com/store/apps/details?id=com.explusalpha.NesEmu">NES.emu</a>. Either install it via the given link or go to the Play Store on the NP and do a search for Nintendo. NES.emu should come right up.</p>
+
+<p>Once installed, launch the app, then scroll down to &ldquo;Key/Gamepd Input Setup&rdquo;. Under the &ldquo;Individual Device Settings&rdquo; section, you should see an entry for &ldquo;Sparkfun Pro Micro&rdquo;, select that. Then choose &ldquo;Set Gamepad Keys&rdquo; and go through each option and press the corresponding button on the NES gamepad to map it. If you want to map both gamepads, select the &ldquo;Player&rdquo; option first and choose &ldquo;Multiple&rdquo;. You will then get options for Gamepad 1 and Gamepad 2, map both using their corresponding physical gamepad.</p>
+
+<p>Note that the official Nexus Player (Asus) BlueTooth gamepad will work, as will just about any BlueTooth or USB gamepad, including the XBox 360 controller. You can even find a ton of NES/SNES/Sega/etc. clone but USB gamepads online for a handful of dollars. They all can be keymapped in the same method. We use the original NES gamepads for NES and Atari games, but the NP BlueTooth gamepad and an XBox controller for SNES games. There&rsquo;s also a <a href="https://play.google.com/store/apps/details?id=com.explusalpha.MsxEmu">Coleco Emulator</a> but the Coleco controller is unlike almost anything else&hellip; so I&rsquo;ll be building a USB converter for that as well in the near future.</p>
+
+<p>Finally, you will also need to load the game ROMs onto the local device storage (there&rsquo;s ~8GB but most ROMs require less than 100KB each). Install <a href="https://play.google.com/store/search?q=es%20file%20explorer&amp;c=apps">ES File Explorer</a> on the NP and then use it to either copy the games from a USB stick (using the USB hub inside the cartridge slot) or via a network share. Then, in the main menu of NES.emu, just choose &ldquo;Load Game&rdquo; and browse the the desired ROM.</p>
+
+<p>That&rsquo;s it! Happy Gaming!</p>
+
+  
+</ul>
+</main>
+  <footer> 
+    <footer id="footer">
+    <nav>
+      <ul>
+        
+        
+       <li><a href="https://ManiacalLabs.com/products/" >Products</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/posts/" >Blog</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/projects/" >Projects</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/buildlog/" >Build Log</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/about/" >About</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/contact/" >Contact</a></li>
+       
+       <li><a href="http://GitHub.com/ManiacalLabs"><i class="fab fa-github"></i></a></li>
+<li><a href="http://twitter.com/ManiacalLabs"><i class="fab fa-twitter"></i></a></li>
+<li><a href="http://Facebook.com/ManiacalLabs"><i class="fab fa-facebook"></i></a></li>
+<li><a href="http://Instagram.com/ManiacalLabs"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2018 Maniacal Labs, LLC</p>
+  </footer> 
+</footer>
+
+
+  <script src="https://ManiacalLabs.com/js/kube.js" type="text/javascript">
+  </script>
+  <script src="https://ManiacalLabs.com/js/kube.legenda.js" type="text/javascript">
+  </script>
+  <script src="https://ManiacalLabs.com/js/master.js" type="text/javascript">
+  </script>
+</body>
+
+</html>

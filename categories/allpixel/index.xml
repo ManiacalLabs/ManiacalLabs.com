@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Allpixel on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/allpixel/</link>
+    <description>Recent content in Allpixel on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Jan 2017 16:04:24 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/allpixel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Coming Soon...The AllPixelMini!</title>
+      <link>https://ManiacalLabs.com/2017/01/28/coming-soon-the-allpixelmini/</link>
+      <pubDate>Sat, 28 Jan 2017 16:04:24 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2017/01/28/coming-soon-the-allpixelmini/</guid>
+      <description>Good News, Everyone! We&amp;rsquo;ve been toying around with the idea of updating the design for our AllPixel LED Controler for a while now, and we&amp;rsquo;re making great progress. The image above is our first prototype, fresh from MacroFab.</description>
+    </item>
+    
+    <item>
+      <title>Christmas Tree Light-Show with AllPixel, BiblioPixel, and PixelWeb</title>
+      <link>https://ManiacalLabs.com/2015/11/17/christmas-tree-light-show-with-allpixel-bibliopixel-and-pixelweb/</link>
+      <pubDate>Tue, 17 Nov 2015 16:47:00 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/11/17/christmas-tree-light-show-with-allpixel-bibliopixel-and-pixelweb/</guid>
+      <description>Ever since working on the Adafruit APA102 Disk, it seemed the next logical step was to apply the same idea to a Christmas tree. So, last year after all the holidays, when everything was on sale, I picked up a 7 foot tall white artificial tree. Green would just not do&amp;hellip; too dark for all the color :) It&amp;rsquo;s still way to early to put up the tree in my mind but, in the interest of beta testing, I figured I would give it a pass this year.</description>
+    </item>
+    
+    <item>
+      <title>Thank You GeekSpark and SparkCon!</title>
+      <link>https://ManiacalLabs.com/2015/09/20/thank-you-geekspark-and-sparkcon/</link>
+      <pubDate>Sun, 20 Sep 2015 19:20:36 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/09/20/thank-you-geekspark-and-sparkcon/</guid>
+      <description>SparkCon_Thanks
+   A Huge Thanks to everyone who came out and saw us at GeekSpark this weekend! We had a great time and were thrilled at the response we got from the giant display.
+If you want to know more about the AllPixel LED driver and the BiblioPixel Python library that were used to make the display, check out the AllPixel Info Page.</description>
+    </item>
+    
+    <item>
+      <title>AllPixel Now Available on Tindie</title>
+      <link>https://ManiacalLabs.com/2015/07/07/allpixel-now-available-on-tindie/</link>
+      <pubDate>Tue, 07 Jul 2015 13:01:37 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/07/07/allpixel-now-available-on-tindie/</guid>
+      <description>We are pleased to announce that the AllPixel and PowerTap are now available for purchase on Tindie!
+                               Tindie Logo
+   All orders through Tindie ship direct from Maniacal Labs HQ in North Carolina, USA.
+We will ship outside of the USA, but be sure to check out all of our other global distributors first to see if there&amp;rsquo;s one near you!</description>
+    </item>
+    
+    <item>
+      <title>More AllPixel Distributors</title>
+      <link>https://ManiacalLabs.com/2015/06/09/more-allpixel-distributors/</link>
+      <pubDate>Tue, 09 Jun 2015 19:01:23 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/06/09/more-allpixel-distributors/</guid>
+      <description>One of the major things we&amp;rsquo;ve been hard at work on lately is getting AllPixel kits a little closer to those who want them and either missed the Kickstarter or want more. So far, the AllPixel and PowerTap are available from these great distributors near (some of) you:
+Australia  TronixLabs Little Bird Electronics Pakronics  New Zealand  NiceGear  United Kingdom  DigitalMeans  For those outside of the above regions, fear not; you can always still order direct from Seeed and they will ship worldwide.</description>
+    </item>
+    
+    <item>
+      <title>BiblioPixel Controlling a Jumbotron...</title>
+      <link>https://ManiacalLabs.com/2015/06/01/bibliopixel-controlling-a-jumbotron/</link>
+      <pubDate>Tue, 02 Jun 2015 03:44:14 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/06/01/bibliopixel-controlling-a-jumbotron/</guid>
+      <description>&amp;hellip; sub-panel. Couldn&amp;rsquo;t resist the mild click-bait there :) As you can see in the video above; no, not a full-on jumbotron, but just a single 32x32 panel designed for digital billboards. I&amp;rsquo;ve had one sitting in my parts drawer for nearly a year&amp;hellip; But yesterday, the awesome 1-Pixel PacMan post on HackADay gave me enough of a push to finally pull it out and get hacking.</description>
+    </item>
+    
+    <item>
+      <title>Loading KiCad dimensions into 123D Design</title>
+      <link>https://ManiacalLabs.com/2015/05/27/loading-kicad-dimensions-into-123d-design/</link>
+      <pubDate>Wed, 27 May 2015 13:00:12 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/05/27/loading-kicad-dimensions-into-123d-design/</guid>
+      <description>PCBtoCase
+   As the AllPixel Kickstarter neared an end, we wanted to make design files for a case available for anyone wanting to 3D print their own. However, neither of us are particularly well versed in 3D design, and the usual method of breaking out the calipers to laboriously measure all of the final board dimensions seemed silly when all the dimension and placement data was right there in KiCad.</description>
+    </item>
+    
+    <item>
+      <title>AllPixel Now Available!</title>
+      <link>https://ManiacalLabs.com/2015/04/20/allpixel-now-available/</link>
+      <pubDate>Mon, 20 Apr 2015 11:43:03 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/04/20/allpixel-now-available/</guid>
+      <description>Good news! The AllPixel and PowerTap are now available for general sale on the Maniacal Labs Seeed Store!                                KermitFlail
+   For those that missed the Kickstarter or just want more, this means that you can order RIGHT NOW!</description>
+    </item>
+    
+    <item>
+      <title>Get Started with the AllPixel</title>
+      <link>https://ManiacalLabs.com/2015/04/14/get-started-with-the-allpixel/</link>
+      <pubDate>Tue, 14 Apr 2015 17:05:52 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/04/14/get-started-with-the-allpixel/</guid>
+      <description>Just got your AllPixel? Not sure where to start? Look no further!
+Wait&amp;hellip; what is the AllPixel you say? It is our USB controlled, universal controller for digital LED strips. Watch this for more details:
+Now that we&amp;rsquo;re on the same page&amp;hellip; start here:
+AllPixel Quick Start Guide.
+It will walk you through every step. From installing the optional components to running animations with BiblioPixel.
+If you want to know more about BiblioPixel:</description>
+    </item>
+    
+    <item>
+      <title>WyoLum TinyTiM Available</title>
+      <link>https://ManiacalLabs.com/2015/04/01/wyolum-tinytim-available/</link>
+      <pubDate>Wed, 01 Apr 2015 23:30:15 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/04/01/wyolum-tinytim-available/</guid>
+      <description>We&amp;rsquo;ve shown off pre-production versions before, but our friends at WyoLum have just made the awesome TinyTiM available!
+The TinyTiM, much like their larger TiM, is an awesome, well-made (by the same manufacturer as the AllPixel!), and versatile 8x8 LED matrix based on the WS2812 LED. And it&amp;rsquo;s 100% compatible with the AllPixel!
+As usual, Justin from WyoLum is super awesome and sent us some early production boards&amp;hellip;
+                               WyoCube</description>
+    </item>
+    
+    <item>
+      <title>AllPixel Soon Available to Public</title>
+      <link>https://ManiacalLabs.com/2015/03/27/allpixel-soon-available-to-public/</link>
+      <pubDate>Fri, 27 Mar 2015 22:19:11 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/03/27/allpixel-soon-available-to-public/</guid>
+      <description>MainKSThumb
+   It&amp;rsquo;s been a long, long journey bringing the AllPixel to fruition and it is finally coming to the end&amp;hellip; But now the real fun begins as the AllPixel finds its way into the hands of LED hackers and hobbyists!</description>
+    </item>
+    
+    <item>
+      <title>First Production AllPixel Boards!</title>
+      <link>https://ManiacalLabs.com/2015/03/03/first-production-allpixel-boards/</link>
+      <pubDate>Tue, 03 Mar 2015 22:28:39 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/03/03/first-production-allpixel-boards/</guid>
+      <description>First AllPixel Boards
+   Look what just showed up in our inbox from Seeed Studio! Yup&amp;hellip; Production AllPixel boards! :)
+A handful of these are on their way to Maniacal Labs headquarters, where they will be checked over to confirm they meet our standards and then we will give Seeed the go-ahead to finish producing the rest of the boards.</description>
+    </item>
+    
+    <item>
+      <title>Multi-Driver Demo with BiblioPixel</title>
+      <link>https://ManiacalLabs.com/2015/01/21/multi-driver-demo-with-bibliopixel/</link>
+      <pubDate>Wed, 21 Jan 2015 14:00:40 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/01/21/multi-driver-demo-with-bibliopixel/</guid>
+      <description>Last time on the Maniacal Labs Blog&amp;hellip; we told you about the awesome new multiple driver support added to BiblioPixel in the latest version. Well, check out the video below to see the proof!
+  All the code from the video is below. More details are on the BiblioPixel Wiki. And be sure to visit the Maniacal Labs Forum to discuss usage or ask questions. Happy making!
+#Load driver for your hardware, visualizer just for example import time import bibliopixel.</description>
+    </item>
+    
+    <item>
+      <title>Exciting Updates!</title>
+      <link>https://ManiacalLabs.com/2015/01/18/exciting-updates/</link>
+      <pubDate>Sun, 18 Jan 2015 16:11:46 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/01/18/exciting-updates/</guid>
+      <description>It&amp;rsquo;s been a little over a month since the Kickstarter for our AllPixel finished and things are progressing nicely. We&amp;rsquo;ve certainly learned a lot about communicating with an overseas manufacturer and designing a product for mass production. Nothing a few tiny tweaks couldn&amp;rsquo;t fix. Our goal has always been to deliver the best possible product. The final boards should be going into production within the next week or two!
+During the campaign, we set a stretch goal of providing multiple driver support to BiblioPixel.</description>
+    </item>
+    
+    <item>
+      <title>New Site! New Forum! Kickstarter Progress!</title>
+      <link>https://ManiacalLabs.com/2015/01/04/new-site-new-forum-kickstarter-progress/</link>
+      <pubDate>Sun, 04 Jan 2015 13:45:17 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/01/04/new-site-new-forum-kickstarter-progress/</guid>
+      <description>It is a bit crazy to see how far we&amp;rsquo;ve come since Maniacal Labs started by launching the Binary Epoch Clock back in 2013. Well, unlike the quick success we&amp;rsquo;ve had with the AllPixel, we just recently sold out of the Epoch Clock kits. But that allowed us to do something we&amp;rsquo;ve wanted to for some time now&amp;hellip; ditch our web store and redesign the site. So we hope you like the new, cleaner design!</description>
+    </item>
+    
+    <item>
+      <title>Single Board Linux Computer Rundown</title>
+      <link>https://ManiacalLabs.com/2015/01/01/single-board-linux-computer-rundown/</link>
+      <pubDate>Thu, 01 Jan 2015 14:48:54 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/01/01/single-board-linux-computer-rundown/</guid>
+      <description>Happy New Year!
+While one of the many reasons we created the AllPixel was to be able to control LED strips from &amp;ldquo;traditional&amp;rdquo; desktops and laptops (with the extra processing power they provide), we are always on the lookout for something smaller and cheaper that can just be left in a project. We talked a lot about the ever popular Raspberry Pi and Beagle Bone Black, but as this list from LinuxGizmos.</description>
+    </item>
+    
+  </channel>
+</rss>

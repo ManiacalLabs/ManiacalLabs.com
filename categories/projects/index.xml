@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/projects/</link>
+    <description>Recent content in Projects on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Aug 2016 13:00:17 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New Library: ESP Serial WiFi Manager</title>
+      <link>https://ManiacalLabs.com/2016/08/09/new-library-esp-serial-wifi-manager/</link>
+      <pubDate>Tue, 09 Aug 2016 13:00:17 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2016/08/09/new-library-esp-serial-wifi-manager/</guid>
+      <description>The ESP8266 Arduino package provides a great and familiar to use ecosystem for developing code on the chip. However, most examples for WiFi network connection and management involve building and uploading new code every time you want to change the network settings. That&amp;rsquo;s just more than should be required if you want to simply connect an existing and complete project to a new network.
+A forthcoming project in which we plan to use a large number of the Adafruit ESP8266 Feather boards for was going to be far to cumbersome to manage if we had to upload new code not only to change the WiFi network but to set static IPs.</description>
+    </item>
+    
+    <item>
+      <title>Thank You GeekSpark and SparkCon!</title>
+      <link>https://ManiacalLabs.com/2015/09/20/thank-you-geekspark-and-sparkcon/</link>
+      <pubDate>Sun, 20 Sep 2015 19:20:36 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/09/20/thank-you-geekspark-and-sparkcon/</guid>
+      <description>SparkCon_Thanks
+   A Huge Thanks to everyone who came out and saw us at GeekSpark this weekend! We had a great time and were thrilled at the response we got from the giant display.
+If you want to know more about the AllPixel LED driver and the BiblioPixel Python library that were used to make the display, check out the AllPixel Info Page.</description>
+    </item>
+    
+    <item>
+      <title>Arduino-Based &#34;Analog&#34; Slow Cooker Controller</title>
+      <link>https://ManiacalLabs.com/2015/08/12/slow-cooker-controller/</link>
+      <pubDate>Wed, 12 Aug 2015 15:19:26 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/08/12/slow-cooker-controller/</guid>
+      <description>IMG_0884_SM
+   I had two options: One required me to spend money. The other cost me nothing and gave me an opportunity to make something useful.
+To make a short story longer, I have an &amp;ldquo;analog&amp;rdquo; slow cooker (just a dial on the front) and I wanted the ability to set the cooking time and temperature.</description>
+    </item>
+    
+    <item>
+      <title>From the Forum: Gazebo Lighting Prototype</title>
+      <link>https://ManiacalLabs.com/2015/06/22/from-the-forum-gazebo-lighting-prototype/</link>
+      <pubDate>Mon, 22 Jun 2015 18:23:57 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/06/22/from-the-forum-gazebo-lighting-prototype/</guid>
+      <description>[landgrvi] has been posting in the Maniacal Labs forum about some awesome gazebo lighting he has been working on. He&amp;rsquo;s using the new LEDCircle class to run some really neat circular animations.
+Check out this awesome small scale prototype!
+  </description>
+    </item>
+    
+    <item>
+      <title>BiblioPixel Controlling a Jumbotron...</title>
+      <link>https://ManiacalLabs.com/2015/06/01/bibliopixel-controlling-a-jumbotron/</link>
+      <pubDate>Tue, 02 Jun 2015 03:44:14 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/06/01/bibliopixel-controlling-a-jumbotron/</guid>
+      <description>&amp;hellip; sub-panel. Couldn&amp;rsquo;t resist the mild click-bait there :) As you can see in the video above; no, not a full-on jumbotron, but just a single 32x32 panel designed for digital billboards. I&amp;rsquo;ve had one sitting in my parts drawer for nearly a year&amp;hellip; But yesterday, the awesome 1-Pixel PacMan post on HackADay gave me enough of a push to finally pull it out and get hacking.</description>
+    </item>
+    
+    <item>
+      <title>The ESP8266: Taking the New Hotness for a Spin</title>
+      <link>https://ManiacalLabs.com/2015/02/16/esp8266-the-new-hotness/</link>
+      <pubDate>Mon, 16 Feb 2015 14:29:10 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/02/16/esp8266-the-new-hotness/</guid>
+      <description>ESP8266
+   You’ve probably heard about this little module by now; a cheap, wifi-enabled bit of wizardry that is all the rage. Using serial communication, you can talk to the device and send commands out to the interwebs.</description>
+    </item>
+    
+    <item>
+      <title>Adafruit Matrix Hat Support for BiblioPixel</title>
+      <link>https://ManiacalLabs.com/2015/01/23/adafruit-matrix-hat-support-for-bibliopixel/</link>
+      <pubDate>Fri, 23 Jan 2015 12:57:53 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/01/23/adafruit-matrix-hat-support-for-bibliopixel/</guid>
+      <description>So, last week, Adafruit launched this little beauty. Having just acquired a handful of Pi B+ and A+ boards and already having a 32x32 matrix that I&amp;rsquo;d been meaning to use, this was a complete insta-buy™. And, of course, I had to make it work with BiblioPixel! Well, it showed up last night and the coding commenced!
+Fortunately, Adafruit already had a library ready to go with a handy python wrapper, since the main code is all C.</description>
+    </item>
+    
+    <item>
+      <title>More Fun With the AllPixel and TinyTiM</title>
+      <link>https://ManiacalLabs.com/2014/12/16/allpixel-and-tinytim-usb-led-matrix/</link>
+      <pubDate>Tue, 16 Dec 2014 13:00:53 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/12/16/allpixel-and-tinytim-usb-led-matrix/</guid>
+      <description>As a follow-on to our previous article on the TiM and TinyTiM displays from WyoLum, I wanted to demonstrate some of the flexibility of the AllPixel in terms of how well it can pair with already existing products. The TinyTim is an as-yet-unreleased product from WyoLum, but it will be dropping soon. It&amp;rsquo;s really a slick board, consisting of 64 WS2812 LEDs arranged in an 8x8 grid. There are plenty of connections on the back of the PCB to easily wire together multiple displays, in either parallel or serial data transfer configurations.</description>
+    </item>
+    
+    <item>
+      <title>FFT Audio Animation with BiblioPixel and the AllPixel</title>
+      <link>https://ManiacalLabs.com/2014/11/25/fft-audio-animation-with-bibliopixel-and-the-allpixel/</link>
+      <pubDate>Tue, 25 Nov 2014 13:00:15 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/25/fft-audio-animation-with-bibliopixel-and-the-allpixel/</guid>
+      <description>We showed off this fun little piece of code in the AllPixel Kickstarter introduction video, but never really got into the details of how that audio animation really worked.
+The animation in the introduction video and the video above uses a Fast Fourier Transform to analyze the audio coming into the computer&amp;rsquo;s mic/line-in and generate an intensity map for various frequency ranges in the audio signal. FFT is some really hardcore math, so instead of trying to explain the details of how it, and the python code, works see this post (and it&amp;rsquo;s links) on the blog of Scott Harden.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Project: POVStick</title>
+      <link>https://ManiacalLabs.com/2014/11/19/weekend-project-povstick/</link>
+      <pubDate>Wed, 19 Nov 2014 13:15:51 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/19/weekend-project-povstick/</guid>
+      <description>To showcase how much the AllPixel and BiblioPixel can simplify your projects, we wanted to put together a fun project that really highlighted their versatility. So we decided to build a persistence of vision light painter, or POVStick as we keep calling it.
+The POVStick consists of 2 meters of 48 LED/m LPD8806 strips, for a total of 96 pixels vertical resolution. This is controlled by an AllPixel connected to a Raspberry Pi B+ with a USB WiFi module.</description>
+    </item>
+    
+    <item>
+      <title>Random Photos</title>
+      <link>https://ManiacalLabs.com/2014/10/07/random-photos/</link>
+      <pubDate>Tue, 07 Oct 2014 13:00:51 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/10/07/random-photos/</guid>
+      <description>I had a 24-led NeoPixel ring lying around being useless, so I decided to make it do something less useless. As is typical, it became a clock. Not an original idea, sure. But these rings are well-suited for clockification. The blue &amp;lsquo;seconds&amp;rsquo; lights will fade around the ring once per minute. There&amp;rsquo;s some mapping logic to determine where the green &amp;lsquo;minutes&amp;rsquo; light should go. Hours is straightforward enough if the clock is showing 24hr time.</description>
+    </item>
+    
+    <item>
+      <title>Fun with the MSGEQ7 Graphic Equalizer Chip</title>
+      <link>https://ManiacalLabs.com/2014/09/30/msgeq7-1/</link>
+      <pubDate>Tue, 30 Sep 2014 13:00:50 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/09/30/msgeq7-1/</guid>
+      <description>Not much today. Just a pair of videos from some testing I&amp;rsquo;ve been doing with the MSGEQ7 Graphic Equalizer Display Filter chip. The first one shows the waveform of the analog output of the chip.
+The second video shows what happens when you take that output and parse it out to a bunch of LPD8806 lights.
+If these experiments go any further, I&amp;rsquo;ll do a more in-depth post with code and schematics and stuff.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi QuadTempProbe: Temperature Measurement and Logging</title>
+      <link>https://ManiacalLabs.com/2014/09/16/raspberry-pi-quadtempprobe/</link>
+      <pubDate>Tue, 16 Sep 2014 13:00:48 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/09/16/raspberry-pi-quadtempprobe/</guid>
+      <description>A friend asked me a few days ago if I knew of a way to remotely monitor multiple different points of temperature, log the data, and generate an email alert if sensor reading went out of bounds. Since I happened to have a &amp;lsquo;project-in-progress&amp;rsquo; with just that goal, I decided I should finish it. Or, rather, get it to a working state.
+                               QTP_Complete</description>
+    </item>
+    
+    <item>
+      <title>24x24 LED Matrix Build </title>
+      <link>https://ManiacalLabs.com/2014/08/19/24x24-led-matrix-build/</link>
+      <pubDate>Tue, 19 Aug 2014 13:00:13 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/08/19/24x24-led-matrix-build/</guid>
+      <description>This project was briefly teased before, but it seemed like a good time for more details. Originally conceived as a coffee table build,it quickly morphed into what will eventually become a wall hanging and has been a test-bed for a lot of my LED work. Having worked a great deal with a variety of these digital LED strips, I noticed that in most cases they were manufactured in 0.</description>
+    </item>
+    
+    <item>
+      <title>Open Source PCB: ATTinyX5 Dev Board</title>
+      <link>https://ManiacalLabs.com/2014/08/12/open-source-pcb-attinyx5-dev-board/</link>
+      <pubDate>Tue, 12 Aug 2014 13:00:32 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/08/12/open-source-pcb-attinyx5-dev-board/</guid>
+      <description>While the standard Arduino (especially variants like the Pro Mini) truly is a lilliputian computing device, even it sometimes seems like trying to swat a fly with a sledgehammer. Sometimes you just need a few I/O pins for a status light, timer, tiny sensor, etc. Enter the ATTinyX5 series of chips.
+The ATTiny25, ATTiny45, and ATTiny85 have 8 pins, 6 I/O and 2048&amp;frasl;128, 4096&amp;frasl;256 and 8192&amp;frasl;512 bytes of flash/RAM respectively. The &amp;lsquo;85 can be had for just over $1 from sites like Mouser.</description>
+    </item>
+    
+    <item>
+      <title>NeoPixel Glass Skull Lighting Effect (A.K.A Mr. BlinkySkull)</title>
+      <link>https://ManiacalLabs.com/2014/08/05/blinkyskull/</link>
+      <pubDate>Tue, 05 Aug 2014 13:00:00 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/08/05/blinkyskull/</guid>
+      <description>Awesome skull-shaped vodka bottle plus Arduino Pro Mini plus NeoPixels equals:
+  I&amp;rsquo;ve had this (empty) bottle of Crystal Head vodka for a while. Admittedly I mostly bought it because the bottle was really neat and I wanted to make it light up. Up until this point, I was using a small version of the RGB clock to illuminate it. It was a neat effect, but not very bright. It was time for an upgrade.</description>
+    </item>
+    
+    <item>
+      <title>Sunrise Alarm Clock - Prototype</title>
+      <link>https://ManiacalLabs.com/2014/07/29/sunrise-alarm-clock-prototype/</link>
+      <pubDate>Tue, 29 Jul 2014 13:00:01 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/07/29/sunrise-alarm-clock-prototype/</guid>
+      <description>While I rarely sleep past 6am, or sleep at all for that matter, my wife does require an alarm clock from time to time. After a recent few days of her alarm going off right in the middle of a R.E.M. sleep cycle she mentioned a desire for a more gentle alarm. I&amp;rsquo;ve seen those sunrise alarm clock lights many times before, but they but they are a bit pricey and she didn&amp;rsquo;t want a light that would be right next to the bed.</description>
+    </item>
+    
+    <item>
+      <title>Meter Clock: Keeping &#34;Current&#34; Time</title>
+      <link>https://ManiacalLabs.com/2014/07/08/meter-clock-pt1/</link>
+      <pubDate>Tue, 08 Jul 2014 13:00:17 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/07/08/meter-clock-pt1/</guid>
+      <description>MeterClock_LitUp
+   I&amp;rsquo;ve seen a few meter clocks in my travels of the web, and I love the idea. A few days ago, I decided that I must have one of my own. Such began the &amp;ldquo;How to do it&amp;rdquo; pondering cycle.</description>
+    </item>
+    
+    <item>
+      <title>Polar Giraffe Update</title>
+      <link>https://ManiacalLabs.com/2014/06/24/polar-giraffe-update/</link>
+      <pubDate>Tue, 24 Jun 2014 22:45:27 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/06/24/polar-giraffe-update/</guid>
+      <description>First off, hopefully after the end of this month, activity on the site will pick up a bit. We&amp;rsquo;ve got some neat projects we&amp;rsquo;re working on that would definitely be worth sharing. So yeah, look for more soon!
+In the mean time, here&amp;rsquo;s a quick look at some updates I&amp;rsquo;ve made to the Polar Giraffe. Those who were able to see it at Maker Faire NC commented on how the the gondola was floating in mid-air.</description>
+    </item>
+    
+    <item>
+      <title>NC Maker Faire Teaser</title>
+      <link>https://ManiacalLabs.com/2014/05/05/nc-maker-faire-teaser/</link>
+      <pubDate>Mon, 05 May 2014 20:43:42 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/05/05/nc-maker-faire-teaser/</guid>
+      <description>Just a quick teaser for the upcoming NC Maker Faire on June 7th.
+  These are just some animation tests for my new LED display.
+It&amp;rsquo;s a 24 x 24 pixel LED matrix built from LPD8806 LED strips and mounted on a 24&amp;rdquo; x 24&amp;rdquo; sheet of acrylic. The animations are generated by some python code running on a Raspberry Pi.
+                               LPD8806 Matrix</description>
+    </item>
+    
+    <item>
+      <title>Wireless Outlet Remote Control...Control</title>
+      <link>https://ManiacalLabs.com/2014/04/08/wireless-outlet-control/</link>
+      <pubDate>Tue, 08 Apr 2014 04:01:13 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/04/08/wireless-outlet-control/</guid>
+      <description>In the near future, Scott and myself will be taking a crack at Adafruit&amp;rsquo;s Arduino-powered immersion cooker. I&amp;rsquo;ve looked at this tutorial a few times, and I have now amassed enough of the parts as a result of other projects to make this a not-very-expensive build.
+There was one wrinkle, though. This project requires the control of a 120V outlet with an Arduino. The recommended Power Switch Tail is, at this time, difficult to come by.</description>
+    </item>
+    
+    <item>
+      <title>Dial-A-Song: Part 2</title>
+      <link>https://ManiacalLabs.com/2014/04/01/dial-a-song-part-2/</link>
+      <pubDate>Tue, 01 Apr 2014 14:21:47 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/04/01/dial-a-song-part-2/</guid>
+      <description>For part two of the Dial-A-Song project, I&amp;rsquo;m going to go through the hookup of the phone&amp;rsquo;s keypad so that it can act as an input to the Raspberry Pi.
+The first thing to do was remove the short ribbon cable that came on the keypad and replace it with something a little longer so I could more easily hook it up to the Pi. Here&amp;rsquo;s the old ribbon cable:</description>
+    </item>
+    
+    <item>
+      <title>Dial-A-Song: Part 1</title>
+      <link>https://ManiacalLabs.com/2014/03/11/dial-a-song-part-1/</link>
+      <pubDate>Tue, 11 Mar 2014 14:56:08 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/03/11/dial-a-song-part-1/</guid>
+      <description>Earlier this week, we got the great news that we have been accepted to the North Carolina Maker Faire. We&amp;rsquo;re absolutely ecstatic to get to share some of our projects with the public but it&amp;rsquo;s also been a great push to get some other projects done. I&amp;rsquo;ve had this particular project bouncing around my head for a couple of years now. I call it Dial-A-Song.
+Much of the inspiration came from They Might Be Giants, who used to leave recordings of their songs on their answering machine, which could be listened to by calling (718) 387-6962.</description>
+    </item>
+    
+  </channel>
+</rss>

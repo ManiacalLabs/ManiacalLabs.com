@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta name="generator" content="Hugo 0.54.0" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> FormBot 3D Printer - Go Big or Go Home </title>
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  <meta name="author" content="Adam Haile">
+
+
+  <meta property="og:title" content="FormBot 3D Printer - Go Big or Go Home" />
+<meta property="og:description" content="A bit over a year ago I posted a YouTube video review of the T-Rex 2&#43; 3D printer that included a handful of modifications I had made to it. But then, recently, I was made aware of an official upgrade kit to turn the v2&#43; I had into a v3.0. Some of my mods even seemed to provide a little inspiration for the v3.0 :) So I got the kit and got to work installing it." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ManiacalLabs.com/2019/05/06/formbot-3d-printer-go-big-or-go-home/" />
+<meta property="article:published_time" content="2019-05-06T17:31:24-04:00"/>
+<meta property="article:modified_time" content="2019-05-06T17:31:24-04:00"/>
+
+  
+    <meta property="og:image" content="https://ManiacalLabs.com/2019/05/06/formbot-3d-printer-go-big-or-go-home/!header.png" />
+
+
+  
+  
+  
+  
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-41371810-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  
+
+  <link rel="canonical" href="https://ManiacalLabs.com/2019/05/06/formbot-3d-printer-go-big-or-go-home/">  
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  <link rel="shortcut icon" type="image/png" href="data:image/png;base64,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">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+
+  <link href="https://ManiacalLabs.com/css/font.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/kube.min.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/kube.legenda.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/highlight.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/master.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/kube.demo.css" rel="stylesheet" type="text/css">
+
+ <link href="https://ManiacalLabs.com/css/custom.css" rel="stylesheet" type="text/css">
+
+  <script src="https://ManiacalLabs.com/js/jquery-2.1.4.min.js" type="text/javascript">
+  </script>
+
+  <script type="text/javascript" src="https://ManiacalLabs.com/js/tocbot.min.js"></script>
+
+  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/d7b7e2f1b852bedbcc9503f71/24f91ff71f999da17a5b29481.js");</script>
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#f36926",
+        "text": "#000000"
+      },
+      "button": {
+        "background": "#000000",
+        "text": "#f36926"
+      }
+    },
+    "position": "top",
+    "static": true,
+    "theme": "edgeless"
+  })});
+  </script>
+
+</head>
+
+
+<body class="page-kube">
+  <header> <div class="show-sm">
+    <div id="nav-toggle-box">
+      <div id="nav-toggle-brand">
+        <a href="https://ManiacalLabs.com/">Maniacal Labs</a>
+      </div><a data-component="toggleme" data-target="#top" href="#" id="nav-toggle"><i class="kube-menu"></i></a>
+    </div>
+  </div>
+  <div class="hide-sm" id="top">
+    <div id="top-brand">
+      <a href="https://ManiacalLabs.com/" title="home"><img src="https://ManiacalLabs.com/images/logo-beaker.png"></a>
+    </div>
+    <nav id="top-nav-main">
+      <ul>
+       
+       
+    <li><a href="https://ManiacalLabs.com/products/" >Products</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/posts/" >Blog</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/projects/" >Projects</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/buildlog/" >Build Log</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/about/" >About</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/contact/" >Contact</a></li>
+    
+        <li><a href="http://GitHub.com/ManiacalLabs"><i class="fab fa-github"></i></a></li>
+<li><a href="http://twitter.com/ManiacalLabs"><i class="fab fa-twitter"></i></a></li>
+<li><a href="http://Facebook.com/ManiacalLabs"><i class="fab fa-facebook"></i></a></li>
+<li><a href="http://Instagram.com/ManiacalLabs"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </nav>
+    <nav id="top-nav-extra">
+      <ul>
+        
+      </ul>
+    </nav>
+  </div>
+ </header>
+  <main>
+<div class="push-center" itemscope itemtype="http://schema.org/BlogPosting">
+    
+<meta itemprop="name" content="FormBot 3D Printer - Go Big or Go Home">
+<meta itemprop="description" content="A bit over a year ago I posted a YouTube video review of the T-Rex 2&#43; 3D printer that included a handful of modifications I had made to it. But then, recently, I was made aware of an official upgrade kit to turn the v2&#43; I had into a v3.0. Some of my mods even seemed to provide a little inspiration for the v3.0 :) So I got the kit and got to work installing it.">
+
+
+<meta itemprop="datePublished" content="2019-05-06T17:31:24-04:00" />
+<meta itemprop="dateModified" content="2019-05-06T17:31:24-04:00" />
+<meta itemprop="wordCount" content="2545">
+
+
+
+<meta itemprop="keywords" content="" />
+
+    <div id="hero">
+        <h1 itemprop="headline"> FormBot 3D Printer - Go Big or Go Home</h1>
+        
+        <time class="post-time"><span class="icon">
+  <i class="fa fa-clock-o" aria-hidden="true"></i>
+</span>
+<span>12 minute read</span>
+<span class="icon">
+ <i class="fa fa-pencil" aria-hidden="true"></i>
+</span>
+
+  Published: <time datetime="2019-05-06T17:31:24-04:00">6 May, 2019</time>
+
+</time>
+    </div>
+    <div id="post-box">
+        <div id="post" itemprop="articleBody">
+
+            
+
+<p>A bit over a year ago I posted a <a href="https://www.youtube.com/watch?v=uVouQ4WZQAw">YouTube video</a> review of the <a href="https://www.formbot3d.com/c/t-rex-series-0378">T-Rex 2+</a> 3D printer that included a handful of modifications I had made to it. But then, recently, I was made aware of an official <a href="https://www.formbot3d.com/upgrade-kit-for-t-rex-2-to-t-rex-30-p0071.html">upgrade kit</a> to turn the v2+ I had into a v3.0. Some of my mods even seemed to provide a little inspiration for the v3.0 :) So I got the kit and got to work installing it.</p>
+
+<p><em>Note: this is <strong>not</strong> a review of the upgrade kit or the printer as a whole. This post is entirely intended for those that already have the T-Rex 2+ or 3.0 and are looking to improve it with further mods that I created. Also, all modifications are made at your own risk.</em></p>
+
+<h2 id="upgrade-kit">Upgrade Kit</h2>
+
+<p>The 2+ to 3.0 kit does what it says on the tin and breathes some new life into the printer. Probably the most welcome upgrade was an all new controller board with Trinamic drivers that make for a <em>much</em> quieter printer. Aside from some of the most lacking instructions I&rsquo;ve ever seen, the one problem I&rsquo;ll give some focus to is the X-Axis motor covers.</p>
+
+<p>I&rsquo;ll be blunt&hellip; the right cover provided did not fit at all.</p>
+
+
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://ManiacalLabs.com/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://ManiacalLabs.com/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="right_cover.jpg" />
+    </div>
+    <a href="right_cover.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>Yes, it came that way. After much discussion with Formbot support I was left with: <em>&ldquo;The covers may not fit all printers because they have &lsquo;tolerances&rsquo;&rdquo;</em>. Ummm&hellip; ok. That&rsquo;s just some terrible engineering then. I fail to see how there could be such loose tolerances with all the printers or just so many variations of the 2+ and 3.0 that a single cover design wouldn&rsquo;t fit them all. So, instead of loosing sleep over that insanity I decided to take it as an opportunity to improve those parts while fixing them. (Their solution was to take a Dremel to the provided cover)</p>
+
+<h2 id="new-motor-covers">New Motor Covers</h2>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="new_cover.jpg" />
+    </div>
+    <a href="new_cover.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>Fortunately someone in the Formbot Facebook group had managed to get the original STL files for all the printed parts and I was able to import those into Fusion 360 as a starting point. What you see above is what I came up with (the right cover is basically the same). The main improvements are:</p>
+
+<ul>
+<li>They fit on the printer! I know, low bar. I don&rsquo;t have more printers to test these with but I&rsquo;ll wager they&rsquo;ll fit on yours.</li>
+<li>Improved tensioning. The stock covers only provided about 2mm of travel for tensioning the belts which was not enough. Beyond that they just pinched the belt against the cover so it wouldn&rsquo;t move at all. These provide an extra 4mm and stronger wall to tighten against, especially when adding a washer to the original bolt.</li>
+<li>You can now see the belts and pulleys. May seem trivial but these printers have had X-axis belt alignment issues which are a pain to diagnose because they only way to see the pulleys was to remove the cover and doing that releases all the tension :( No good.</li>
+</ul>
+
+<p>So that&rsquo;s the end of my fix to the upgrade kit itself. The files for the covers are available with the rest in the GitHub repo linked at the end of this post.</p>
+
+<p>Now onto the <em>really</em> good stuff&hellip; large bore nozzles!</p>
+
+<h2 id="volcano">Volcano!</h2>
+
+<p>Now that the printer was all upgraded it seemed like a good time to keep going. I had previously swapped out the right extruder nozzle for a 0.8mm variant and loved the increased speed and strength it gave. However, it always did struggle a bit to extrude that much plastic. The v3.0 upgrade, however, provided a new option in that they now used an E3D compatible heat-break and heater block. That meant I could (maybe) upgrade it to a <a href="https://e3d-online.com/catalogsearch/result/?q=volcano+kits">Volcano</a> heater block!</p>
+
+<p>Even better, I recently acquired a Prusa MK3 which I run with a 0.4mm nozzle, so I decided that the FormBot would go all big, all the time. 0.6mm for the left (for faster but still decent quality) and 1.2mm for the right (for function over form).</p>
+
+<p>I went ahead and ordered two of the 24V/1.75mm Volcano upgrade kits (yes, this is all or nothing). While waiting for them to arrive I loaded up the previously mentioned STL files and started modifying them to work with the upgrade. The Volcano upgrade adds about 8.5mm in length to your hotend (just from the block itself) so that needed to be accounted for. I confirmed this after getting the actual upgrades but at this point I just guessed and was happy later to be correct. The components that needed to be updated were:</p>
+
+<ul>
+<li>Both part cooling fan shrouds</li>
+<li>The BL-Touch probe mount</li>
+<li>The &ldquo;Drip Buckets&rdquo;</li>
+</ul>
+
+<p>With those modifications ready but not printed and the upgrade kits in hand, I dove head-long into it and installed the upgrade on the left extruder.</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="left_installed.jpg" />
+    </div>
+    <a href="left_installed.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>I won&rsquo;t go into details as E3D already provides those for the installation and the process here is all the same. But since the Formbot has the wiring PCB on the extruder, you can just cut the heater wire short and connect it to the screw terminal. With the thermistor, you will have to connect the provided extension cable but then cut <em>that</em> short and add a JST-XH female connector. I did this with JST connector crimpers but you could also solder on a pre-made JST cable if you don&rsquo;t have the crimpers. The polarity here doesn&rsquo;t matter.</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="old_v_new.jpg" />
+    </div>
+    <a href="old_v_new.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>Above you can see the difference between the Volcano and stock heaters. Note that, because of how the printer is built, you need to route both cables off to the left (to the right for the other extruder) and angled towards the front. Because of the thermistor connector you won&rsquo;t be able to put the original extruder covers back on, which seemed a small price to pay. The heater cable may seem like it&rsquo;s a bit long but this was necessary due to the heat shielding on the cable.</p>
+
+<p>At this point things went a little wrong. When I modified the BLTouch probe mount I just added 8.5mm to it but didn&rsquo;t really think about where it was. What I should have done was model the entire extruder carriage to make sure I had all the clearances correct. Instead, my newly printed mount didn&rsquo;t exactly fit&hellip; as you can see in this version where I <em>did</em> model the entire carriage:</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="carriage.png" />
+    </div>
+    <a href="carriage.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>The square on the left is a cross-sectional view of the 2020 extrusion which makes up the X-axis rail and the white rectangle on the right is the belt. The dimensions of the mount were dictated by the dimensions of BLTouch mounting tabs. But when moved down 8.5mm I could find no way to make it fit. I even tried rotating the probe every which way I could but to no avail. As you can see, the mount (red) and the probe mount tabs run into both the 2020 and the belt. This led to about a week of pondering the problem and I came up with the following options:</p>
+
+<ul>
+<li>Replace the BLTouch with a different, smaller probe type like capacitive or inductive. This however, would require a firmware change.</li>
+<li>Move the probe elsewhere. Unfortunately the only place it could go and not run into another part of the printer was in front of the extruder and its fan. This was non-ideal <em>and</em> still required a firmware change.</li>
+<li>Physically modify the probe my cutting off the tabs and gluing it to the mount.</li>
+</ul>
+
+<p>Oddly, it was this last option that initially gave me the most pause. I saw firmware changes as reversible but was not happy with the idea of irreversibly modifying the probe itself. But in the end, this one modification really was the simplest path to getting me back on track.</p>
+
+<p>The modification to the probe is simple and quick. <strong>But please note: if you decide to go back, you will need a new BLTouch probe!!</strong></p>
+
+<p>Simply cut off (I just used flush cut snips) the ends of the mount tabs, right at the inner edge of each of the screw holes. As shown below:</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="probe.jpg" />
+    </div>
+    <a href="probe.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>The new mount, with its smaller probe mount profile, can now easily fit between the X-axis rail and the belts. As seen the the picture below, I modeled in some ridges that will provide extra surface area for the epoxy affixing the probe to the mount.</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="probe_mount.png" />
+    </div>
+    <a href="probe_mount.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>The probe can then be attached using quick curing epoxy. <strong>DO NOT</strong> use super glue! Epoxy is required for the necessary compressive and shear strength.</p>
+
+<p>The new mount also includes a hole in the top for access to the grub screw which allows changing out the pin, should you ever need it. However, you need to protect it from the epoxy. I did this by taking a small length of tape and rolling it into a cylinder (sticky side out) and inserting it into that hole, touching the top of the probe. This will prevent the epoxy from covering that grub screw.</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="probe_epoxy.jpg" />
+    </div>
+    <a href="probe_epoxy.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>Be sure to mount the probe with the wires facing the cut out on one side as shown above.</p>
+
+<p>Once the epoxy has had time to cure, it can be reinstalled on the carriage just as the previous mount was. However, I was unable to make the built-in probe protector (it keeps strands of plastic from clogging the probe pin) work with the new design. Instead, I highly recommend printing and installing this stand-alone version on <a href="https://www.thingiverse.com/thing:2738910">Thingiverse</a>.</p>
+
+<p>With that done, the printer itself shouldn&rsquo;t even know there&rsquo;s anything different! The probe is in the exact same X/Y position as before and it compensates for the 8.5mm height difference. But before installing the upgrade on the right, I wanted to test everything. I had installed a 0.6mm nozzle in the left which shouldn&rsquo;t be too different from the original 0.4mm so I just copied my original slicer profiles and changed the nozzle diameter. As you can see (the block should be 60mm cubed), it worked great!</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="0.6_test.jpg" />
+    </div>
+    <a href="0.6_test.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>So with that working, installing the upgrade on the right was a similar affair, just without needing to also modify the touch probe this time and the wires being routed to the right (no idea why the heater wires were yellow for this one).</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="both.jpg" />
+    </div>
+    <a href="both.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>At this point I should note that I of course also had to install new part cooling fan shrouds as well as updated drip/wipe buckets. Nothing really fancy to these, they are just 8.5mm taller than stock and I replaced the bucket thumb screws with a lower profile M4 screw. This last part is of importance and the reason for stating that the heater wires need to be routed towards the front of the extruder. It is so that the wires clear the mounting arm of the bucket and also don&rsquo;t run into the X-axis motors. See below:</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="wires.jpg" />
+    </div>
+    <a href="wires.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>It&rsquo;s close, but it works :)</p>
+
+<p>Unlike the 0.6mm nozzle, the 1.2mm version took a bit more tweaking in the profiles to get everything working. But just check out those ridiculously fat extrusions!</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="1.2_test.jpg" />
+    </div>
+    <a href="1.2_test.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>As for the hardware, that&rsquo;s it! With the exception of the BLTouch probe it is a drop in replacement. All the parts were printed on my Prusa (since the Formbot was in pieces) and should be printed as follows:</p>
+
+<ul>
+<li>Motor covers: 0.2mm layers / 30% infill</li>
+<li>BLTouch mount: 0.2mm layers / 25% infill</li>
+<li>Fan shrouds: 0.2mm layers / 25% infill</li>
+<li>Buckets: 0.2mm layers / 15% infill</li>
+</ul>
+
+<p>All of the above files can be found in my <a href="https://github.com/ManiacalLabs/3DPrinterData/tree/master/FormBot_T-Rex_3/Mods">T-Rex 3.0 Mods Repo</a>.</p>
+
+<h2 id="slicer-profiles">Slicer Profiles</h2>
+
+<p>While the Formbot T-Rex 3.0 is entirely capable of fancy things like dual color/material printing and the likes, you might have guessed by my nozzle size choices that I don&rsquo;t really use that. Ever since I&rsquo;ve had it I basically use it as two printers in one. As such, the only slicer profiles I have to offer use each extruder completely independently of the other, but these may work as a good starting point for a profile that uses both at the same time.</p>
+
+<p>Also, I use Simplify3D (for this printer anyways) so that&rsquo;s all I&rsquo;ve got, but they can serve as a good reference for other slicers.</p>
+
+<p>For the left 0.6mm nozzle it is basically my old 0.4mm profile as noted before.
+For the right 1.2mm nozzle I had to change several things and am still playing around. But some items of note:</p>
+
+<ul>
+<li>Because I didn&rsquo;t modify the firmware it still thinks that it has 8.5mm more Z travel that it really does!! There are a couple options for avoiding any problems.
+
+<ul>
+<li>In your slicer settings, knock 10mm off the Z-height in your profile. I&rsquo;ve already done this in the provided S3D profiles.</li>
+<li>In OctoPrint decrease the Z-height in the printer profile. Less fool-proof but recent versions will at least warn you if the model is too big.</li>
+</ul></li>
+<li>Go hot and go slow. Even with the Volcano heater block you are still pumping out 9 times as much plastic as with a 0.4mm nozzle. Bump the temperature 10-20 &deg;C and start out around 35mm/s. But remember, even if that&rsquo;s half as fast as your small nozzle, it&rsquo;s still printing 4.5 times as much plastic per second.</li>
+<li>Retraction and Coast settings are primarily for &ldquo;ooze control&rdquo; which is caused by backpressure in the nozzle. With one so large, however, that&rsquo;s not really a problem. I turned them off.</li>
+<li>Many slicers will slow down for the outer perimeters. Increase this speed. If you are already printing at 35mm/s you could end up burning the filament when it slows to 10mm/s or similar. No need to slow down even more.</li>
+<li>Use denser infill than you think you need. It will be terrible at any sort of bridging and with sparse infill there&rsquo;s nowhere for solid layers to stick to.</li>
+</ul>
+
+<p>You can download the profiles here:</p>
+
+<ul>
+<li><a href="https://github.com/ManiacalLabs/3DPrinterData/blob/master/FormBot_T-Rex_3/Simplify3D%20Profiles/T3%20Single%20Left%200.6mm.fff">0.6mm Left</a></li>
+<li><a href="https://github.com/ManiacalLabs/3DPrinterData/blob/master/FormBot_T-Rex_3/Simplify3D%20Profiles/T3%20Single%20Right%201.2mm.fff">1.2mm Right</a></li>
+</ul>
+
+<p>Still have tweaking to be done, of course, but I&rsquo;m happy with what I&rsquo;ve been able to do so far:</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="tests.jpg" />
+    </div>
+    <a href="tests.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>The <a href="https://www.myminifactory.com/object/3d-print-cola-bottle-71278">Soda bottle</a> is printed with the 1.2mm nozzle, 0.6mm layers, and in vase mode, requiring only ~3 hours to print.</p>
+
+<p>The <a href="http://www.3dbenchy.com/">Benchy</a> is scaled to 500% and printed with the 1.2mm nozzle, 0.8mm layers, 8% infill and took 7.5 hours to print. It&rsquo;s really rough, but I love it! Printed with a 0.4mm nozzle it would&rsquo;ve taken over two days! Oh, and it used an entire roll of filament :P</p>
+
+<h2 id="bonus-round">Bonus Round!</h2>
+
+<p>While I was reworking the drip buckets I had an idea. [Sam] had found this great <a href="https://www.thingiverse.com/thing:3272618/">Logitech C270 webcam mount</a> for the Prusa MK3 which I love because it mounts the camera in line with the nozzle so you can easily inspect the current layer.</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="c270_prusa.jpg" />
+    </div>
+    <a href="c270_prusa.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>I realized that the drip bucket would be a perfect place to mount the same camera (and I had already bought two of them) so I incorporated a similar mount so that I could get the same view.</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="c270_formbot.jpg" />
+    </div>
+    <a href="c270_formbot.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>Like the rest of the files, this one can also be downloaded from my <a href="https://github.com/ManiacalLabs/3DPrinterData/tree/master/FormBot_T-Rex_3/Mods">T-Rex 3.0 Mods Repo</a>.</p>
+
+<p>Because of the height of the printer, I highly recommend zip-typing the camera USB cable to the X-axis motor cable on that size. That should keep everything in-line and tangle free.</p>
+
+<p>That&rsquo;s all for now. I hope this is helpful to any of the other Formbot owners out there!</p>
+
+
+        </div>
+
+        <div class="">
+            <p>
+  Published
+  
+    
+      by <span itemprop="author">Adam Haile</span>
+    
+  
+  <time datetime="2019-05-06T17:31:24-04:00">
+    6 May, 2019
+  </time>
+  
+  
+  using <span itemprop="wordCount">2545</span> words.
+</p>
+ 
+
+
+
+        </div>
+
+        
+        <article>
+            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "maniacallabs" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+        
+
+    </div>
+</div>
+</main>
+  <footer>   <footer id="footer">
+    <nav>
+      <ul>
+        
+        
+       <li><a href="https://ManiacalLabs.com/products/" >Products</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/posts/" >Blog</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/projects/" >Projects</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/buildlog/" >Build Log</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/about/" >About</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/contact/" >Contact</a></li>
+       
+       <li><a href="http://GitHub.com/ManiacalLabs"><i class="fab fa-github"></i></a></li>
+<li><a href="http://twitter.com/ManiacalLabs"><i class="fab fa-twitter"></i></a></li>
+<li><a href="http://Facebook.com/ManiacalLabs"><i class="fab fa-facebook"></i></a></li>
+<li><a href="http://Instagram.com/ManiacalLabs"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2018 Maniacal Labs, LLC</p>
+  </footer> </footer>
+
+
+  <script src="https://ManiacalLabs.com/js/kube.js" type="text/javascript">
+  </script>
+  <script src="https://ManiacalLabs.com/js/kube.legenda.js" type="text/javascript">
+  </script>
+  <script src="https://ManiacalLabs.com/js/master.js" type="text/javascript">
+  </script>
+</body>
+
+</html>

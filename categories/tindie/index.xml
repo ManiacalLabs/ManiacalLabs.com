@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tindie on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/tindie/</link>
+    <description>Recent content in Tindie on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jul 2015 13:01:37 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/tindie/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AllPixel Now Available on Tindie</title>
+      <link>https://ManiacalLabs.com/2015/07/07/allpixel-now-available-on-tindie/</link>
+      <pubDate>Tue, 07 Jul 2015 13:01:37 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/07/07/allpixel-now-available-on-tindie/</guid>
+      <description>We are pleased to announce that the AllPixel and PowerTap are now available for purchase on Tindie!
+                               Tindie Logo
+   All orders through Tindie ship direct from Maniacal Labs HQ in North Carolina, USA.
+We will ship outside of the USA, but be sure to check out all of our other global distributors first to see if there&amp;rsquo;s one near you!</description>
+    </item>
+    
+    <item>
+      <title>PrismaChron Update</title>
+      <link>https://ManiacalLabs.com/2013/11/27/prismachron-update/</link>
+      <pubDate>Wed, 27 Nov 2013 18:09:10 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/27/prismachron-update/</guid>
+      <description>First of all, many thanks to those who supported our PrismaChron Tindie fundraiser!
+Unfortunately, there wasn&amp;rsquo;t enough interest in this particular project to reach our funding goal. So we won&amp;rsquo;t, at this time, be making the PrismaChron, but it was not a worthless experience for us. We learned a great deal in the process.
+While crowd-funding didn&amp;rsquo;t work out this time, we still see great potential in it, given the right product.</description>
+    </item>
+    
+    <item>
+      <title>One Week Left on the PrismaChron Fundraiser!</title>
+      <link>https://ManiacalLabs.com/2013/11/18/one-week-left-on-the-prismachron-fundraiser/</link>
+      <pubDate>Mon, 18 Nov 2013 13:25:57 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/18/one-week-left-on-the-prismachron-fundraiser/</guid>
+      <description>First of all, many, many thanks to those who have supported the PrismaChron already! It’s been an interesting first week and we’re part of the way there, but we still have a ways to go.
+Unfortunately, if we don’t hit the minimum number of pre-orders, we won’t be able to make the kits cost effective. So we are asking for a little more of your help.
+If you can, please share the following link on the social media of your choosing: https://www.</description>
+    </item>
+    
+    <item>
+      <title>Naming the PrismaChron</title>
+      <link>https://ManiacalLabs.com/2013/11/14/naming-the-prismachron/</link>
+      <pubDate>Thu, 14 Nov 2013 14:46:11 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/14/naming-the-prismachron/</guid>
+      <description>Designing the PrismaChron was actually kind of easy compared to naming it. We went through a few:
+ Rainbow Clock Color Clock ChromaChron ChronoChroma Color Time ChromataChron LumiChron HueTime ChronoChrome ColorChron ChronBow ChronoChromatic SpectraChron Spectrum Clock RGBTime Many more variations on this theme.  Many of them were ruled out pretty quickly with a quick web search. SpectraChron, for example was dangerously close to SpectraCron (no &amp;ldquo;h&amp;rdquo;) which was a trademarked brand of paint.</description>
+    </item>
+    
+    <item>
+      <title>Announcing the PrismaChron!</title>
+      <link>https://ManiacalLabs.com/2013/11/11/announcing-the-prismachron/</link>
+      <pubDate>Mon, 11 Nov 2013 12:37:13 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/11/announcing-the-prismachron/</guid>
+      <description>We are very happy to announce our latest kit, the PrismaChron!
+  The PrismaChron Clock is our take on time as color. The display consists of three RGB LEDs, one each for seconds, minutes and hours. As each value progresses through time, its LED slowly fades through the spectrum from red to violet, and everywhere in between.
+Just like the Binary Epoch Clock, the PrismaChron is fully Arduino compatible, open source, and ready to be hacked.</description>
+    </item>
+    
+    <item>
+      <title>Coming Soon!</title>
+      <link>https://ManiacalLabs.com/2013/11/06/coming-soon/</link>
+      <pubDate>Wed, 06 Nov 2013 17:17:20 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/06/coming-soon/</guid>
+      <description>CC_Teaser
+   Good news everyone! In just a few days, on Monday, November 11th, we&amp;rsquo;ll be launching a new kit!
+We&amp;rsquo;re going to be doing things a little differently this time and will be launching it as a pre-sale over on Tindie.</description>
+    </item>
+    
+  </channel>
+</rss>

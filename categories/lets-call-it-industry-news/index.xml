@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lets Call It Industry News on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/lets-call-it-industry-news/</link>
+    <description>Recent content in Lets Call It Industry News on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Oct 2013 11:17:02 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/lets-call-it-industry-news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OpenSource.com</title>
+      <link>https://ManiacalLabs.com/2013/10/22/opensource-com/</link>
+      <pubDate>Tue, 22 Oct 2013 11:17:02 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/10/22/opensource-com/</guid>
+      <description>Last month, Dan and I went to the Open Source All the Things event in the Research Triangle Park and had the pleasure of meeting Jason Hibbets of both Red Hat Software and OpenSource.com. Jason gave us a lot of great advice but also asked to considering contributing to OpenSource.com - which we, of course, couldn&amp;rsquo;t turn down!
+So, if you&amp;rsquo;d like a little behind the scenes look at the beginnings of Maniacal Labs, head on over to OpenSource.</description>
+    </item>
+    
+    <item>
+      <title>Heathkit&#39;s Back!</title>
+      <link>https://ManiacalLabs.com/2013/07/02/heathkit/</link>
+      <pubDate>Tue, 02 Jul 2013 20:34:58 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/07/02/heathkit/</guid>
+      <description>http://www.heathkit.com/heathkit-faq.html
+If you have ever soldered together a bit of electronic whatsits that you purchased in kit form, and if you have an appreciation for making and/or repairing your own electronic stuff, then this news should grab your attention.
+A quick lesson: Heathkit was a line of electronics kits sold by the Heath Company starting after World War 2. The kits ranged from the name-making oscilloscope kit to amateur radio kits to famous Heathkit H8 digital computer.</description>
+    </item>
+    
+  </channel>
+</rss>

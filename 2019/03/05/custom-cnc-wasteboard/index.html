@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta name="generator" content="Hugo 0.54.0" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Custom CNC Wasteboard </title>
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  <meta name="author" content="Adam Haile">
+
+
+  <meta property="og:title" content="Custom CNC Wasteboard" />
+<meta property="og:description" content="Previously on The New Maniacal Labs Workshop, we built a dust boot for the Probotix Comet CNC. Today, it&rsquo;s time to upgrade the wasteboard that came with the machine. First, a little background information:
+This particular CNC was acquired from the awesome Justin over at WyoLum." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ManiacalLabs.com/2019/03/05/custom-cnc-wasteboard/" />
+<meta property="article:published_time" content="2019-03-05T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-03-05T00:00:00&#43;00:00"/>
+
+  
+    <meta property="og:image" content="https://ManiacalLabs.com/2019/03/05/custom-cnc-wasteboard/!header.jpg" />
+
+
+  
+  
+  
+  
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-41371810-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  
+
+  <link rel="canonical" href="https://ManiacalLabs.com/2019/03/05/custom-cnc-wasteboard/">  
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  <link rel="shortcut icon" type="image/png" href="data:image/png;base64,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">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+
+  <link href="https://ManiacalLabs.com/css/font.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/kube.min.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/kube.legenda.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/highlight.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/master.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/kube.demo.css" rel="stylesheet" type="text/css">
+
+ <link href="https://ManiacalLabs.com/css/custom.css" rel="stylesheet" type="text/css">
+
+  <script src="https://ManiacalLabs.com/js/jquery-2.1.4.min.js" type="text/javascript">
+  </script>
+
+  <script type="text/javascript" src="https://ManiacalLabs.com/js/tocbot.min.js"></script>
+
+  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/d7b7e2f1b852bedbcc9503f71/24f91ff71f999da17a5b29481.js");</script>
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#f36926",
+        "text": "#000000"
+      },
+      "button": {
+        "background": "#000000",
+        "text": "#f36926"
+      }
+    },
+    "position": "top",
+    "static": true,
+    "theme": "edgeless"
+  })});
+  </script>
+
+</head>
+
+
+<body class="page-kube">
+  <header> <div class="show-sm">
+    <div id="nav-toggle-box">
+      <div id="nav-toggle-brand">
+        <a href="https://ManiacalLabs.com/">Maniacal Labs</a>
+      </div><a data-component="toggleme" data-target="#top" href="#" id="nav-toggle"><i class="kube-menu"></i></a>
+    </div>
+  </div>
+  <div class="hide-sm" id="top">
+    <div id="top-brand">
+      <a href="https://ManiacalLabs.com/" title="home"><img src="https://ManiacalLabs.com/images/logo-beaker.png"></a>
+    </div>
+    <nav id="top-nav-main">
+      <ul>
+       
+       
+    <li><a href="https://ManiacalLabs.com/products/" >Products</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/posts/" >Blog</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/projects/" >Projects</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/buildlog/" >Build Log</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/about/" >About</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/contact/" >Contact</a></li>
+    
+        <li><a href="http://GitHub.com/ManiacalLabs"><i class="fab fa-github"></i></a></li>
+<li><a href="http://twitter.com/ManiacalLabs"><i class="fab fa-twitter"></i></a></li>
+<li><a href="http://Facebook.com/ManiacalLabs"><i class="fab fa-facebook"></i></a></li>
+<li><a href="http://Instagram.com/ManiacalLabs"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </nav>
+    <nav id="top-nav-extra">
+      <ul>
+        
+      </ul>
+    </nav>
+  </div>
+ </header>
+  <main>
+<div class="push-center" itemscope itemtype="http://schema.org/BlogPosting">
+    
+<meta itemprop="name" content="Custom CNC Wasteboard">
+<meta itemprop="description" content="Previously on The New Maniacal Labs Workshop, we built a dust boot for the Probotix Comet CNC. Today, it&rsquo;s time to upgrade the wasteboard that came with the machine. First, a little background information:
+This particular CNC was acquired from the awesome Justin over at WyoLum.">
+
+
+<meta itemprop="datePublished" content="2019-03-05T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-03-05T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1349">
+
+
+
+<meta itemprop="keywords" content="" />
+
+    <div id="hero">
+        <h1 itemprop="headline"> Custom CNC Wasteboard</h1>
+        
+        <time class="post-time"><span class="icon">
+  <i class="fa fa-clock-o" aria-hidden="true"></i>
+</span>
+<span>7 minute read</span>
+<span class="icon">
+ <i class="fa fa-pencil" aria-hidden="true"></i>
+</span>
+
+  Published: <time datetime="2019-03-05T00:00:00&#43;00:00">5 Mar, 2019</time>
+
+</time>
+    </div>
+    <div id="post-box">
+        <div id="post" itemprop="articleBody">
+
+            
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://ManiacalLabs.com/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://ManiacalLabs.com/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="!header.jpg" />
+    </div>
+    <a href="!header.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p><a href="https://ManiacalLabs.com/2019/02/25/cnc-dust-boot-for-dewalt-router/">Previously</a> on <em>The New Maniacal Labs Workshop</em>, we built a dust boot for the <a href="https://www.probotix.com/CNC-ROUTERS/CNC-ROUTER-GX2525-COMET">Probotix Comet CNC</a>. Today, it&rsquo;s time to upgrade the wasteboard that came with the machine. First, a little background information:</p>
+
+<p>This particular CNC was acquired from the awesome Justin over at <a href="http://wyolum.com">WyoLum</a>. It was only lightly used when we got it and had sat in a basement for a number of years before making it to the Maniacal Labs shop and being brought back to life. It  ships with a wasteboard that covers the entire frame of the machine, with the frame itself being just four 60x30mm aluminum extrusions in a rectangle. This caused a few of issues as far as I was concerned.</p>
+
+<p>First, it was visually noticeable that the wasteboard was not flat in relation to the router gantry. After fabricating a simple holder to attach a dial indicator to the dust boot mount, I found that the deviation from the origin point covered a 0.045&rdquo; (1.2mm) spread. This may not sound like much, but for a CNC router it is pretty extreme. The most egregious point on the wasteboard was in the middle and that was very clearly because there was no central support, causing the board to sag. Normally this could be mostly fixed by resurfacing the board, however&hellip;</p>
+
+<p>The second issue was that, because the wasteboard extended well beyond the reach of the router, it was impossible to resurface it in place without causing a sunken area in the board, which would make it hard to mount any stock that was larger than that resurfaced area.</p>
+
+<p>Finally, I&rsquo;d eventually have to replace the board completely and Probotix wanted nearly $130 for a new one! Yes, I could fabricate one out of a larger sheet of 0.75&rdquo; MDF and drill all the mounting holes myself (since the board is larger than the work area of the CNC), but then the first two issues still remain. There had to be a better way.</p>
+
+<p>After some research on the Probotix Wiki I found some listings for the exact <a href="https://www.probotix.com/wiki/index.php/Aluminum_Extrusions">aluminum extrusions used</a> on the Comet and immediately noticed that, while no supplier was given, the part numbers listed were clearly from Misumi (why I know this is another story). So I hatched a new plan&hellip; Build out a central support frame from the same extrusions and mount to that an $8 24&rdquo;x24&rdquo; MDF board bought from the local orange hardware store. The actual work area is just over 25&rdquo;x25&rdquo; but this was actually perfect because it meant that I would be able to completely resurface the entire board and pieces larger than a 24&rdquo; dimension would be fine hanging over a little bit.</p>
+
+<p>So, after determining the exact length of extrusion needed, again from the <a href="https://www.probotix.com/wiki/index.php/Physical_Dimensions">Wiki</a>, as well as the required mounting hardware, it was off to Fusion 360. And because Misumi knows what&rsquo;s what, I could of course download CAD models of every single extrusion, bracket, and bolt I needed. Only thing I had to model was some MDF :)</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="!header.jpg" />
+    </div>
+    <a href="!header.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>The astute among you will of course notice that the modeled MDF has a grid of holes in it. This is, of course, so that I can use all manner of clamping solutions to hold down material. I was inspired by the <a href="http://www.winstonmoy.com/2016/11/shapeoko-3-xl-threaded-insert-installation/">work of Winston Moy</a> and decided to use these <a href="https://amzn.to/2XrglAX"><sup>1</sup>&frasl;<sub>4</sub>-20 threaded inserts</a>. They would be secured in from the underside for maximum strength as well as leaving the option of resurfacing up to 10mm of the board away before having to replace it entirely again. But more on those again in a minute.</p>
+
+<p>So, with design in hand and all the parts having arrived, Dan and I got to work with the modifications. First part was, easy&hellip; just removing the old wasteboard which came out with a couple dozen bolts. Next we assembled the brackets onto each of the three extrusions, using bolts and &ldquo;post-install&rdquo; t-nuts:</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="1.jpg" />
+    </div>
+    <a href="1.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>Next, those were bolted into the CNC frame using the same bolts and nuts. This was probably the trickiest part because they needed to be at a specific spacing. This was not only so that each lined up with the mounting holes on the wasteboard, but so that the bottom left corner of the wasteboard was at the actual CNC <strong>0,0</strong> origin. This meant the first rail&rsquo;s right face needed to be 3.9&rdquo; from the inner face of the left frame rail. And the other two rails needed to be spaced 10&rdquo; and 20&rdquo; further right, respectively.</p>
+
+<p>Also, they needed to be mounted flush with the frame itself, as to not add any extra skew in the wasteboard once mounted. While the mounting hardware got everything close, this took some patience to get everything right.</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="2.jpg" />
+    </div>
+    <a href="2.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>The wasteboard itself was, of course, cut out on the CNC itself, prior to removing the original board. Check out the links at the end for the Fusion 360 file which includes the CAM toolpaths used.</p>
+
+<p>The previously mentioned grid of threaded insert holes were drilled as well as 18 holes for bolts to attach to the three new support rails. These were counter-bored so that the <a href="https://www.mcmaster.com/92235a238">chosen bolts</a> would sit well below the surface, allowing for several resurfacing passes to occur over the board&rsquo;s life. This just left installing the threaded inserts. I purchased a 6mm hex driver ahead of time that would fit in my drill, which made installing the inserts a snap.</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="3.jpg" />
+    </div>
+    <a href="3.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>After that all that was left was mounting the board to the new frame. At the suggestion of one of the wonderful Misumi support people, I ordered the <a href="https://us.misumi-ec.com/vona2/detail/110302252720/?HissuCode=HNTP6-6">HNTP6-6</a> &ldquo;Post-Assembly Insertion Spring Nuts&rdquo; which worked great, since the spring loaded ball bearing keeps them from moving around. To ease installation even further, I first made marks on each of the rails with the spacing for each mount hole, allowing me to line up the nut accurately. From there it was just a matter of dropping the board on and bolting it down.</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="4.jpg" />
+    </div>
+    <a href="4.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>The final step of this process was to make sure that the board was completely flat relative to the CNC machine itself. And the easiest way to do this is to just use the CNC to run a facing operation on the wasteboard making it completely flat. Some CNC control software have this built in, but LinuxCNC does not. Fortunately, I already had everything for this modeled in Fusion 360 so it was a simple matter of using that to generate the CAM toolpath for a facing operation. This was a <em>little</em> tricky since the 25&rdquo;x25&rdquo; was working area was barely big enough to run the toolpath with a <a href="https://amzn.to/2EwhIqe">1&rdquo; surfacing bit</a>, but I was able to make it work.</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="5.jpg" />
+    </div>
+    <a href="5.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>In the image above you can see the dial indicator that I mounted to the dust shoe. After running another pass with that I found that I only had about 0.004&rdquo; (0.1mm) of deviation across the board! While that would be unacceptable for a precision metal machinist, it&rsquo;s right about at the accuracy tolerance for this machine, so I&rsquo;ll call it perfect :)</p>
+
+<p>The only issue I ran into was that there was a very slight striation pattern after the facing operation. Further research yielded that the router spindle was likely not perfectly square to the gantry. But I did some measurements and math&hellip; the dial indicator showed up to a 0.0015&rdquo; height deviation from one striation to another and given that the bit is 1&rdquo; wide, that gives an angle deviation of 0.086&deg;. I&rsquo;ll just go ahead and call that square. Also, that means that with a <sup>1</sup>&frasl;<sub>4</sub>&rdquo; width it would only show a height deviation of 0.000375&rdquo; (0.0095mm). Which is insignificant. Though I&rsquo;m not about to resurface the whole board with a <sup>1</sup>&frasl;<sub>4</sub>&rdquo; bit! It&rsquo;s good enough.</p>
+
+<p>Finally, because I enjoy time-lapses and soothing music, checkout the video of drilling all the holes and resurfacing the board below:</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube-nocookie.com/embed/dI3JoD3KE0U" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<p>&nbsp;</p>
+
+<p>In case you want to make your own, we&rsquo;ve of course got you covered.</p>
+
+<ul>
+<li><a href="https://github.com/ManiacalLabs/ProbotixComet/tree/master/Wasteboard">CAD Files</a> (includes CAM setup)</li>
+<li><a href="https://us.misumi-ec.com/vona2/detail/110302686970/?HissuCode=HFS6-3060-778">HFS6-3060-778 Extrusion</a></li>
+<li><a href="https://us.misumi-ec.com/vona2/detail/110300442610/?HissuCode=HBLFTD6-SEP">HBLFTD6-SEP Bracket with bolts/nuts</a></li>
+<li><a href="https://us.misumi-ec.com/vona2/detail/110302252720/?HissuCode=HNTP6-6">HNTP6-6 extrusion nuts</a></li>
+<li><a href="https://www.mcmaster.com/92235a238">Board M6 mount bolt</a></li>
+</ul>
+
+
+        </div>
+
+        <div class="">
+            <p>
+  Published
+  
+    
+      by <span itemprop="author">Adam Haile</span>
+    
+  
+  <time datetime="2019-03-05T00:00:00&#43;00:00">
+    5 Mar, 2019
+  </time>
+  
+  
+  using <span itemprop="wordCount">1349</span> words.
+</p>
+ 
+
+
+
+        </div>
+
+        
+        <article>
+            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "maniacallabs" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+        
+
+    </div>
+</div>
+</main>
+  <footer>   <footer id="footer">
+    <nav>
+      <ul>
+        
+        
+       <li><a href="https://ManiacalLabs.com/products/" >Products</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/posts/" >Blog</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/projects/" >Projects</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/buildlog/" >Build Log</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/about/" >About</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/contact/" >Contact</a></li>
+       
+       <li><a href="http://GitHub.com/ManiacalLabs"><i class="fab fa-github"></i></a></li>
+<li><a href="http://twitter.com/ManiacalLabs"><i class="fab fa-twitter"></i></a></li>
+<li><a href="http://Facebook.com/ManiacalLabs"><i class="fab fa-facebook"></i></a></li>
+<li><a href="http://Instagram.com/ManiacalLabs"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2018 Maniacal Labs, LLC</p>
+  </footer> </footer>
+
+
+  <script src="https://ManiacalLabs.com/js/kube.js" type="text/javascript">
+  </script>
+  <script src="https://ManiacalLabs.com/js/kube.legenda.js" type="text/javascript">
+  </script>
+  <script src="https://ManiacalLabs.com/js/master.js" type="text/javascript">
+  </script>
+</body>
+
+</html>

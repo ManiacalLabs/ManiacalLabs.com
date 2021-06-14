@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Products on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/products/</link>
+    <description>Recent content in Products on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Oct 2014 14:06:27 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/products/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AllPixel</title>
+      <link>https://ManiacalLabs.com/products/allpixel/</link>
+      <pubDate>Sun, 26 Oct 2014 14:06:27 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/products/allpixel/</guid>
+      <description>What is the AllPixel? It is our USB controlled, universal controller for digital LED strips. Watch this for more details:
+Design Update! The AllPixelMini! Where to Buy North America  Tindie MCM Electronics  Worldwide  Seeed  Europe  DigitalMeans (UK) Robot-Italy  Australia  TronixLabs Little Bird Electronics Pakronics  New Zealand  NiceGear  Getting Started AllPixel Quick Start Guide.
+It will walk you through every step.</description>
+    </item>
+    
+    <item>
+      <title>Platypus</title>
+      <link>https://ManiacalLabs.com/products/platypus/</link>
+      <pubDate>Sun, 26 Oct 2014 14:06:27 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/products/platypus/</guid>
+      <description> window.location.replace(&#34;https:\/\/www.tindie.com\/products\/ManiacalLabs\/platypus-2-axis-laserservo-controller\/&#34;);  </description>
+    </item>
+    
+    <item>
+      <title>USB Switch Buddy</title>
+      <link>https://ManiacalLabs.com/products/usbswitchbuddy/</link>
+      <pubDate>Tue, 23 Oct 2018 18:27:25 -0400</pubDate>
+      
+      <guid>https://ManiacalLabs.com/products/usbswitchbuddy/</guid>
+      <description> window.location.replace(&#34;https:\/\/www.tindie.com\/products\/ManiacalLabs\/usb-switch-buddy\/&#34;);  </description>
+    </item>
+    
+    <item>
+      <title>PiPixel</title>
+      <link>https://ManiacalLabs.com/products/pipixel/</link>
+      <pubDate>Sat, 12 Aug 2017 22:48:09 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/products/pipixel/</guid>
+      <description> window.location.replace(&#34;https:\/\/www.tindie.com\/products\/ManiacalLabs\/pipixel-raspberry-pi-led-strip-hat\/&#34;);  </description>
+    </item>
+    
+    <item>
+      <title>Super7Seg</title>
+      <link>https://ManiacalLabs.com/products/super7seg/</link>
+      <pubDate>Fri, 17 Mar 2017 00:46:59 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/products/super7seg/</guid>
+      <description> window.location.replace(&#34;https:\/\/www.tindie.com\/products\/10799\/&#34;);  </description>
+    </item>
+    
+  </channel>
+</rss>

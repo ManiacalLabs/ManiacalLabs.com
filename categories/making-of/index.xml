@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Making Of on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/making-of/</link>
+    <description>Recent content in Making Of on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Jun 2016 12:32:38 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/making-of/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jumbo1K: 32x32 LED Networked Display</title>
+      <link>https://ManiacalLabs.com/2016/06/28/jumbo1k-32x32-led-networked-display/</link>
+      <pubDate>Tue, 28 Jun 2016 12:32:38 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2016/06/28/jumbo1k-32x32-led-networked-display/</guid>
+      <description>Over two years ago, I bought this awesome display panel:                                1484-02
+  
+It&amp;rsquo;s a 7.5&amp;rdquo; square, 32x32 resolution, 6mm LED spacing, panel that would normally be used for digital signage. Though it is a &amp;ldquo;dumb&amp;rdquo; display that requires CPU intensive multiplexing (it&amp;rsquo;s supposed to be driven by an FPGA or ASIC), with the right tools it can be way easier to use than building, ahem, other types of displays ;) I have covered this exact panel a few other times, but after a couple years of sitting in my LED storage it was time to finally make it something awesome.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Project: NExuS</title>
+      <link>https://ManiacalLabs.com/2015/07/27/weekend-project-nexus/</link>
+      <pubDate>Mon, 27 Jul 2015 14:34:18 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/07/27/weekend-project-nexus/</guid>
+      <description>NExuS
+   Introduction I&amp;rsquo;ve had an NES (my wife&amp;rsquo;s actual childhood NES, in fact) sitting in my parts drawer, with the intent of ripping it apart, gutting it, and jamming in a Raspberry Pi to make an awesome emulation box since&amp;hellip; well, ever since the Raspberry Pi came out.</description>
+    </item>
+    
+    <item>
+      <title>Loading KiCad dimensions into 123D Design</title>
+      <link>https://ManiacalLabs.com/2015/05/27/loading-kicad-dimensions-into-123d-design/</link>
+      <pubDate>Wed, 27 May 2015 13:00:12 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/05/27/loading-kicad-dimensions-into-123d-design/</guid>
+      <description>PCBtoCase
+   As the AllPixel Kickstarter neared an end, we wanted to make design files for a case available for anyone wanting to 3D print their own. However, neither of us are particularly well versed in 3D design, and the usual method of breaking out the calipers to laboriously measure all of the final board dimensions seemed silly when all the dimension and placement data was right there in KiCad.</description>
+    </item>
+    
+    <item>
+      <title>FFT Audio Animation with BiblioPixel and the AllPixel</title>
+      <link>https://ManiacalLabs.com/2014/11/25/fft-audio-animation-with-bibliopixel-and-the-allpixel/</link>
+      <pubDate>Tue, 25 Nov 2014 13:00:15 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/25/fft-audio-animation-with-bibliopixel-and-the-allpixel/</guid>
+      <description>We showed off this fun little piece of code in the AllPixel Kickstarter introduction video, but never really got into the details of how that audio animation really worked.
+The animation in the introduction video and the video above uses a Fast Fourier Transform to analyze the audio coming into the computer&amp;rsquo;s mic/line-in and generate an intensity map for various frequency ranges in the audio signal. FFT is some really hardcore math, so instead of trying to explain the details of how it, and the python code, works see this post (and it&amp;rsquo;s links) on the blog of Scott Harden.</description>
+    </item>
+    
+    <item>
+      <title>POVStick - Setup and Test Video</title>
+      <link>https://ManiacalLabs.com/2014/11/20/povstick-setup-and-test/</link>
+      <pubDate>Thu, 20 Nov 2014 13:00:12 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/20/povstick-setup-and-test/</guid>
+      <description>[embed]https://www.youtube.com/watch?v=iVkrJvPa0ow[/embed]
+Just a short video showing some of the setup and testing of the POVStick, and the results of a very cold night walking around the back yard with a blinking stick. For more info, check out the AllPixel and this blog post.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Project: POVStick</title>
+      <link>https://ManiacalLabs.com/2014/11/19/weekend-project-povstick/</link>
+      <pubDate>Wed, 19 Nov 2014 13:15:51 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/19/weekend-project-povstick/</guid>
+      <description>To showcase how much the AllPixel and BiblioPixel can simplify your projects, we wanted to put together a fun project that really highlighted their versatility. So we decided to build a persistence of vision light painter, or POVStick as we keep calling it.
+The POVStick consists of 2 meters of 48 LED/m LPD8806 strips, for a total of 96 pixels vertical resolution. This is controlled by an AllPixel connected to a Raspberry Pi B+ with a USB WiFi module.</description>
+    </item>
+    
+    <item>
+      <title>Fun with the MSGEQ7 Graphic Equalizer Chip</title>
+      <link>https://ManiacalLabs.com/2014/09/30/msgeq7-1/</link>
+      <pubDate>Tue, 30 Sep 2014 13:00:50 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/09/30/msgeq7-1/</guid>
+      <description>Not much today. Just a pair of videos from some testing I&amp;rsquo;ve been doing with the MSGEQ7 Graphic Equalizer Display Filter chip. The first one shows the waveform of the analog output of the chip.
+The second video shows what happens when you take that output and parse it out to a bunch of LPD8806 lights.
+If these experiments go any further, I&amp;rsquo;ll do a more in-depth post with code and schematics and stuff.</description>
+    </item>
+    
+    <item>
+      <title>24x24 LED Matrix Build </title>
+      <link>https://ManiacalLabs.com/2014/08/19/24x24-led-matrix-build/</link>
+      <pubDate>Tue, 19 Aug 2014 13:00:13 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/08/19/24x24-led-matrix-build/</guid>
+      <description>This project was briefly teased before, but it seemed like a good time for more details. Originally conceived as a coffee table build,it quickly morphed into what will eventually become a wall hanging and has been a test-bed for a lot of my LED work. Having worked a great deal with a variety of these digital LED strips, I noticed that in most cases they were manufactured in 0.</description>
+    </item>
+    
+    <item>
+      <title>Sunrise Alarm Clock - Prototype</title>
+      <link>https://ManiacalLabs.com/2014/07/29/sunrise-alarm-clock-prototype/</link>
+      <pubDate>Tue, 29 Jul 2014 13:00:01 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/07/29/sunrise-alarm-clock-prototype/</guid>
+      <description>While I rarely sleep past 6am, or sleep at all for that matter, my wife does require an alarm clock from time to time. After a recent few days of her alarm going off right in the middle of a R.E.M. sleep cycle she mentioned a desire for a more gentle alarm. I&amp;rsquo;ve seen those sunrise alarm clock lights many times before, but they but they are a bit pricey and she didn&amp;rsquo;t want a light that would be right next to the bed.</description>
+    </item>
+    
+    <item>
+      <title>Naming the PrismaChron</title>
+      <link>https://ManiacalLabs.com/2013/11/14/naming-the-prismachron/</link>
+      <pubDate>Thu, 14 Nov 2013 14:46:11 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/14/naming-the-prismachron/</guid>
+      <description>Designing the PrismaChron was actually kind of easy compared to naming it. We went through a few:
+ Rainbow Clock Color Clock ChromaChron ChronoChroma Color Time ChromataChron LumiChron HueTime ChronoChrome ColorChron ChronBow ChronoChromatic SpectraChron Spectrum Clock RGBTime Many more variations on this theme.  Many of them were ruled out pretty quickly with a quick web search. SpectraChron, for example was dangerously close to SpectraCron (no &amp;ldquo;h&amp;rdquo;) which was a trademarked brand of paint.</description>
+    </item>
+    
+    <item>
+      <title>Building the PrismaChron: Diffusers</title>
+      <link>https://ManiacalLabs.com/2013/11/12/building-the-prismachron-diffusers/</link>
+      <pubDate>Tue, 12 Nov 2013 14:50:29 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/12/building-the-prismachron-diffusers/</guid>
+      <description>The PrismaChron (not its first name, more on that in another post) has been in the works for quite a long time. Longer even than the Binary Epoch Clock. We&amp;rsquo;ve spent that time truly fine-tuning every little aspect of it in an effort to make it a fantastic little kit that we can be proud of. Being a clock that displays its time as color, getting it just right was very important to us and that meant getting the LED diffusion perfect.</description>
+    </item>
+    
+  </channel>
+</rss>

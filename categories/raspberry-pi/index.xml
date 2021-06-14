@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspberry Pi on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/raspberry-pi/</link>
+    <description>Recent content in Raspberry Pi on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Jun 2015 18:23:57 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>From the Forum: Gazebo Lighting Prototype</title>
+      <link>https://ManiacalLabs.com/2015/06/22/from-the-forum-gazebo-lighting-prototype/</link>
+      <pubDate>Mon, 22 Jun 2015 18:23:57 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/06/22/from-the-forum-gazebo-lighting-prototype/</guid>
+      <description>[landgrvi] has been posting in the Maniacal Labs forum about some awesome gazebo lighting he has been working on. He&amp;rsquo;s using the new LEDCircle class to run some really neat circular animations.
+Check out this awesome small scale prototype!
+  </description>
+    </item>
+    
+    <item>
+      <title>Faster Raspberry Pi!</title>
+      <link>https://ManiacalLabs.com/2015/02/05/faster-raspberry-pi/</link>
+      <pubDate>Thu, 05 Feb 2015 13:00:51 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/02/05/faster-raspberry-pi/</guid>
+      <description>Previously, I talked about the ODROID-C1 as a possible, faster alternative to the Raspberry Pi. Well, there&amp;rsquo;s a reason I haven&amp;rsquo;t mentioned it again&amp;hellip; the software is a mess. It just doesn&amp;rsquo;t have the community around it that the Pi does. Most disappointing was that their USB Serial kernel driver was a total mess and would not work with the AllPixel :( So, that&amp;rsquo;s why I&amp;rsquo;m so excited about the new Raspberry Pi 2!</description>
+    </item>
+    
+  </channel>
+</rss>

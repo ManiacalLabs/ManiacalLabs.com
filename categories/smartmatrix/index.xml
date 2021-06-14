@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smartmatrix on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/smartmatrix/</link>
+    <description>Recent content in Smartmatrix on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Jun 2015 03:44:14 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/smartmatrix/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BiblioPixel Controlling a Jumbotron...</title>
+      <link>https://ManiacalLabs.com/2015/06/01/bibliopixel-controlling-a-jumbotron/</link>
+      <pubDate>Tue, 02 Jun 2015 03:44:14 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/06/01/bibliopixel-controlling-a-jumbotron/</guid>
+      <description>&amp;hellip; sub-panel. Couldn&amp;rsquo;t resist the mild click-bait there :) As you can see in the video above; no, not a full-on jumbotron, but just a single 32x32 panel designed for digital billboards. I&amp;rsquo;ve had one sitting in my parts drawer for nearly a year&amp;hellip; But yesterday, the awesome 1-Pixel PacMan post on HackADay gave me enough of a push to finally pull it out and get hacking.</description>
+    </item>
+    
+  </channel>
+</rss>

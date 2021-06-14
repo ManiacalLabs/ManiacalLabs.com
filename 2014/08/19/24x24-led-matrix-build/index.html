@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta name="generator" content="Hugo 0.54.0" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> 24x24 LED Matrix Build  </title>
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  <meta name="author" content="adam">
+
+
+  <meta property="og:title" content="24x24 LED Matrix Build " />
+<meta property="og:description" content="This project was briefly teased before, but it seemed like a good time for more details. Originally conceived as a coffee table build,it quickly morphed into what will eventually become a wall hanging and has been a test-bed for a lot of my LED work. Having worked a great deal with a variety of these digital LED strips, I noticed that in most cases they were manufactured in 0." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ManiacalLabs.com/2014/08/19/24x24-led-matrix-build/" />
+<meta property="article:published_time" content="2014-08-19T13:00:13&#43;00:00"/>
+<meta property="article:modified_time" content="2014-08-19T13:00:13&#43;00:00"/>
+
+  
+
+  
+  
+  
+  
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-41371810-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  
+
+  <link rel="canonical" href="https://ManiacalLabs.com/2014/08/19/24x24-led-matrix-build/">  
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  <link rel="shortcut icon" type="image/png" href="data:image/png;base64,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">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+
+  <link href="https://ManiacalLabs.com/css/font.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/kube.min.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/kube.legenda.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/highlight.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/master.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/kube.demo.css" rel="stylesheet" type="text/css">
+
+ <link href="https://ManiacalLabs.com/css/custom.css" rel="stylesheet" type="text/css">
+
+  <script src="https://ManiacalLabs.com/js/jquery-2.1.4.min.js" type="text/javascript">
+  </script>
+
+  <script type="text/javascript" src="https://ManiacalLabs.com/js/tocbot.min.js"></script>
+
+  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/d7b7e2f1b852bedbcc9503f71/24f91ff71f999da17a5b29481.js");</script>
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#f36926",
+        "text": "#000000"
+      },
+      "button": {
+        "background": "#000000",
+        "text": "#f36926"
+      }
+    },
+    "position": "top",
+    "static": true,
+    "theme": "edgeless"
+  })});
+  </script>
+
+</head>
+
+
+<body class="page-kube">
+  <header> <div class="show-sm">
+    <div id="nav-toggle-box">
+      <div id="nav-toggle-brand">
+        <a href="https://ManiacalLabs.com/">Maniacal Labs</a>
+      </div><a data-component="toggleme" data-target="#top" href="#" id="nav-toggle"><i class="kube-menu"></i></a>
+    </div>
+  </div>
+  <div class="hide-sm" id="top">
+    <div id="top-brand">
+      <a href="https://ManiacalLabs.com/" title="home"><img src="https://ManiacalLabs.com/images/logo-beaker.png"></a>
+    </div>
+    <nav id="top-nav-main">
+      <ul>
+       
+       
+    <li><a href="https://ManiacalLabs.com/products/" >Products</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/posts/" >Blog</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/projects/" >Projects</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/buildlog/" >Build Log</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/about/" >About</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/contact/" >Contact</a></li>
+    
+        <li><a href="http://GitHub.com/ManiacalLabs"><i class="fab fa-github"></i></a></li>
+<li><a href="http://twitter.com/ManiacalLabs"><i class="fab fa-twitter"></i></a></li>
+<li><a href="http://Facebook.com/ManiacalLabs"><i class="fab fa-facebook"></i></a></li>
+<li><a href="http://Instagram.com/ManiacalLabs"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </nav>
+    <nav id="top-nav-extra">
+      <ul>
+        
+      </ul>
+    </nav>
+  </div>
+ </header>
+  <main>
+
+<div id="hero" class="wrap">
+  <h1>24x24 LED Matrix Build </h1>
+    <p></p>
+</div>
+<ul id="posts">
+
+ <p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube-nocookie.com/embed/yE_N2OHX2uU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+This project was briefly <a href="https://ManiacalLabs.com/2014/05/05/nc-maker-faire-teaser/">teased before</a>, but it seemed like a good time for more details. Originally conceived as a coffee table build,it quickly morphed into what will eventually become a wall hanging and has been a test-bed for a lot of my LED work. Having worked a great deal with a variety of these digital LED strips, I noticed that in most cases they were manufactured in 0.5m sections and soldered together to form 5m strips. This is usually fine, but also means that the distance between pixels at the solder joint is 2-3mm shorter than the rest of the pixels. Being the type of person that wouldn&rsquo;t be able to stop twitching over a few pixels in a matrix being misaligned from the rest, this just wouldn&rsquo;t do. So the best solution was to make each row out of exactly one of these sub-sections so that all pixels are perfectly aligned. Not wanting to un-solder all of the joints to get at the 0.5m sections, I reached out to the manufacturer I typically order from in China about getting the strips in the raw sub-sections. Fortunately, they obliged. <!-- more --> Armed with 24 half meter sections of LPD8806 strips, each with 24 pixels, I got to work laying out an evenly spaced grid on a sheet of acrylic.</p>
+
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://ManiacalLabs.com/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://ManiacalLabs.com/css/hugo-easy-gallery.css" />
+
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://ManiacalLabs.com/wp-content/galleries/2014-08-19-24x24-led-matrix-build/0//IMG_20140422_220343.jpg');" >
+				      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/galleries/2014-08-19-24x24-led-matrix-build/0//IMG_20140422_220343.jpg" alt="I m g 20140422 220343" />
+				    </div>
+			      <figcaption>
+		          <p>I m g 20140422 220343</p>
+			      </figcaption>
+				    <a href="https://ManiacalLabs.com/wp-content/galleries/2014-08-19-24x24-led-matrix-build/0//IMG_20140422_220343.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://ManiacalLabs.com/wp-content/galleries/2014-08-19-24x24-led-matrix-build/0//IMG_20140423_001418.jpg');" >
+				      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/galleries/2014-08-19-24x24-led-matrix-build/0//IMG_20140423_001418.jpg" alt="I m g 20140423 001418" />
+				    </div>
+			      <figcaption>
+		          <p>I m g 20140423 001418</p>
+			      </figcaption>
+				    <a href="https://ManiacalLabs.com/wp-content/galleries/2014-08-19-24x24-led-matrix-build/0//IMG_20140423_001418.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+</div>
+
+<p>After a couple laborious hours of laying out a perfect grid with a 24&rdquo; square and a lot of patience, I taped each of the LED strips with a rubber adhesive based strapping tape which I&rsquo;ve found adheres extremely well to acrylic. Since it had to be wired as one continuous strip, the direction of each was alternated for every row. But first, power buses need to be created to provide the almost 34A (@5V) current the 576 pixels could draw. Originally, I wanted to design a 0.5m long PCB that would handle all of the power and signal routing. But I quickly figured out that I would need two separate designs (the signal pins are farther apart on one side than the other) and that a PCB that long, even a thin one, would cost nearly $75, per design, from <a href="http://oshpark.com">OSHPark</a>. $150 for power and signal routing was just too expensive for this project, so I had to find a simpler solution. Using large gauge wire seemed logical at first but stripping all of the insulation in the right place and soldering would be finicky. <a href="http://www.amazon.com/gp/product/B007Y7FV2O/ref=wms_ohs_product?ie=UTF8&amp;psc=1">Copper tape</a> came to the rescue; providing enough of a current capacity, in an extremely low profile. Not enough to carry all of the current on a single bus, but this many LEDs always works best with many small power buses since 5V doesn&rsquo;t allow for much voltage loss over the length of the power run. The copper tape was laid out in 4 separate buses at the end of each row so that I could use very short jumpers to wire each strip to the bus. Soldering each jumper to took a bit of finesse, since each strip acted as a huge heat sink meaning heat had to be held to the joints for a long time, but not so long as to melt the adhesive or the acrylic beneath. I started by scuffing up the copper with some 100 grit sandpaper and then held my iron to the top of the wire (or the small bit of copper tape I used for the ground bus) and melting the solder into that from the top until it adhered to the bus.</p>
+
+
+
+
+
+
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://ManiacalLabs.com/wp-content/galleries/2014-08-19-24x24-led-matrix-build/1//IMG_20140423_210432.jpg');" >
+				      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/galleries/2014-08-19-24x24-led-matrix-build/1//IMG_20140423_210432.jpg" alt="I m g 20140423 210432" />
+				    </div>
+			      <figcaption>
+		          <p>I m g 20140423 210432</p>
+			      </figcaption>
+				    <a href="https://ManiacalLabs.com/wp-content/galleries/2014-08-19-24x24-led-matrix-build/1//IMG_20140423_210432.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://ManiacalLabs.com/wp-content/galleries/2014-08-19-24x24-led-matrix-build/1//IMG_20140423_233608.jpg');" >
+				      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/galleries/2014-08-19-24x24-led-matrix-build/1//IMG_20140423_233608.jpg" alt="I m g 20140423 233608" />
+				    </div>
+			      <figcaption>
+		          <p>I m g 20140423 233608</p>
+			      </figcaption>
+				    <a href="https://ManiacalLabs.com/wp-content/galleries/2014-08-19-24x24-led-matrix-build/1//IMG_20140423_233608.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://ManiacalLabs.com/wp-content/galleries/2014-08-19-24x24-led-matrix-build/1//IMG_20140423_233628.jpg');" >
+				      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/galleries/2014-08-19-24x24-led-matrix-build/1//IMG_20140423_233628.jpg" alt="I m g 20140423 233628" />
+				    </div>
+			      <figcaption>
+		          <p>I m g 20140423 233628</p>
+			      </figcaption>
+				    <a href="https://ManiacalLabs.com/wp-content/galleries/2014-08-19-24x24-led-matrix-build/1//IMG_20140423_233628.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+</div>
+
+<p>Next up was wiring up all of the data and clock lines. Since the strips alternate directions with each row, one side of the matrix had data and clock pins right next to one another and the other required longer wires that jumped over the power lines. If you start twitching looking at the wire colors on each side&hellip; yes, I totally switched data and clock colors between sides. Oops. But with nearly 300 intricate joints to solder in total, it took me three long evenings and a couple movie trilogies to complete. Last was to connect the power bus wires that would connect to a 40A @5V supply and the input signal lines for hookup to the controller. The power lines were connected using some 10 gauge stranded core wire and the signals lines with a long length of phone cable. On the signal wire I also hooked up the ground, for a common signal ground, and 5V line to use for a level converter reference. I always use <a href="http://www.adafruit.com/products/757">this converter</a> from Adafruit for prototyping.</p>
+
+
+
+
+
+
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://ManiacalLabs.com/wp-content/galleries/2014-08-19-24x24-led-matrix-build/2//IMG_20140425_172343.jpg');" >
+				      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/galleries/2014-08-19-24x24-led-matrix-build/2//IMG_20140425_172343.jpg" alt="I m g 20140425 172343" />
+				    </div>
+			      <figcaption>
+		          <p>I m g 20140425 172343</p>
+			      </figcaption>
+				    <a href="https://ManiacalLabs.com/wp-content/galleries/2014-08-19-24x24-led-matrix-build/2//IMG_20140425_172343.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://ManiacalLabs.com/wp-content/galleries/2014-08-19-24x24-led-matrix-build/2//IMG_20140425_172349.jpg');" >
+				      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/galleries/2014-08-19-24x24-led-matrix-build/2//IMG_20140425_172349.jpg" alt="I m g 20140425 172349" />
+				    </div>
+			      <figcaption>
+		          <p>I m g 20140425 172349</p>
+			      </figcaption>
+				    <a href="https://ManiacalLabs.com/wp-content/galleries/2014-08-19-24x24-led-matrix-build/2//IMG_20140425_172349.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+</div>
+
+<p>On top of all this, at least for now, was placed another sheet of acrylic to make sure nothing touches the power buses or signal lines (especially curious small fingers at the <a href="https://ManiacalLabs.com/nc-maker-faire-2014/">NC Maker Faire!</a>). 
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://ManiacalLabs.com/wp-content/uploads/2014/08/IMG_20140818_141108.jpg%29%20Check%20the%20video%20at%20the%20top%20of%20this%20post%20for%20an%20example%20of%20some%20of%20the%20animations%20I%20have%20programmed%20for%20the%20display.%20It%20is%20capable%20of%20being%20driven%20from%20an%20Arduino,%20Raspberry%20Pi,%20Beagle%20Bone,%20or%20similar.%20In%20the%20case%20of%20the%20above%20example,%20it%20is%20being%20driven%20directly%20by%20the%20SPI%20port%20on%20a%20Raspberry%20Pi%20Model%20B%20using%20a%20ground-up%20rewrite%20of%20my%20[RPi-LPD8806%20Library]%28https://github.com/adammhaile/RPi-LPD8806" alt="Matrix Display on Stand"/>
+    </div>
+    <a href="https://ManiacalLabs.com/wp-content/uploads/2014/08/IMG_20140818_141108.jpg%29%20Check%20the%20video%20at%20the%20top%20of%20this%20post%20for%20an%20example%20of%20some%20of%20the%20animations%20I%20have%20programmed%20for%20the%20display.%20It%20is%20capable%20of%20being%20driven%20from%20an%20Arduino,%20Raspberry%20Pi,%20Beagle%20Bone,%20or%20similar.%20In%20the%20case%20of%20the%20above%20example,%20it%20is%20being%20driven%20directly%20by%20the%20SPI%20port%20on%20a%20Raspberry%20Pi%20Model%20B%20using%20a%20ground-up%20rewrite%20of%20my%20[RPi-LPD8806%20Library]%28https://github.com/adammhaile/RPi-LPD8806" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Matrix Display on Stand</p>
+      </figcaption>
+  </figure>
+</div> that has been modified to handle all of the hard tasks related to controlling matrices made of LED strips. More info on that new library will be coming soon in an exciting update!</p>
+
+  
+</ul>
+</main>
+  <footer> 
+    <footer id="footer">
+    <nav>
+      <ul>
+        
+        
+       <li><a href="https://ManiacalLabs.com/products/" >Products</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/posts/" >Blog</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/projects/" >Projects</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/buildlog/" >Build Log</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/about/" >About</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/contact/" >Contact</a></li>
+       
+       <li><a href="http://GitHub.com/ManiacalLabs"><i class="fab fa-github"></i></a></li>
+<li><a href="http://twitter.com/ManiacalLabs"><i class="fab fa-twitter"></i></a></li>
+<li><a href="http://Facebook.com/ManiacalLabs"><i class="fab fa-facebook"></i></a></li>
+<li><a href="http://Instagram.com/ManiacalLabs"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2018 Maniacal Labs, LLC</p>
+  </footer> 
+</footer>
+
+
+  <script src="https://ManiacalLabs.com/js/kube.js" type="text/javascript">
+  </script>
+  <script src="https://ManiacalLabs.com/js/kube.legenda.js" type="text/javascript">
+  </script>
+  <script src="https://ManiacalLabs.com/js/master.js" type="text/javascript">
+  </script>
+</body>
+
+</html>

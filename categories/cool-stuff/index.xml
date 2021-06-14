@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cool Stuff on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/cool-stuff/</link>
+    <description>Recent content in Cool Stuff on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Jan 2017 15:36:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/cool-stuff/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>From the Forum: Project Northern Lights</title>
+      <link>https://ManiacalLabs.com/2017/01/23/from-the-forum-project-northern-lights/</link>
+      <pubDate>Mon, 23 Jan 2017 15:36:29 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2017/01/23/from-the-forum-project-northern-lights/</guid>
+      <description>Hello! We&amp;rsquo;re not dead yet! Now that the holidays are behind us, we&amp;rsquo;re going to get back into the swing of posting more content on a regular basis. We&amp;rsquo;ve got some neat things coming up, so stay tuned. In the meantime, check out this Freaking Awesome arcade joystick built by forum user [mlapsa]. BiblioPixel was used to control the LED strips inside of the wood and Lexan case. Excellent work!</description>
+    </item>
+    
+    <item>
+      <title>The force (push) is strong with this one...</title>
+      <link>https://ManiacalLabs.com/2016/07/25/the-force-push-is-strong-with-this-one/</link>
+      <pubDate>Mon, 25 Jul 2016 15:21:43 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2016/07/25/the-force-push-is-strong-with-this-one/</guid>
+      <description>Git is awesome. It&amp;rsquo;s not just open source, but in the last few years, with the help of sites like GitHub, it has cemented itself as the source control software for open source. At Maniacal Labs we use it for everything and the same goes at my day job with Red Hat. At the latter, I&amp;rsquo;ve found myself having to use the &amp;ldquo;push &amp;ndash;force&amp;rdquo; option a lot recently due to some oddities with the way our code review process works (that&amp;rsquo;s a much longer post for another time) and of course the joke about it being a &amp;ldquo;force push&amp;rdquo;, as in Star Wars, came up a lot.</description>
+    </item>
+    
+    <item>
+      <title>Jumbo1K: 32x32 LED Networked Display</title>
+      <link>https://ManiacalLabs.com/2016/06/28/jumbo1k-32x32-led-networked-display/</link>
+      <pubDate>Tue, 28 Jun 2016 12:32:38 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2016/06/28/jumbo1k-32x32-led-networked-display/</guid>
+      <description>Over two years ago, I bought this awesome display panel:                                1484-02
+  
+It&amp;rsquo;s a 7.5&amp;rdquo; square, 32x32 resolution, 6mm LED spacing, panel that would normally be used for digital signage. Though it is a &amp;ldquo;dumb&amp;rdquo; display that requires CPU intensive multiplexing (it&amp;rsquo;s supposed to be driven by an FPGA or ASIC), with the right tools it can be way easier to use than building, ahem, other types of displays ;) I have covered this exact panel a few other times, but after a couple years of sitting in my LED storage it was time to finally make it something awesome.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Project: NExuS</title>
+      <link>https://ManiacalLabs.com/2015/07/27/weekend-project-nexus/</link>
+      <pubDate>Mon, 27 Jul 2015 14:34:18 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/07/27/weekend-project-nexus/</guid>
+      <description>NExuS
+   Introduction I&amp;rsquo;ve had an NES (my wife&amp;rsquo;s actual childhood NES, in fact) sitting in my parts drawer, with the intent of ripping it apart, gutting it, and jamming in a Raspberry Pi to make an awesome emulation box since&amp;hellip; well, ever since the Raspberry Pi came out.</description>
+    </item>
+    
+    <item>
+      <title>WyoLum TinyTiM Available</title>
+      <link>https://ManiacalLabs.com/2015/04/01/wyolum-tinytim-available/</link>
+      <pubDate>Wed, 01 Apr 2015 23:30:15 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/04/01/wyolum-tinytim-available/</guid>
+      <description>We&amp;rsquo;ve shown off pre-production versions before, but our friends at WyoLum have just made the awesome TinyTiM available!
+The TinyTiM, much like their larger TiM, is an awesome, well-made (by the same manufacturer as the AllPixel!), and versatile 8x8 LED matrix based on the WS2812 LED. And it&amp;rsquo;s 100% compatible with the AllPixel!
+As usual, Justin from WyoLum is super awesome and sent us some early production boards&amp;hellip;
+                               WyoCube</description>
+    </item>
+    
+    <item>
+      <title>MSP430 Nixie Clock By Rob</title>
+      <link>https://ManiacalLabs.com/2015/03/11/msp430-nixie-clock-by-rob/</link>
+      <pubDate>Wed, 11 Mar 2015 13:00:32 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/03/11/msp430-nixie-clock-by-rob/</guid>
+      <description>MSP430NixeTubeClock-11
+  
+I saw this kit come up in Tindie&amp;rsquo;s twitter feed, and instantly knew that I wanted one. It&amp;rsquo;s relatively inexpensive, not very complex, and it looks amazing (especially with the acrylic front and back plates).</description>
+    </item>
+    
+    <item>
+      <title>The ESP8266: Taking the New Hotness for a Spin</title>
+      <link>https://ManiacalLabs.com/2015/02/16/esp8266-the-new-hotness/</link>
+      <pubDate>Mon, 16 Feb 2015 14:29:10 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/02/16/esp8266-the-new-hotness/</guid>
+      <description>ESP8266
+   You’ve probably heard about this little module by now; a cheap, wifi-enabled bit of wizardry that is all the rage. Using serial communication, you can talk to the device and send commands out to the interwebs.</description>
+    </item>
+    
+    <item>
+      <title>Faster Raspberry Pi!</title>
+      <link>https://ManiacalLabs.com/2015/02/05/faster-raspberry-pi/</link>
+      <pubDate>Thu, 05 Feb 2015 13:00:51 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/02/05/faster-raspberry-pi/</guid>
+      <description>Previously, I talked about the ODROID-C1 as a possible, faster alternative to the Raspberry Pi. Well, there&amp;rsquo;s a reason I haven&amp;rsquo;t mentioned it again&amp;hellip; the software is a mess. It just doesn&amp;rsquo;t have the community around it that the Pi does. Most disappointing was that their USB Serial kernel driver was a total mess and would not work with the AllPixel :( So, that&amp;rsquo;s why I&amp;rsquo;m so excited about the new Raspberry Pi 2!</description>
+    </item>
+    
+    <item>
+      <title>Mail Bag Monday - 8000 LEDs Edition</title>
+      <link>https://ManiacalLabs.com/2015/02/02/mail-bag-monday-8000-leds-edition/</link>
+      <pubDate>Mon, 02 Feb 2015 14:00:08 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/02/02/mail-bag-monday-8000-leds-edition/</guid>
+      <description>Time for everyone&amp;rsquo;s favorite segment&amp;hellip; err, never done this one before. And it&amp;rsquo;s something we ordered&amp;hellip; but for other people, so we&amp;rsquo;ll say it counts.
+For the awesome folks at TriEmbed, our local electronics enthusiast group, we decided to put together a bulk order of LEDs with the manufacturer we are using for the AllPixel Kickstarter rewards. It&amp;rsquo;s not everyday you get $2000 worth (more like $5000 street value) of LEDs in the mail, so it seemed best to document the unboxing.</description>
+    </item>
+    
+    <item>
+      <title>Adafruit Matrix Hat Support for BiblioPixel</title>
+      <link>https://ManiacalLabs.com/2015/01/23/adafruit-matrix-hat-support-for-bibliopixel/</link>
+      <pubDate>Fri, 23 Jan 2015 12:57:53 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/01/23/adafruit-matrix-hat-support-for-bibliopixel/</guid>
+      <description>So, last week, Adafruit launched this little beauty. Having just acquired a handful of Pi B+ and A+ boards and already having a 32x32 matrix that I&amp;rsquo;d been meaning to use, this was a complete insta-buy™. And, of course, I had to make it work with BiblioPixel! Well, it showed up last night and the coding commenced!
+Fortunately, Adafruit already had a library ready to go with a handy python wrapper, since the main code is all C.</description>
+    </item>
+    
+    <item>
+      <title>ThinkGeek Wooden Clock Build</title>
+      <link>https://ManiacalLabs.com/2015/01/07/thinkgeek-wooden-clock-build/</link>
+      <pubDate>Thu, 08 Jan 2015 00:01:09 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/01/07/thinkgeek-wooden-clock-build/</guid>
+      <description>What&amp;rsquo;s this?! Wood?! There&amp;rsquo;s not even any lights!!
+True, but it was a fun build, and I might put some kind of light-up something or other on/near it, but I really like how it looks by itself. Anything added would only be to accent it. For now, here it is; working. Most of the time.
+The above video is the result of a few days work putting together this awesome wooden clock kit from ThinkGeek.</description>
+    </item>
+    
+    <item>
+      <title>Single Board Linux Computer Rundown</title>
+      <link>https://ManiacalLabs.com/2015/01/01/single-board-linux-computer-rundown/</link>
+      <pubDate>Thu, 01 Jan 2015 14:48:54 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/01/01/single-board-linux-computer-rundown/</guid>
+      <description>Happy New Year!
+While one of the many reasons we created the AllPixel was to be able to control LED strips from &amp;ldquo;traditional&amp;rdquo; desktops and laptops (with the extra processing power they provide), we are always on the lookout for something smaller and cheaper that can just be left in a project. We talked a lot about the ever popular Raspberry Pi and Beagle Bone Black, but as this list from LinuxGizmos.</description>
+    </item>
+    
+    <item>
+      <title>More Fun With the AllPixel and TinyTiM</title>
+      <link>https://ManiacalLabs.com/2014/12/16/allpixel-and-tinytim-usb-led-matrix/</link>
+      <pubDate>Tue, 16 Dec 2014 13:00:53 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/12/16/allpixel-and-tinytim-usb-led-matrix/</guid>
+      <description>As a follow-on to our previous article on the TiM and TinyTiM displays from WyoLum, I wanted to demonstrate some of the flexibility of the AllPixel in terms of how well it can pair with already existing products. The TinyTim is an as-yet-unreleased product from WyoLum, but it will be dropping soon. It&amp;rsquo;s really a slick board, consisting of 64 WS2812 LEDs arranged in an 8x8 grid. There are plenty of connections on the back of the PCB to easily wire together multiple displays, in either parallel or serial data transfer configurations.</description>
+    </item>
+    
+    <item>
+      <title>Binary Epoch Christmas Tree</title>
+      <link>https://ManiacalLabs.com/2014/12/09/binary-epoch-christmas-tree/</link>
+      <pubDate>Tue, 09 Dec 2014 13:00:21 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/12/09/binary-epoch-christmas-tree/</guid>
+      <description>So I have 15 meters of LPD8806 programmable LED lights on my fake Christmas tree. But I feel I can up the Nerd quotient even more.
+Inspired by the Binary Epoch Clock kit, I added an animation to the tree that turns it into a giant unreadable binary clock. The lights are controlled by a RasPi running the BiblioPixel library, with the AllPixel making the hardware interfacing a snap.
+Unix epoch time (number of seconds since 12:00am Jan 1 1970) is represented in binary notation.</description>
+    </item>
+    
+    <item>
+      <title>FFT Audio Animation with BiblioPixel and the AllPixel</title>
+      <link>https://ManiacalLabs.com/2014/11/25/fft-audio-animation-with-bibliopixel-and-the-allpixel/</link>
+      <pubDate>Tue, 25 Nov 2014 13:00:15 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/25/fft-audio-animation-with-bibliopixel-and-the-allpixel/</guid>
+      <description>We showed off this fun little piece of code in the AllPixel Kickstarter introduction video, but never really got into the details of how that audio animation really worked.
+The animation in the introduction video and the video above uses a Fast Fourier Transform to analyze the audio coming into the computer&amp;rsquo;s mic/line-in and generate an intensity map for various frequency ranges in the audio signal. FFT is some really hardcore math, so instead of trying to explain the details of how it, and the python code, works see this post (and it&amp;rsquo;s links) on the blog of Scott Harden.</description>
+    </item>
+    
+    <item>
+      <title>Sharing Among the Community</title>
+      <link>https://ManiacalLabs.com/2014/11/24/sharing-among-the-community/</link>
+      <pubDate>Mon, 24 Nov 2014 13:00:43 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/24/sharing-among-the-community/</guid>
+      <description>We already knew that the open source and open hardware community was full of awesome people, but launching the AllPixel Kickstarter has just confirmed that even more. There has been an outpouring of support and advice that will certainly be helpful as we move through the final manufacturing steps.
+What has been really cool is that some other open hardware makers like us have been super excited to see how their hardware works with the AllPixel.</description>
+    </item>
+    
+    <item>
+      <title>POVStick - Setup and Test Video</title>
+      <link>https://ManiacalLabs.com/2014/11/20/povstick-setup-and-test/</link>
+      <pubDate>Thu, 20 Nov 2014 13:00:12 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/20/povstick-setup-and-test/</guid>
+      <description>[embed]https://www.youtube.com/watch?v=iVkrJvPa0ow[/embed]
+Just a short video showing some of the setup and testing of the POVStick, and the results of a very cold night walking around the back yard with a blinking stick. For more info, check out the AllPixel and this blog post.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Project: POVStick</title>
+      <link>https://ManiacalLabs.com/2014/11/19/weekend-project-povstick/</link>
+      <pubDate>Wed, 19 Nov 2014 13:15:51 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/19/weekend-project-povstick/</guid>
+      <description>To showcase how much the AllPixel and BiblioPixel can simplify your projects, we wanted to put together a fun project that really highlighted their versatility. So we decided to build a persistence of vision light painter, or POVStick as we keep calling it.
+The POVStick consists of 2 meters of 48 LED/m LPD8806 strips, for a total of 96 pixels vertical resolution. This is controlled by an AllPixel connected to a Raspberry Pi B+ with a USB WiFi module.</description>
+    </item>
+    
+    <item>
+      <title>AllPixel Week 1 Update</title>
+      <link>https://ManiacalLabs.com/2014/11/18/allpixel-week-1-update/</link>
+      <pubDate>Tue, 18 Nov 2014 13:00:42 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/18/allpixel-week-1-update/</guid>
+      <description>It has been an amazing first week! 21 Days to go and we are already at over 200% funding. Thanks so much to all our supporters!
+We&amp;rsquo;ve also announced some new stretch goals, so check those out. We feel certain we will hit the first goal in no time!
+One of the coolest things so far though is that we were featured on the Atmel blog! It&amp;rsquo;s a great honor to get some recognition from such an awesome company.</description>
+    </item>
+    
+    <item>
+      <title>We&#39;ve Kicked It!</title>
+      <link>https://ManiacalLabs.com/2014/11/09/weve-kicked-it/</link>
+      <pubDate>Mon, 10 Nov 2014 01:09:49 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/09/weve-kicked-it/</guid>
+      <description>We&amp;rsquo;re proud to announce our first Kickstarter! We&amp;rsquo;ve been quietly preparing this for months and can&amp;rsquo;t wait to see what everyone thinks. Check out the Kickstarter page for all the juicy details.</description>
+    </item>
+    
+    <item>
+      <title>Stay tuned...</title>
+      <link>https://ManiacalLabs.com/2014/11/03/stay-tuned/</link>
+      <pubDate>Mon, 03 Nov 2014 17:01:37 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/03/stay-tuned/</guid>
+      <description>We&amp;rsquo;ve been a little quiet lately. But have no fear, it&amp;rsquo;s only so that we could focus 100% on our next great endeavor.
+1 year of work. 7 prototypes. But oh, so many pixels. Something awesome coming on November 9th. Stay tuned.</description>
+    </item>
+    
+    <item>
+      <title>Fun with the MSGEQ7 Graphic Equalizer Chip</title>
+      <link>https://ManiacalLabs.com/2014/09/30/msgeq7-1/</link>
+      <pubDate>Tue, 30 Sep 2014 13:00:50 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/09/30/msgeq7-1/</guid>
+      <description>Not much today. Just a pair of videos from some testing I&amp;rsquo;ve been doing with the MSGEQ7 Graphic Equalizer Display Filter chip. The first one shows the waveform of the analog output of the chip.
+The second video shows what happens when you take that output and parse it out to a bunch of LPD8806 lights.
+If these experiments go any further, I&amp;rsquo;ll do a more in-depth post with code and schematics and stuff.</description>
+    </item>
+    
+    <item>
+      <title>Neon Lamp Logic Nixie Clock</title>
+      <link>https://ManiacalLabs.com/2014/09/30/neon-lamp-logic-nixie-clock/</link>
+      <pubDate>Tue, 30 Sep 2014 10:34:50 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/09/30/neon-lamp-logic-nixie-clock/</guid>
+      <description>Now this is just plain cool. And insane. Every once in a while I see a project that really makes me question how much I know about electronics design and this is certainly one of them. Instead of a microprocessor, or even plain-old discrete transistors, all of the logic of this clock is accomplished with nothing more than neon lamps. Whaaaat? I won&amp;rsquo;t even try to explain, but let the designer explain over on his site.</description>
+    </item>
+    
+    <item>
+      <title>FG085 MiniDDS Function Generator Build Pics</title>
+      <link>https://ManiacalLabs.com/2014/09/02/fg085buildpics/</link>
+      <pubDate>Wed, 03 Sep 2014 00:46:20 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/09/02/fg085buildpics/</guid>
+      <description>Not much for today, just a few pics from my build of this nifty kit from Sparkfun: FG085 MiniDDS Function Generator. I figure an inexpensive function generator would be a good idea to buy first and see how much I actually use it before sinking bigger bucks into a piece of full-on test gear. Overall, I&amp;rsquo;m happy with this kit, aside from a few minor quirks here and there. No show-stoppers though.</description>
+    </item>
+    
+    <item>
+      <title>24x24 LED Matrix Build </title>
+      <link>https://ManiacalLabs.com/2014/08/19/24x24-led-matrix-build/</link>
+      <pubDate>Tue, 19 Aug 2014 13:00:13 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/08/19/24x24-led-matrix-build/</guid>
+      <description>This project was briefly teased before, but it seemed like a good time for more details. Originally conceived as a coffee table build,it quickly morphed into what will eventually become a wall hanging and has been a test-bed for a lot of my LED work. Having worked a great deal with a variety of these digital LED strips, I noticed that in most cases they were manufactured in 0.</description>
+    </item>
+    
+    <item>
+      <title>NeoPixel Glass Skull Lighting Effect (A.K.A Mr. BlinkySkull)</title>
+      <link>https://ManiacalLabs.com/2014/08/05/blinkyskull/</link>
+      <pubDate>Tue, 05 Aug 2014 13:00:00 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/08/05/blinkyskull/</guid>
+      <description>Awesome skull-shaped vodka bottle plus Arduino Pro Mini plus NeoPixels equals:
+  I&amp;rsquo;ve had this (empty) bottle of Crystal Head vodka for a while. Admittedly I mostly bought it because the bottle was really neat and I wanted to make it light up. Up until this point, I was using a small version of the RGB clock to illuminate it. It was a neat effect, but not very bright. It was time for an upgrade.</description>
+    </item>
+    
+    <item>
+      <title>Finally, A Windows Package Manager - With Chocolate!</title>
+      <link>https://ManiacalLabs.com/2014/07/15/finally-a-windows-package-manager-with-chocolate/</link>
+      <pubDate>Tue, 15 Jul 2014 13:00:40 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/07/15/finally-a-windows-package-manager-with-chocolate/</guid>
+      <description>To the chagrin of the open source community, I&amp;rsquo;m a Windows guy. I do really like Linux based systems, but much of my professional career has remained at least partly in the Windows world. 15 years of using Visual Studio (the only Microsoft product I truly like) have brought me to prefer it greatly over any IDE out there. I even use it for all my Arduino/AVR work, but that&amp;rsquo;s another post.</description>
+    </item>
+    
+    <item>
+      <title>NC Maker Faire 2014: A Huge Success</title>
+      <link>https://ManiacalLabs.com/2014/06/07/nc-maker-faire-2014-a-huge-success/</link>
+      <pubDate>Sun, 08 Jun 2014 02:09:56 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/06/07/nc-maker-faire-2014-a-huge-success/</guid>
+      <description>Dan and I just got back from NC Maker Faire 2014 here in Raleigh and our brains are still buzzing with all of the awesomeness of the day. Many, many thanks to the great staff and volunteers of this years Faire for creating an awesome experience for all, both maker and attendee. For those that we had wonderful conversations with and are now just checking out our website, you can find more details about all of the projects we were showing off today at our NC Maker Faire 2014 page.</description>
+    </item>
+    
+    <item>
+      <title>NC Maker Faire Teaser</title>
+      <link>https://ManiacalLabs.com/2014/05/05/nc-maker-faire-teaser/</link>
+      <pubDate>Mon, 05 May 2014 20:43:42 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/05/05/nc-maker-faire-teaser/</guid>
+      <description>Just a quick teaser for the upcoming NC Maker Faire on June 7th.
+  These are just some animation tests for my new LED display.
+It&amp;rsquo;s a 24 x 24 pixel LED matrix built from LPD8806 LED strips and mounted on a 24&amp;rdquo; x 24&amp;rdquo; sheet of acrylic. The animations are generated by some python code running on a Raspberry Pi.
+                               LPD8806 Matrix</description>
+    </item>
+    
+    <item>
+      <title>Dial-A-Song: Part 1</title>
+      <link>https://ManiacalLabs.com/2014/03/11/dial-a-song-part-1/</link>
+      <pubDate>Tue, 11 Mar 2014 14:56:08 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/03/11/dial-a-song-part-1/</guid>
+      <description>Earlier this week, we got the great news that we have been accepted to the North Carolina Maker Faire. We&amp;rsquo;re absolutely ecstatic to get to share some of our projects with the public but it&amp;rsquo;s also been a great push to get some other projects done. I&amp;rsquo;ve had this particular project bouncing around my head for a couple of years now. I call it Dial-A-Song.
+Much of the inspiration came from They Might Be Giants, who used to leave recordings of their songs on their answering machine, which could be listened to by calling (718) 387-6962.</description>
+    </item>
+    
+    <item>
+      <title>Polar Giraffe Control Board</title>
+      <link>https://ManiacalLabs.com/2014/03/04/polar-giraffe-control-board/</link>
+      <pubDate>Tue, 04 Mar 2014 23:26:27 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/03/04/polar-giraffe-control-board/</guid>
+      <description>Gasp! An Update!
+Yes, it&amp;rsquo;s true. We&amp;rsquo;re still here and after coming back from a nice and much-needed vacation, we&amp;rsquo;re ready to start doing cool stuff again. First off, and update on a previous post.
+I recently put together a PCB to hold the important control elements of the Polar Giraffe. Many Thanks to OSHPark for another quality board!
+                               PGControlBoard with Arduino Pro Mini installed</description>
+    </item>
+    
+    <item>
+      <title>Enter the Polar Giraffe!</title>
+      <link>https://ManiacalLabs.com/2014/01/21/enter-the-polar-giraffe/</link>
+      <pubDate>Tue, 21 Jan 2014 23:17:30 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/01/21/enter-the-polar-giraffe/</guid>
+      <description>No, we&amp;rsquo;ve not genetically spliced a polar bear and a giraffe. Although, we&amp;rsquo;d be interested to see what that looked like&amp;hellip;
+Regardless, I present, for your consideration, the Polar Giraffe!
+                               FunctionalTest_1_small
+   Ah yes, the name. Well I had a typo in the main project folder on my NAS device, so the project is known to the file system as &amp;ldquo;.</description>
+    </item>
+    
+    <item>
+      <title>Binary Epoch Clock on EEVBlog Mail Bag #546</title>
+      <link>https://ManiacalLabs.com/2013/11/10/binary-epoch-clock-on-eevblog-mail-bag-546/</link>
+      <pubDate>Mon, 11 Nov 2013 01:02:12 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/10/binary-epoch-clock-on-eevblog-mail-bag-546/</guid>
+      <description>Just got a nice review from the great David L. Jones over at EEVBlog in Mail Bag episode #546
+Jump to around minute 6 for our kit.
+  </description>
+    </item>
+    
+    <item>
+      <title>CreepinEyes: Last-Minute Halloween Decorations</title>
+      <link>https://ManiacalLabs.com/2013/10/29/creepineyes/</link>
+      <pubDate>Tue, 29 Oct 2013 21:46:12 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/10/29/creepineyes/</guid>
+      <description>Realizing that Halloween was only a few days away, I thought to myself &amp;ldquo;Self, your house has no Halloween decorations, and thus, is Lame.&amp;rdquo; Being the crafty (and cheap) electrical engineer that I am, I took stock of my&amp;hellip;stock&amp;hellip;of electronic widgets and bits. After some thought, I decided on a couple of beady little red eyes peeking out of various windows would be appropriately festive, somewhat creepy, and very easy to through together.</description>
+    </item>
+    
+    <item>
+      <title>OpenSource.com</title>
+      <link>https://ManiacalLabs.com/2013/10/22/opensource-com/</link>
+      <pubDate>Tue, 22 Oct 2013 11:17:02 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/10/22/opensource-com/</guid>
+      <description>Last month, Dan and I went to the Open Source All the Things event in the Research Triangle Park and had the pleasure of meeting Jason Hibbets of both Red Hat Software and OpenSource.com. Jason gave us a lot of great advice but also asked to considering contributing to OpenSource.com - which we, of course, couldn&amp;rsquo;t turn down!
+So, if you&amp;rsquo;d like a little behind the scenes look at the beginnings of Maniacal Labs, head on over to OpenSource.</description>
+    </item>
+    
+    <item>
+      <title>Introducing: EpochPOV</title>
+      <link>https://ManiacalLabs.com/2013/10/21/introducing-epochpov/</link>
+      <pubDate>Tue, 22 Oct 2013 03:32:29 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/10/21/introducing-epochpov/</guid>
+      <description>We would like to introduce a new product. Okay, not really a new product, but a completely different use for the Binary Epoch Clock Kit that we already sell.
+We&amp;rsquo;ve been hinting at it for a while now but we are proud to finally announce EpochPOV, a custom firmware that turns your Binary Epoch Clock into a fully functional Persistence of Vision - or POV for short - display with a 32 pixel resolution!</description>
+    </item>
+    
+    <item>
+      <title>Challenge Accepted! Binary Epoch Clock 1D Pong Mode</title>
+      <link>https://ManiacalLabs.com/2013/10/06/challenge-accepted-binary-epoch-clock-1d-pong-mode/</link>
+      <pubDate>Sun, 06 Oct 2013 19:28:26 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/10/06/challenge-accepted-binary-epoch-clock-1d-pong-mode/</guid>
+      <description>Last night I got to show off our Binary Epoch Clock kit on Adafruit&amp;rsquo;s excellent Show-And-Tell weekly Hangout. There was a great turnout with tons of cool projects and I&amp;rsquo;d like to thank Adafruit again for letting me join in.
+Check out the whole show. There were a ton of great projects (I&amp;rsquo;m at 2:26):
+  Towards the end of my time, Limor Fried noted that the only thing it needs now is a 1D pong mode and I am rarely one to pass up such a challenge&amp;hellip; So this morning I came up with this:</description>
+    </item>
+    
+    <item>
+      <title>555 IC XXL</title>
+      <link>https://ManiacalLabs.com/2013/10/04/555-ic-xxl/</link>
+      <pubDate>Sat, 05 Oct 2013 01:07:19 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/10/04/555-ic-xxl/</guid>
+      <description>555KitTestCircuit
+   A few days ago, I saw this kit from Evil Mad Scientist (by way of Adafruit). My first reaction was more or less �&amp;hellip; That�s brilliant!� I love projects that have a healthy dose of wackiness as part of the recipe.</description>
+    </item>
+    
+    <item>
+      <title>Who Ya Gonna Call?</title>
+      <link>https://ManiacalLabs.com/2013/09/19/who-ya-gonna-call/</link>
+      <pubDate>Fri, 20 Sep 2013 03:49:59 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/09/19/who-ya-gonna-call/</guid>
+      <description>Friend of Maniacal Labs, Josh, is a huge Ghostbusters fan. How much, you ask? This much:
+                               Ecto Mini
+   Why yes, that is a Mini Cooper Ecto-1.
+A couple weeks ago, Josh emailed me asking if it was possible to get en Epoch Clock Kit with blue LEDs.</description>
+    </item>
+    
+    <item>
+      <title>Epoch Clock Kit Review on tronixstuff!</title>
+      <link>https://ManiacalLabs.com/2013/09/15/epoch-clock-kit-review-on-tronixstuff/</link>
+      <pubDate>Sun, 15 Sep 2013 14:38:12 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/09/15/epoch-clock-kit-review-on-tronixstuff/</guid>
+      <description>John over at tronixstuff.com has a review of our Epoch Clock kit. He offers a great walk-through of the un-boxing and building experiences, complete with pictures. He also offers a great explanation of Unix time. A big thanks to John for his consideration of our product! And, of course, we&amp;rsquo;re glad he liked it!
+(tronixstuff.com is based in Melbourne, Australia and was started in 2010 by John Boxall. The site features electronics kit reviews, Arduino tutorials, and other assorted projects.</description>
+    </item>
+    
+    <item>
+      <title>Practicing Open Sourcery</title>
+      <link>https://ManiacalLabs.com/2013/09/13/practicing-open-sourcery/</link>
+      <pubDate>Fri, 13 Sep 2013 23:27:17 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/09/13/practicing-open-sourcery/</guid>
+      <description>Do you live in the Raleigh/Durham area? Are you a fan of the Open Source movement? You&amp;rsquo;re in luck! Check out RTP 180: Open Source All The Things on September 17th (for free!). The event features guest speakers from three schools you might have heard (NC State, Duke, and UNC), as well as local members of the Open Source community. In addition to basing our operation on the tenants of Open Source, we here at Maniacal Labs enjoy supporting local people and organizations who champion the cause.</description>
+    </item>
+    
+    <item>
+      <title>Big Ass Fans and Free Video Games</title>
+      <link>https://ManiacalLabs.com/2013/07/18/free-videogames-and-beer/</link>
+      <pubDate>Thu, 18 Jul 2013 00:53:47 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/07/18/free-videogames-and-beer/</guid>
+      <description>I had occasion to be out and about last night at one of Durham, NC&amp;rsquo;s fine local breweries, Fullsteam. While there, I was impressed by 3 things. First, how oppressively hot it was for late evening. This led to the next thing that impressed me, the big-ass fan they had set up to try and cool the place. I&amp;rsquo;m serious, it was a Big Ass Fan. It was huge (8&amp;rsquo; diameter).</description>
+    </item>
+    
+  </channel>
+</rss>

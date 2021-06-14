@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clocks on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/clocks/</link>
+    <description>Recent content in Clocks on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Mar 2015 13:00:32 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/clocks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MSP430 Nixie Clock By Rob</title>
+      <link>https://ManiacalLabs.com/2015/03/11/msp430-nixie-clock-by-rob/</link>
+      <pubDate>Wed, 11 Mar 2015 13:00:32 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/03/11/msp430-nixie-clock-by-rob/</guid>
+      <description>MSP430NixeTubeClock-11
+  
+I saw this kit come up in Tindie&amp;rsquo;s twitter feed, and instantly knew that I wanted one. It&amp;rsquo;s relatively inexpensive, not very complex, and it looks amazing (especially with the acrylic front and back plates).</description>
+    </item>
+    
+    <item>
+      <title>ThinkGeek Wooden Clock Build</title>
+      <link>https://ManiacalLabs.com/2015/01/07/thinkgeek-wooden-clock-build/</link>
+      <pubDate>Thu, 08 Jan 2015 00:01:09 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/01/07/thinkgeek-wooden-clock-build/</guid>
+      <description>What&amp;rsquo;s this?! Wood?! There&amp;rsquo;s not even any lights!!
+True, but it was a fun build, and I might put some kind of light-up something or other on/near it, but I really like how it looks by itself. Anything added would only be to accent it. For now, here it is; working. Most of the time.
+The above video is the result of a few days work putting together this awesome wooden clock kit from ThinkGeek.</description>
+    </item>
+    
+    <item>
+      <title>Binary Epoch Christmas Tree</title>
+      <link>https://ManiacalLabs.com/2014/12/09/binary-epoch-christmas-tree/</link>
+      <pubDate>Tue, 09 Dec 2014 13:00:21 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/12/09/binary-epoch-christmas-tree/</guid>
+      <description>So I have 15 meters of LPD8806 programmable LED lights on my fake Christmas tree. But I feel I can up the Nerd quotient even more.
+Inspired by the Binary Epoch Clock kit, I added an animation to the tree that turns it into a giant unreadable binary clock. The lights are controlled by a RasPi running the BiblioPixel library, with the AllPixel making the hardware interfacing a snap.
+Unix epoch time (number of seconds since 12:00am Jan 1 1970) is represented in binary notation.</description>
+    </item>
+    
+    <item>
+      <title>Random Photos</title>
+      <link>https://ManiacalLabs.com/2014/10/07/random-photos/</link>
+      <pubDate>Tue, 07 Oct 2014 13:00:51 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/10/07/random-photos/</guid>
+      <description>I had a 24-led NeoPixel ring lying around being useless, so I decided to make it do something less useless. As is typical, it became a clock. Not an original idea, sure. But these rings are well-suited for clockification. The blue &amp;lsquo;seconds&amp;rsquo; lights will fade around the ring once per minute. There&amp;rsquo;s some mapping logic to determine where the green &amp;lsquo;minutes&amp;rsquo; light should go. Hours is straightforward enough if the clock is showing 24hr time.</description>
+    </item>
+    
+    <item>
+      <title>Neon Lamp Logic Nixie Clock</title>
+      <link>https://ManiacalLabs.com/2014/09/30/neon-lamp-logic-nixie-clock/</link>
+      <pubDate>Tue, 30 Sep 2014 10:34:50 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/09/30/neon-lamp-logic-nixie-clock/</guid>
+      <description>Now this is just plain cool. And insane. Every once in a while I see a project that really makes me question how much I know about electronics design and this is certainly one of them. Instead of a microprocessor, or even plain-old discrete transistors, all of the logic of this clock is accomplished with nothing more than neon lamps. Whaaaat? I won&amp;rsquo;t even try to explain, but let the designer explain over on his site.</description>
+    </item>
+    
+    <item>
+      <title>Sunrise Alarm Clock - Prototype</title>
+      <link>https://ManiacalLabs.com/2014/07/29/sunrise-alarm-clock-prototype/</link>
+      <pubDate>Tue, 29 Jul 2014 13:00:01 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/07/29/sunrise-alarm-clock-prototype/</guid>
+      <description>While I rarely sleep past 6am, or sleep at all for that matter, my wife does require an alarm clock from time to time. After a recent few days of her alarm going off right in the middle of a R.E.M. sleep cycle she mentioned a desire for a more gentle alarm. I&amp;rsquo;ve seen those sunrise alarm clock lights many times before, but they but they are a bit pricey and she didn&amp;rsquo;t want a light that would be right next to the bed.</description>
+    </item>
+    
+    <item>
+      <title>Meter Clock: Keeping &#34;Current&#34; Time</title>
+      <link>https://ManiacalLabs.com/2014/07/08/meter-clock-pt1/</link>
+      <pubDate>Tue, 08 Jul 2014 13:00:17 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/07/08/meter-clock-pt1/</guid>
+      <description>MeterClock_LitUp
+   I&amp;rsquo;ve seen a few meter clocks in my travels of the web, and I love the idea. A few days ago, I decided that I must have one of my own. Such began the &amp;ldquo;How to do it&amp;rdquo; pondering cycle.</description>
+    </item>
+    
+    <item>
+      <title>One Week Left on the PrismaChron Fundraiser!</title>
+      <link>https://ManiacalLabs.com/2013/11/18/one-week-left-on-the-prismachron-fundraiser/</link>
+      <pubDate>Mon, 18 Nov 2013 13:25:57 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/18/one-week-left-on-the-prismachron-fundraiser/</guid>
+      <description>First of all, many, many thanks to those who have supported the PrismaChron already! It’s been an interesting first week and we’re part of the way there, but we still have a ways to go.
+Unfortunately, if we don’t hit the minimum number of pre-orders, we won’t be able to make the kits cost effective. So we are asking for a little more of your help.
+If you can, please share the following link on the social media of your choosing: https://www.</description>
+    </item>
+    
+    <item>
+      <title>Building the PrismaChron: Diffusers</title>
+      <link>https://ManiacalLabs.com/2013/11/12/building-the-prismachron-diffusers/</link>
+      <pubDate>Tue, 12 Nov 2013 14:50:29 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/12/building-the-prismachron-diffusers/</guid>
+      <description>The PrismaChron (not its first name, more on that in another post) has been in the works for quite a long time. Longer even than the Binary Epoch Clock. We&amp;rsquo;ve spent that time truly fine-tuning every little aspect of it in an effort to make it a fantastic little kit that we can be proud of. Being a clock that displays its time as color, getting it just right was very important to us and that meant getting the LED diffusion perfect.</description>
+    </item>
+    
+    <item>
+      <title>Announcing the PrismaChron!</title>
+      <link>https://ManiacalLabs.com/2013/11/11/announcing-the-prismachron/</link>
+      <pubDate>Mon, 11 Nov 2013 12:37:13 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/11/announcing-the-prismachron/</guid>
+      <description>We are very happy to announce our latest kit, the PrismaChron!
+  The PrismaChron Clock is our take on time as color. The display consists of three RGB LEDs, one each for seconds, minutes and hours. As each value progresses through time, its LED slowly fades through the spectrum from red to violet, and everywhere in between.
+Just like the Binary Epoch Clock, the PrismaChron is fully Arduino compatible, open source, and ready to be hacked.</description>
+    </item>
+    
+    <item>
+      <title>Binary Epoch Clock on EEVBlog Mail Bag #546</title>
+      <link>https://ManiacalLabs.com/2013/11/10/binary-epoch-clock-on-eevblog-mail-bag-546/</link>
+      <pubDate>Mon, 11 Nov 2013 01:02:12 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/10/binary-epoch-clock-on-eevblog-mail-bag-546/</guid>
+      <description>Just got a nice review from the great David L. Jones over at EEVBlog in Mail Bag episode #546
+Jump to around minute 6 for our kit.
+  </description>
+    </item>
+    
+    <item>
+      <title>Introducing: EpochPOV</title>
+      <link>https://ManiacalLabs.com/2013/10/21/introducing-epochpov/</link>
+      <pubDate>Tue, 22 Oct 2013 03:32:29 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/10/21/introducing-epochpov/</guid>
+      <description>We would like to introduce a new product. Okay, not really a new product, but a completely different use for the Binary Epoch Clock Kit that we already sell.
+We&amp;rsquo;ve been hinting at it for a while now but we are proud to finally announce EpochPOV, a custom firmware that turns your Binary Epoch Clock into a fully functional Persistence of Vision - or POV for short - display with a 32 pixel resolution!</description>
+    </item>
+    
+    <item>
+      <title>Challenge Accepted! Binary Epoch Clock 1D Pong Mode</title>
+      <link>https://ManiacalLabs.com/2013/10/06/challenge-accepted-binary-epoch-clock-1d-pong-mode/</link>
+      <pubDate>Sun, 06 Oct 2013 19:28:26 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/10/06/challenge-accepted-binary-epoch-clock-1d-pong-mode/</guid>
+      <description>Last night I got to show off our Binary Epoch Clock kit on Adafruit&amp;rsquo;s excellent Show-And-Tell weekly Hangout. There was a great turnout with tons of cool projects and I&amp;rsquo;d like to thank Adafruit again for letting me join in.
+Check out the whole show. There were a ton of great projects (I&amp;rsquo;m at 2:26):
+  Towards the end of my time, Limor Fried noted that the only thing it needs now is a 1D pong mode and I am rarely one to pass up such a challenge&amp;hellip; So this morning I came up with this:</description>
+    </item>
+    
+    <item>
+      <title>Getting all your LEDs in a row</title>
+      <link>https://ManiacalLabs.com/2013/09/07/getting-all-your-leds-in-a-row/</link>
+      <pubDate>Sat, 07 Sep 2013 04:16:01 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/09/07/getting-all-your-leds-in-a-row/</guid>
+      <description>Probably the hardest part of assembling our Binary Epoch Clock Kit is keeping the LEDs aligned and all pointing the same direction. So we designed this simple tool to help out with that process. Not only does it help keep all of the LEDs aligned, but it makes soldering them in much, much quicker.
+Normally, per our instructions, you would solder the LEDs in four at a time. But with this, simply insert all of the LEDs and then fit the jig onto the front of the clock PCB.</description>
+    </item>
+    
+    <item>
+      <title>Announcing the Binary Epoch Clock Kit</title>
+      <link>https://ManiacalLabs.com/2013/08/13/announcing-the-binary-epoch-clock-kit/</link>
+      <pubDate>Tue, 13 Aug 2013 05:30:43 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/08/13/announcing-the-binary-epoch-clock-kit/</guid>
+      <description>For nearly as long as the three of us have known each other, we have talked about the things we would make when &amp;ldquo;we had our own company&amp;rdquo;. The seriousness of that statement grew and waned over time and many of the ideas, while still on our very long list, were probably more crazy than not. But then, early this year, a friend who was just getting into working with the Arduino platform built an 8-bit binary counter and an idea was born; why not make a bigger counter?</description>
+    </item>
+    
+  </channel>
+</rss>

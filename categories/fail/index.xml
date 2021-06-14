@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fail on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/fail/</link>
+    <description>Recent content in Fail on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Jan 2014 21:42:34 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/fail/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stick A Pin In It</title>
+      <link>https://ManiacalLabs.com/2014/01/28/stick-a-pin-in-it/</link>
+      <pubDate>Tue, 28 Jan 2014 21:42:34 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/01/28/stick-a-pin-in-it/</guid>
+      <description>Stick a Pin in It
+   I&amp;rsquo;ve been working on a side project that uses some of the WS2812 based LED strips, just like the &amp;ldquo;NeoPixel&amp;rdquo; strips from Adafruit. Unfortunately, I began having problems with the strips in that they suddenly stopped responding to any control signals being sent to them.</description>
+    </item>
+    
+    <item>
+      <title>PCB Fail</title>
+      <link>https://ManiacalLabs.com/2014/01/15/pcb-fail/</link>
+      <pubDate>Wed, 15 Jan 2014 14:10:53 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/01/15/pcb-fail/</guid>
+      <description>PCB Fail
+   Ever since first trying KiCad and OSH Park I have been a little hooked on being able to throw together a custom PC, have it professionally manufactured, and shipped to me within a couple weeks.</description>
+    </item>
+    
+  </channel>
+</rss>

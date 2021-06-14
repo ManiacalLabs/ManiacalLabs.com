@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/git/</link>
+    <description>Recent content in Git on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Jul 2016 15:21:43 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The force (push) is strong with this one...</title>
+      <link>https://ManiacalLabs.com/2016/07/25/the-force-push-is-strong-with-this-one/</link>
+      <pubDate>Mon, 25 Jul 2016 15:21:43 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2016/07/25/the-force-push-is-strong-with-this-one/</guid>
+      <description>Git is awesome. It&amp;rsquo;s not just open source, but in the last few years, with the help of sites like GitHub, it has cemented itself as the source control software for open source. At Maniacal Labs we use it for everything and the same goes at my day job with Red Hat. At the latter, I&amp;rsquo;ve found myself having to use the &amp;ldquo;push &amp;ndash;force&amp;rdquo; option a lot recently due to some oddities with the way our code review process works (that&amp;rsquo;s a much longer post for another time) and of course the joke about it being a &amp;ldquo;force push&amp;rdquo;, as in Star Wars, came up a lot.</description>
+    </item>
+    
+  </channel>
+</rss>

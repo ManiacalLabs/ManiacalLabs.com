@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kickstarter on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/kickstarter/</link>
+    <description>Recent content in Kickstarter on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 May 2016 22:45:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/kickstarter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LongPixel Demo: Variable Color Temperature Light</title>
+      <link>https://ManiacalLabs.com/2016/05/24/longpixel-demo-variable-color-temperature-light/</link>
+      <pubDate>Tue, 24 May 2016 22:45:05 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2016/05/24/longpixel-demo-variable-color-temperature-light/</guid>
+      <description>The LongPixel was designed to make using analog LED strips super easy and, typically, that means RGB LEDs as they are the most common. But the beauty of the way in which the LongPixel drives these LED strips is that it really doesn&amp;rsquo;t matter what color the LEDs are. Sure, the 4 wire, 3 color RGB strips are the most convenient in most cases. But you could, for example, connect 3 single color, 2 wire, strips, of whatever color you desired.</description>
+    </item>
+    
+    <item>
+      <title>AllPixel Now Available on Tindie</title>
+      <link>https://ManiacalLabs.com/2015/07/07/allpixel-now-available-on-tindie/</link>
+      <pubDate>Tue, 07 Jul 2015 13:01:37 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/07/07/allpixel-now-available-on-tindie/</guid>
+      <description>We are pleased to announce that the AllPixel and PowerTap are now available for purchase on Tindie!
+                               Tindie Logo
+   All orders through Tindie ship direct from Maniacal Labs HQ in North Carolina, USA.
+We will ship outside of the USA, but be sure to check out all of our other global distributors first to see if there&amp;rsquo;s one near you!</description>
+    </item>
+    
+    <item>
+      <title>More AllPixel Distributors</title>
+      <link>https://ManiacalLabs.com/2015/06/09/more-allpixel-distributors/</link>
+      <pubDate>Tue, 09 Jun 2015 19:01:23 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/06/09/more-allpixel-distributors/</guid>
+      <description>One of the major things we&amp;rsquo;ve been hard at work on lately is getting AllPixel kits a little closer to those who want them and either missed the Kickstarter or want more. So far, the AllPixel and PowerTap are available from these great distributors near (some of) you:
+Australia  TronixLabs Little Bird Electronics Pakronics  New Zealand  NiceGear  United Kingdom  DigitalMeans  For those outside of the above regions, fear not; you can always still order direct from Seeed and they will ship worldwide.</description>
+    </item>
+    
+    <item>
+      <title>AllPixel Now Available!</title>
+      <link>https://ManiacalLabs.com/2015/04/20/allpixel-now-available/</link>
+      <pubDate>Mon, 20 Apr 2015 11:43:03 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/04/20/allpixel-now-available/</guid>
+      <description>Good news! The AllPixel and PowerTap are now available for general sale on the Maniacal Labs Seeed Store!                                KermitFlail
+   For those that missed the Kickstarter or just want more, this means that you can order RIGHT NOW!</description>
+    </item>
+    
+    <item>
+      <title>AllPixel Soon Available to Public</title>
+      <link>https://ManiacalLabs.com/2015/03/27/allpixel-soon-available-to-public/</link>
+      <pubDate>Fri, 27 Mar 2015 22:19:11 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/03/27/allpixel-soon-available-to-public/</guid>
+      <description>MainKSThumb
+   It&amp;rsquo;s been a long, long journey bringing the AllPixel to fruition and it is finally coming to the end&amp;hellip; But now the real fun begins as the AllPixel finds its way into the hands of LED hackers and hobbyists!</description>
+    </item>
+    
+    <item>
+      <title>First Production AllPixel Boards!</title>
+      <link>https://ManiacalLabs.com/2015/03/03/first-production-allpixel-boards/</link>
+      <pubDate>Tue, 03 Mar 2015 22:28:39 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/03/03/first-production-allpixel-boards/</guid>
+      <description>First AllPixel Boards
+   Look what just showed up in our inbox from Seeed Studio! Yup&amp;hellip; Production AllPixel boards! :)
+A handful of these are on their way to Maniacal Labs headquarters, where they will be checked over to confirm they meet our standards and then we will give Seeed the go-ahead to finish producing the rest of the boards.</description>
+    </item>
+    
+    <item>
+      <title>Multi-Driver Demo with BiblioPixel</title>
+      <link>https://ManiacalLabs.com/2015/01/21/multi-driver-demo-with-bibliopixel/</link>
+      <pubDate>Wed, 21 Jan 2015 14:00:40 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/01/21/multi-driver-demo-with-bibliopixel/</guid>
+      <description>Last time on the Maniacal Labs Blog&amp;hellip; we told you about the awesome new multiple driver support added to BiblioPixel in the latest version. Well, check out the video below to see the proof!
+  All the code from the video is below. More details are on the BiblioPixel Wiki. And be sure to visit the Maniacal Labs Forum to discuss usage or ask questions. Happy making!
+#Load driver for your hardware, visualizer just for example import time import bibliopixel.</description>
+    </item>
+    
+    <item>
+      <title>Exciting Updates!</title>
+      <link>https://ManiacalLabs.com/2015/01/18/exciting-updates/</link>
+      <pubDate>Sun, 18 Jan 2015 16:11:46 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/01/18/exciting-updates/</guid>
+      <description>It&amp;rsquo;s been a little over a month since the Kickstarter for our AllPixel finished and things are progressing nicely. We&amp;rsquo;ve certainly learned a lot about communicating with an overseas manufacturer and designing a product for mass production. Nothing a few tiny tweaks couldn&amp;rsquo;t fix. Our goal has always been to deliver the best possible product. The final boards should be going into production within the next week or two!
+During the campaign, we set a stretch goal of providing multiple driver support to BiblioPixel.</description>
+    </item>
+    
+    <item>
+      <title>New Site! New Forum! Kickstarter Progress!</title>
+      <link>https://ManiacalLabs.com/2015/01/04/new-site-new-forum-kickstarter-progress/</link>
+      <pubDate>Sun, 04 Jan 2015 13:45:17 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/01/04/new-site-new-forum-kickstarter-progress/</guid>
+      <description>It is a bit crazy to see how far we&amp;rsquo;ve come since Maniacal Labs started by launching the Binary Epoch Clock back in 2013. Well, unlike the quick success we&amp;rsquo;ve had with the AllPixel, we just recently sold out of the Epoch Clock kits. But that allowed us to do something we&amp;rsquo;ve wanted to for some time now&amp;hellip; ditch our web store and redesign the site. So we hope you like the new, cleaner design!</description>
+    </item>
+    
+    <item>
+      <title>More Fun With the AllPixel and TinyTiM</title>
+      <link>https://ManiacalLabs.com/2014/12/16/allpixel-and-tinytim-usb-led-matrix/</link>
+      <pubDate>Tue, 16 Dec 2014 13:00:53 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/12/16/allpixel-and-tinytim-usb-led-matrix/</guid>
+      <description>As a follow-on to our previous article on the TiM and TinyTiM displays from WyoLum, I wanted to demonstrate some of the flexibility of the AllPixel in terms of how well it can pair with already existing products. The TinyTim is an as-yet-unreleased product from WyoLum, but it will be dropping soon. It&amp;rsquo;s really a slick board, consisting of 64 WS2812 LEDs arranged in an 8x8 grid. There are plenty of connections on the back of the PCB to easily wire together multiple displays, in either parallel or serial data transfer configurations.</description>
+    </item>
+    
+    <item>
+      <title>I&#39;m Making a Note Here... HUGE SUCCESS!!!</title>
+      <link>https://ManiacalLabs.com/2014/12/09/im-making-a-note-here-huge-success/</link>
+      <pubDate>Wed, 10 Dec 2014 01:50:59 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/12/09/im-making-a-note-here-huge-success/</guid>
+      <description>KermitFlail
+   Thank you SO MUCH to all of our amazing backers! We couldn&amp;rsquo;t be happier with how well the AllPixel campaign went!
+Now&amp;hellip; the hard work begins. We&amp;rsquo;ve already started working with Seeed Studio to begin the manufacturing process and hope to have the rewards out to everyone even before our April timeline.</description>
+    </item>
+    
+    <item>
+      <title>FFT Audio Animation with BiblioPixel and the AllPixel</title>
+      <link>https://ManiacalLabs.com/2014/11/25/fft-audio-animation-with-bibliopixel-and-the-allpixel/</link>
+      <pubDate>Tue, 25 Nov 2014 13:00:15 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/25/fft-audio-animation-with-bibliopixel-and-the-allpixel/</guid>
+      <description>We showed off this fun little piece of code in the AllPixel Kickstarter introduction video, but never really got into the details of how that audio animation really worked.
+The animation in the introduction video and the video above uses a Fast Fourier Transform to analyze the audio coming into the computer&amp;rsquo;s mic/line-in and generate an intensity map for various frequency ranges in the audio signal. FFT is some really hardcore math, so instead of trying to explain the details of how it, and the python code, works see this post (and it&amp;rsquo;s links) on the blog of Scott Harden.</description>
+    </item>
+    
+    <item>
+      <title>Sharing Among the Community</title>
+      <link>https://ManiacalLabs.com/2014/11/24/sharing-among-the-community/</link>
+      <pubDate>Mon, 24 Nov 2014 13:00:43 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/24/sharing-among-the-community/</guid>
+      <description>We already knew that the open source and open hardware community was full of awesome people, but launching the AllPixel Kickstarter has just confirmed that even more. There has been an outpouring of support and advice that will certainly be helpful as we move through the final manufacturing steps.
+What has been really cool is that some other open hardware makers like us have been super excited to see how their hardware works with the AllPixel.</description>
+    </item>
+    
+    <item>
+      <title>POVStick - Setup and Test Video</title>
+      <link>https://ManiacalLabs.com/2014/11/20/povstick-setup-and-test/</link>
+      <pubDate>Thu, 20 Nov 2014 13:00:12 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/20/povstick-setup-and-test/</guid>
+      <description>[embed]https://www.youtube.com/watch?v=iVkrJvPa0ow[/embed]
+Just a short video showing some of the setup and testing of the POVStick, and the results of a very cold night walking around the back yard with a blinking stick. For more info, check out the AllPixel and this blog post.</description>
+    </item>
+    
+    <item>
+      <title>AllPixel Week 1 Update</title>
+      <link>https://ManiacalLabs.com/2014/11/18/allpixel-week-1-update/</link>
+      <pubDate>Tue, 18 Nov 2014 13:00:42 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/18/allpixel-week-1-update/</guid>
+      <description>It has been an amazing first week! 21 Days to go and we are already at over 200% funding. Thanks so much to all our supporters!
+We&amp;rsquo;ve also announced some new stretch goals, so check those out. We feel certain we will hit the first goal in no time!
+One of the coolest things so far though is that we were featured on the Atmel blog! It&amp;rsquo;s a great honor to get some recognition from such an awesome company.</description>
+    </item>
+    
+    <item>
+      <title>AllPixel Update - Staff Pick!</title>
+      <link>https://ManiacalLabs.com/2014/11/13/allpixel-update-staff-pick/</link>
+      <pubDate>Thu, 13 Nov 2014 04:37:00 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/13/allpixel-update-staff-pick/</guid>
+      <description>First of all, the AllPixel Kickstarter has been going great! Fully funded in less than 48 hours, chosen as a Kickstarter Staff Pick on the third day, and currently at over 130% funded and 150 backers&amp;hellip; with 26 days left!
+We didn&amp;rsquo;t want to bog down the main page with really technical details about how the AllPixel works, but we thought we should give some more background.
+The Hardware At the core, the AllPixel is not much different from devices like the Arduino Leonardo, Arduino Pro Micro, or Teensy 2.</description>
+    </item>
+    
+  </channel>
+</rss>

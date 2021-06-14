@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Products on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/products/</link>
+    <description>Recent content in Products on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Jan 2017 16:04:24 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/products/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Coming Soon...The AllPixelMini!</title>
+      <link>https://ManiacalLabs.com/2017/01/28/coming-soon-the-allpixelmini/</link>
+      <pubDate>Sat, 28 Jan 2017 16:04:24 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2017/01/28/coming-soon-the-allpixelmini/</guid>
+      <description>Good News, Everyone! We&amp;rsquo;ve been toying around with the idea of updating the design for our AllPixel LED Controler for a while now, and we&amp;rsquo;re making great progress. The image above is our first prototype, fresh from MacroFab.</description>
+    </item>
+    
+    <item>
+      <title>AllPixel Now Available!</title>
+      <link>https://ManiacalLabs.com/2015/04/20/allpixel-now-available/</link>
+      <pubDate>Mon, 20 Apr 2015 11:43:03 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/04/20/allpixel-now-available/</guid>
+      <description>Good news! The AllPixel and PowerTap are now available for general sale on the Maniacal Labs Seeed Store!                                KermitFlail
+   For those that missed the Kickstarter or just want more, this means that you can order RIGHT NOW!</description>
+    </item>
+    
+    <item>
+      <title>I&#39;m Making a Note Here... HUGE SUCCESS!!!</title>
+      <link>https://ManiacalLabs.com/2014/12/09/im-making-a-note-here-huge-success/</link>
+      <pubDate>Wed, 10 Dec 2014 01:50:59 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/12/09/im-making-a-note-here-huge-success/</guid>
+      <description>KermitFlail
+   Thank you SO MUCH to all of our amazing backers! We couldn&amp;rsquo;t be happier with how well the AllPixel campaign went!
+Now&amp;hellip; the hard work begins. We&amp;rsquo;ve already started working with Seeed Studio to begin the manufacturing process and hope to have the rewards out to everyone even before our April timeline.</description>
+    </item>
+    
+    <item>
+      <title>AllPixel Week 1 Update</title>
+      <link>https://ManiacalLabs.com/2014/11/18/allpixel-week-1-update/</link>
+      <pubDate>Tue, 18 Nov 2014 13:00:42 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/18/allpixel-week-1-update/</guid>
+      <description>It has been an amazing first week! 21 Days to go and we are already at over 200% funding. Thanks so much to all our supporters!
+We&amp;rsquo;ve also announced some new stretch goals, so check those out. We feel certain we will hit the first goal in no time!
+One of the coolest things so far though is that we were featured on the Atmel blog! It&amp;rsquo;s a great honor to get some recognition from such an awesome company.</description>
+    </item>
+    
+    <item>
+      <title>AllPixel Update - Staff Pick!</title>
+      <link>https://ManiacalLabs.com/2014/11/13/allpixel-update-staff-pick/</link>
+      <pubDate>Thu, 13 Nov 2014 04:37:00 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/13/allpixel-update-staff-pick/</guid>
+      <description>First of all, the AllPixel Kickstarter has been going great! Fully funded in less than 48 hours, chosen as a Kickstarter Staff Pick on the third day, and currently at over 130% funded and 150 backers&amp;hellip; with 26 days left!
+We didn&amp;rsquo;t want to bog down the main page with really technical details about how the AllPixel works, but we thought we should give some more background.
+The Hardware At the core, the AllPixel is not much different from devices like the Arduino Leonardo, Arduino Pro Micro, or Teensy 2.</description>
+    </item>
+    
+    <item>
+      <title>PrismaChron Update</title>
+      <link>https://ManiacalLabs.com/2013/11/27/prismachron-update/</link>
+      <pubDate>Wed, 27 Nov 2013 18:09:10 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/27/prismachron-update/</guid>
+      <description>First of all, many thanks to those who supported our PrismaChron Tindie fundraiser!
+Unfortunately, there wasn&amp;rsquo;t enough interest in this particular project to reach our funding goal. So we won&amp;rsquo;t, at this time, be making the PrismaChron, but it was not a worthless experience for us. We learned a great deal in the process.
+While crowd-funding didn&amp;rsquo;t work out this time, we still see great potential in it, given the right product.</description>
+    </item>
+    
+    <item>
+      <title>Naming the PrismaChron</title>
+      <link>https://ManiacalLabs.com/2013/11/14/naming-the-prismachron/</link>
+      <pubDate>Thu, 14 Nov 2013 14:46:11 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/14/naming-the-prismachron/</guid>
+      <description>Designing the PrismaChron was actually kind of easy compared to naming it. We went through a few:
+ Rainbow Clock Color Clock ChromaChron ChronoChroma Color Time ChromataChron LumiChron HueTime ChronoChrome ColorChron ChronBow ChronoChromatic SpectraChron Spectrum Clock RGBTime Many more variations on this theme.  Many of them were ruled out pretty quickly with a quick web search. SpectraChron, for example was dangerously close to SpectraCron (no &amp;ldquo;h&amp;rdquo;) which was a trademarked brand of paint.</description>
+    </item>
+    
+    <item>
+      <title>Announcing the PrismaChron!</title>
+      <link>https://ManiacalLabs.com/2013/11/11/announcing-the-prismachron/</link>
+      <pubDate>Mon, 11 Nov 2013 12:37:13 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/11/announcing-the-prismachron/</guid>
+      <description>We are very happy to announce our latest kit, the PrismaChron!
+  The PrismaChron Clock is our take on time as color. The display consists of three RGB LEDs, one each for seconds, minutes and hours. As each value progresses through time, its LED slowly fades through the spectrum from red to violet, and everywhere in between.
+Just like the Binary Epoch Clock, the PrismaChron is fully Arduino compatible, open source, and ready to be hacked.</description>
+    </item>
+    
+    <item>
+      <title>Introducing: EpochPOV</title>
+      <link>https://ManiacalLabs.com/2013/10/21/introducing-epochpov/</link>
+      <pubDate>Tue, 22 Oct 2013 03:32:29 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/10/21/introducing-epochpov/</guid>
+      <description>We would like to introduce a new product. Okay, not really a new product, but a completely different use for the Binary Epoch Clock Kit that we already sell.
+We&amp;rsquo;ve been hinting at it for a while now but we are proud to finally announce EpochPOV, a custom firmware that turns your Binary Epoch Clock into a fully functional Persistence of Vision - or POV for short - display with a 32 pixel resolution!</description>
+    </item>
+    
+    <item>
+      <title>Announcing the Binary Epoch Clock Kit</title>
+      <link>https://ManiacalLabs.com/2013/08/13/announcing-the-binary-epoch-clock-kit/</link>
+      <pubDate>Tue, 13 Aug 2013 05:30:43 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/08/13/announcing-the-binary-epoch-clock-kit/</guid>
+      <description>For nearly as long as the three of us have known each other, we have talked about the things we would make when &amp;ldquo;we had our own company&amp;rdquo;. The seriousness of that statement grew and waned over time and many of the ideas, while still on our very long list, were probably more crazy than not. But then, early this year, a friend who was just getting into working with the Arduino platform built an 8-bit binary counter and an idea was born; why not make a bigger counter?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kicad on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/kicad/</link>
+    <description>Recent content in Kicad on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 May 2015 13:00:12 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/kicad/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Loading KiCad dimensions into 123D Design</title>
+      <link>https://ManiacalLabs.com/2015/05/27/loading-kicad-dimensions-into-123d-design/</link>
+      <pubDate>Wed, 27 May 2015 13:00:12 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/05/27/loading-kicad-dimensions-into-123d-design/</guid>
+      <description>PCBtoCase
+   As the AllPixel Kickstarter neared an end, we wanted to make design files for a case available for anyone wanting to 3D print their own. However, neither of us are particularly well versed in 3D design, and the usual method of breaking out the calipers to laboriously measure all of the final board dimensions seemed silly when all the dimension and placement data was right there in KiCad.</description>
+    </item>
+    
+  </channel>
+</rss>

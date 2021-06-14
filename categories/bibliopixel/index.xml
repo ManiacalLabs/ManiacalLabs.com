@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bibliopixel on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/bibliopixel/</link>
+    <description>Recent content in Bibliopixel on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Jan 2017 15:36:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/bibliopixel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>From the Forum: Project Northern Lights</title>
+      <link>https://ManiacalLabs.com/2017/01/23/from-the-forum-project-northern-lights/</link>
+      <pubDate>Mon, 23 Jan 2017 15:36:29 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2017/01/23/from-the-forum-project-northern-lights/</guid>
+      <description>Hello! We&amp;rsquo;re not dead yet! Now that the holidays are behind us, we&amp;rsquo;re going to get back into the swing of posting more content on a regular basis. We&amp;rsquo;ve got some neat things coming up, so stay tuned. In the meantime, check out this Freaking Awesome arcade joystick built by forum user [mlapsa]. BiblioPixel was used to control the LED strips inside of the wood and Lexan case. Excellent work!</description>
+    </item>
+    
+    <item>
+      <title>Jumbo1K: 32x32 LED Networked Display</title>
+      <link>https://ManiacalLabs.com/2016/06/28/jumbo1k-32x32-led-networked-display/</link>
+      <pubDate>Tue, 28 Jun 2016 12:32:38 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2016/06/28/jumbo1k-32x32-led-networked-display/</guid>
+      <description>Over two years ago, I bought this awesome display panel:                                1484-02
+  
+It&amp;rsquo;s a 7.5&amp;rdquo; square, 32x32 resolution, 6mm LED spacing, panel that would normally be used for digital signage. Though it is a &amp;ldquo;dumb&amp;rdquo; display that requires CPU intensive multiplexing (it&amp;rsquo;s supposed to be driven by an FPGA or ASIC), with the right tools it can be way easier to use than building, ahem, other types of displays ;) I have covered this exact panel a few other times, but after a couple years of sitting in my LED storage it was time to finally make it something awesome.</description>
+    </item>
+    
+    <item>
+      <title>Christmas Tree Light-Show with AllPixel, BiblioPixel, and PixelWeb</title>
+      <link>https://ManiacalLabs.com/2015/11/17/christmas-tree-light-show-with-allpixel-bibliopixel-and-pixelweb/</link>
+      <pubDate>Tue, 17 Nov 2015 16:47:00 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/11/17/christmas-tree-light-show-with-allpixel-bibliopixel-and-pixelweb/</guid>
+      <description>Ever since working on the Adafruit APA102 Disk, it seemed the next logical step was to apply the same idea to a Christmas tree. So, last year after all the holidays, when everything was on sale, I picked up a 7 foot tall white artificial tree. Green would just not do&amp;hellip; too dark for all the color :) It&amp;rsquo;s still way to early to put up the tree in my mind but, in the interest of beta testing, I figured I would give it a pass this year.</description>
+    </item>
+    
+    <item>
+      <title>Thank You GeekSpark and SparkCon!</title>
+      <link>https://ManiacalLabs.com/2015/09/20/thank-you-geekspark-and-sparkcon/</link>
+      <pubDate>Sun, 20 Sep 2015 19:20:36 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/09/20/thank-you-geekspark-and-sparkcon/</guid>
+      <description>SparkCon_Thanks
+   A Huge Thanks to everyone who came out and saw us at GeekSpark this weekend! We had a great time and were thrilled at the response we got from the giant display.
+If you want to know more about the AllPixel LED driver and the BiblioPixel Python library that were used to make the display, check out the AllPixel Info Page.</description>
+    </item>
+    
+    <item>
+      <title>From the Forum: Gazebo Lighting Prototype</title>
+      <link>https://ManiacalLabs.com/2015/06/22/from-the-forum-gazebo-lighting-prototype/</link>
+      <pubDate>Mon, 22 Jun 2015 18:23:57 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/06/22/from-the-forum-gazebo-lighting-prototype/</guid>
+      <description>[landgrvi] has been posting in the Maniacal Labs forum about some awesome gazebo lighting he has been working on. He&amp;rsquo;s using the new LEDCircle class to run some really neat circular animations.
+Check out this awesome small scale prototype!
+  </description>
+    </item>
+    
+    <item>
+      <title>More AllPixel Distributors</title>
+      <link>https://ManiacalLabs.com/2015/06/09/more-allpixel-distributors/</link>
+      <pubDate>Tue, 09 Jun 2015 19:01:23 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/06/09/more-allpixel-distributors/</guid>
+      <description>One of the major things we&amp;rsquo;ve been hard at work on lately is getting AllPixel kits a little closer to those who want them and either missed the Kickstarter or want more. So far, the AllPixel and PowerTap are available from these great distributors near (some of) you:
+Australia  TronixLabs Little Bird Electronics Pakronics  New Zealand  NiceGear  United Kingdom  DigitalMeans  For those outside of the above regions, fear not; you can always still order direct from Seeed and they will ship worldwide.</description>
+    </item>
+    
+    <item>
+      <title>Get Started with the AllPixel</title>
+      <link>https://ManiacalLabs.com/2015/04/14/get-started-with-the-allpixel/</link>
+      <pubDate>Tue, 14 Apr 2015 17:05:52 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/04/14/get-started-with-the-allpixel/</guid>
+      <description>Just got your AllPixel? Not sure where to start? Look no further!
+Wait&amp;hellip; what is the AllPixel you say? It is our USB controlled, universal controller for digital LED strips. Watch this for more details:
+Now that we&amp;rsquo;re on the same page&amp;hellip; start here:
+AllPixel Quick Start Guide.
+It will walk you through every step. From installing the optional components to running animations with BiblioPixel.
+If you want to know more about BiblioPixel:</description>
+    </item>
+    
+    <item>
+      <title>WyoLum TinyTiM Available</title>
+      <link>https://ManiacalLabs.com/2015/04/01/wyolum-tinytim-available/</link>
+      <pubDate>Wed, 01 Apr 2015 23:30:15 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/04/01/wyolum-tinytim-available/</guid>
+      <description>We&amp;rsquo;ve shown off pre-production versions before, but our friends at WyoLum have just made the awesome TinyTiM available!
+The TinyTiM, much like their larger TiM, is an awesome, well-made (by the same manufacturer as the AllPixel!), and versatile 8x8 LED matrix based on the WS2812 LED. And it&amp;rsquo;s 100% compatible with the AllPixel!
+As usual, Justin from WyoLum is super awesome and sent us some early production boards&amp;hellip;
+                               WyoCube</description>
+    </item>
+    
+    <item>
+      <title>Faster Raspberry Pi!</title>
+      <link>https://ManiacalLabs.com/2015/02/05/faster-raspberry-pi/</link>
+      <pubDate>Thu, 05 Feb 2015 13:00:51 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/02/05/faster-raspberry-pi/</guid>
+      <description>Previously, I talked about the ODROID-C1 as a possible, faster alternative to the Raspberry Pi. Well, there&amp;rsquo;s a reason I haven&amp;rsquo;t mentioned it again&amp;hellip; the software is a mess. It just doesn&amp;rsquo;t have the community around it that the Pi does. Most disappointing was that their USB Serial kernel driver was a total mess and would not work with the AllPixel :( So, that&amp;rsquo;s why I&amp;rsquo;m so excited about the new Raspberry Pi 2!</description>
+    </item>
+    
+    <item>
+      <title>Adafruit Matrix Hat Support for BiblioPixel</title>
+      <link>https://ManiacalLabs.com/2015/01/23/adafruit-matrix-hat-support-for-bibliopixel/</link>
+      <pubDate>Fri, 23 Jan 2015 12:57:53 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/01/23/adafruit-matrix-hat-support-for-bibliopixel/</guid>
+      <description>So, last week, Adafruit launched this little beauty. Having just acquired a handful of Pi B+ and A+ boards and already having a 32x32 matrix that I&amp;rsquo;d been meaning to use, this was a complete insta-buy™. And, of course, I had to make it work with BiblioPixel! Well, it showed up last night and the coding commenced!
+Fortunately, Adafruit already had a library ready to go with a handy python wrapper, since the main code is all C.</description>
+    </item>
+    
+    <item>
+      <title>Multi-Driver Demo with BiblioPixel</title>
+      <link>https://ManiacalLabs.com/2015/01/21/multi-driver-demo-with-bibliopixel/</link>
+      <pubDate>Wed, 21 Jan 2015 14:00:40 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/01/21/multi-driver-demo-with-bibliopixel/</guid>
+      <description>Last time on the Maniacal Labs Blog&amp;hellip; we told you about the awesome new multiple driver support added to BiblioPixel in the latest version. Well, check out the video below to see the proof!
+  All the code from the video is below. More details are on the BiblioPixel Wiki. And be sure to visit the Maniacal Labs Forum to discuss usage or ask questions. Happy making!
+#Load driver for your hardware, visualizer just for example import time import bibliopixel.</description>
+    </item>
+    
+    <item>
+      <title>Exciting Updates!</title>
+      <link>https://ManiacalLabs.com/2015/01/18/exciting-updates/</link>
+      <pubDate>Sun, 18 Jan 2015 16:11:46 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/01/18/exciting-updates/</guid>
+      <description>It&amp;rsquo;s been a little over a month since the Kickstarter for our AllPixel finished and things are progressing nicely. We&amp;rsquo;ve certainly learned a lot about communicating with an overseas manufacturer and designing a product for mass production. Nothing a few tiny tweaks couldn&amp;rsquo;t fix. Our goal has always been to deliver the best possible product. The final boards should be going into production within the next week or two!
+During the campaign, we set a stretch goal of providing multiple driver support to BiblioPixel.</description>
+    </item>
+    
+  </channel>
+</rss>

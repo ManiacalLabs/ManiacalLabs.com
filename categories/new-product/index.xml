@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>New Product on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/new-product/</link>
+    <description>Recent content in New Product on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Jan 2017 16:04:24 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/new-product/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Coming Soon...The AllPixelMini!</title>
+      <link>https://ManiacalLabs.com/2017/01/28/coming-soon-the-allpixelmini/</link>
+      <pubDate>Sat, 28 Jan 2017 16:04:24 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2017/01/28/coming-soon-the-allpixelmini/</guid>
+      <description>Good News, Everyone! We&amp;rsquo;ve been toying around with the idea of updating the design for our AllPixel LED Controler for a while now, and we&amp;rsquo;re making great progress. The image above is our first prototype, fresh from MacroFab.</description>
+    </item>
+    
+    <item>
+      <title>New Library: ESP Serial WiFi Manager</title>
+      <link>https://ManiacalLabs.com/2016/08/09/new-library-esp-serial-wifi-manager/</link>
+      <pubDate>Tue, 09 Aug 2016 13:00:17 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2016/08/09/new-library-esp-serial-wifi-manager/</guid>
+      <description>The ESP8266 Arduino package provides a great and familiar to use ecosystem for developing code on the chip. However, most examples for WiFi network connection and management involve building and uploading new code every time you want to change the network settings. That&amp;rsquo;s just more than should be required if you want to simply connect an existing and complete project to a new network.
+A forthcoming project in which we plan to use a large number of the Adafruit ESP8266 Feather boards for was going to be far to cumbersome to manage if we had to upload new code not only to change the WiFi network but to set static IPs.</description>
+    </item>
+    
+    <item>
+      <title>AllPixel Now Available!</title>
+      <link>https://ManiacalLabs.com/2015/04/20/allpixel-now-available/</link>
+      <pubDate>Mon, 20 Apr 2015 11:43:03 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/04/20/allpixel-now-available/</guid>
+      <description>Good news! The AllPixel and PowerTap are now available for general sale on the Maniacal Labs Seeed Store!                                KermitFlail
+   For those that missed the Kickstarter or just want more, this means that you can order RIGHT NOW!</description>
+    </item>
+    
+    <item>
+      <title>AllPixel Week 1 Update</title>
+      <link>https://ManiacalLabs.com/2014/11/18/allpixel-week-1-update/</link>
+      <pubDate>Tue, 18 Nov 2014 13:00:42 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/18/allpixel-week-1-update/</guid>
+      <description>It has been an amazing first week! 21 Days to go and we are already at over 200% funding. Thanks so much to all our supporters!
+We&amp;rsquo;ve also announced some new stretch goals, so check those out. We feel certain we will hit the first goal in no time!
+One of the coolest things so far though is that we were featured on the Atmel blog! It&amp;rsquo;s a great honor to get some recognition from such an awesome company.</description>
+    </item>
+    
+    <item>
+      <title>AllPixel Update - Staff Pick!</title>
+      <link>https://ManiacalLabs.com/2014/11/13/allpixel-update-staff-pick/</link>
+      <pubDate>Thu, 13 Nov 2014 04:37:00 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/13/allpixel-update-staff-pick/</guid>
+      <description>First of all, the AllPixel Kickstarter has been going great! Fully funded in less than 48 hours, chosen as a Kickstarter Staff Pick on the third day, and currently at over 130% funded and 150 backers&amp;hellip; with 26 days left!
+We didn&amp;rsquo;t want to bog down the main page with really technical details about how the AllPixel works, but we thought we should give some more background.
+The Hardware At the core, the AllPixel is not much different from devices like the Arduino Leonardo, Arduino Pro Micro, or Teensy 2.</description>
+    </item>
+    
+    <item>
+      <title>We&#39;ve Kicked It!</title>
+      <link>https://ManiacalLabs.com/2014/11/09/weve-kicked-it/</link>
+      <pubDate>Mon, 10 Nov 2014 01:09:49 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/09/weve-kicked-it/</guid>
+      <description>We&amp;rsquo;re proud to announce our first Kickstarter! We&amp;rsquo;ve been quietly preparing this for months and can&amp;rsquo;t wait to see what everyone thinks. Check out the Kickstarter page for all the juicy details.</description>
+    </item>
+    
+    <item>
+      <title>One Week Left on the PrismaChron Fundraiser!</title>
+      <link>https://ManiacalLabs.com/2013/11/18/one-week-left-on-the-prismachron-fundraiser/</link>
+      <pubDate>Mon, 18 Nov 2013 13:25:57 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/18/one-week-left-on-the-prismachron-fundraiser/</guid>
+      <description>First of all, many, many thanks to those who have supported the PrismaChron already! It’s been an interesting first week and we’re part of the way there, but we still have a ways to go.
+Unfortunately, if we don’t hit the minimum number of pre-orders, we won’t be able to make the kits cost effective. So we are asking for a little more of your help.
+If you can, please share the following link on the social media of your choosing: https://www.</description>
+    </item>
+    
+    <item>
+      <title>Announcing the PrismaChron!</title>
+      <link>https://ManiacalLabs.com/2013/11/11/announcing-the-prismachron/</link>
+      <pubDate>Mon, 11 Nov 2013 12:37:13 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/11/announcing-the-prismachron/</guid>
+      <description>We are very happy to announce our latest kit, the PrismaChron!
+  The PrismaChron Clock is our take on time as color. The display consists of three RGB LEDs, one each for seconds, minutes and hours. As each value progresses through time, its LED slowly fades through the spectrum from red to violet, and everywhere in between.
+Just like the Binary Epoch Clock, the PrismaChron is fully Arduino compatible, open source, and ready to be hacked.</description>
+    </item>
+    
+    <item>
+      <title>Coming Soon!</title>
+      <link>https://ManiacalLabs.com/2013/11/06/coming-soon/</link>
+      <pubDate>Wed, 06 Nov 2013 17:17:20 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/06/coming-soon/</guid>
+      <description>CC_Teaser
+   Good news everyone! In just a few days, on Monday, November 11th, we&amp;rsquo;ll be launching a new kit!
+We&amp;rsquo;re going to be doing things a little differently this time and will be launching it as a pre-sale over on Tindie.</description>
+    </item>
+    
+    <item>
+      <title>Announcing the Binary Epoch Clock Kit</title>
+      <link>https://ManiacalLabs.com/2013/08/13/announcing-the-binary-epoch-clock-kit/</link>
+      <pubDate>Tue, 13 Aug 2013 05:30:43 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/08/13/announcing-the-binary-epoch-clock-kit/</guid>
+      <description>For nearly as long as the three of us have known each other, we have talked about the things we would make when &amp;ldquo;we had our own company&amp;rdquo;. The seriousness of that statement grew and waned over time and many of the ideas, while still on our very long list, were probably more crazy than not. But then, early this year, a friend who was just getting into working with the Arduino platform built an 8-bit binary counter and an idea was born; why not make a bigger counter?</description>
+    </item>
+    
+  </channel>
+</rss>

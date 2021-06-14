@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Solar on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/solar/</link>
+    <description>Recent content in Solar on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Apr 2017 13:25:27 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/solar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Here Comes the Sun: Going Solar</title>
+      <link>https://ManiacalLabs.com/2017/04/24/here-comes-the-sun-going-solar/</link>
+      <pubDate>Mon, 24 Apr 2017 13:25:27 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2017/04/24/here-comes-the-sun-going-solar/</guid>
+      <description>For as long as I can remember I&amp;rsquo;ve had a strong fascination with renewable energy sources. Not just out of a sense of eco-responsibility (though I did watch a ton of Captain Planet as a child) but also because of the dichotomy between the advanced technology involved and simple elegance of wind, hydro, and solar power. So, my plan has always been to gain grid independence and carbon neutrality and, on March 29th of this year, I&amp;rsquo;ve finally taken the first step by having solar panels installed on my house.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/projects/</link>
+    <description>Recent content in Projects on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Mar 2016 17:06:07 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WyoManiacalDisplay</title>
+      <link>https://ManiacalLabs.com/wyomaniacaldisplay/</link>
+      <pubDate>Sat, 05 Mar 2016 17:06:07 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/wyomaniacaldisplay/</guid>
+      <description>After we unveiled Colossus back in September, our good friends at WyoLum challenged us to make something awesome with their TiM LED panels and have it ready for the NoVA Maker Faire in Reston, VA on Marth 13th.
+Many, many late nights of coding, soldering, 3D printing, and fabricating later and it&amp;rsquo;s finally ready to show off!
+  Here&amp;rsquo;s the specs:
+ 24 WyoLum TiM WS2812 Panels (in a 6 x 4 grid) 64 x 48 Total Resolution - 3072 Pixels!</description>
+    </item>
+    
+    <item>
+      <title>BiblioPixel</title>
+      <link>https://ManiacalLabs.com/projects/bibliopixel/</link>
+      <pubDate>Sat, 14 Feb 2015 14:15:25 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/projects/bibliopixel/</guid>
+      <description> window.location.replace(&#34;https:\/\/github.com\/ManiacalLabs\/bibliopixel\/wiki&#34;);  </description>
+    </item>
+    
+    <item>
+      <title>Bixel</title>
+      <link>https://ManiacalLabs.com/bixel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/bixel/</guid>
+      <description> window.location.replace(&#34;\/2018\/09\/10\/button-pixel-bixel\/&#34;);  </description>
+    </item>
+    
+    <item>
+      <title>Colossus</title>
+      <link>https://ManiacalLabs.com/colossus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/colossus/</guid>
+      <description> window.location.replace(&#34;\/2015\/09\/22\/building-the-colossus-led-display\/&#34;);  </description>
+    </item>
+    
+  </channel>
+</rss>

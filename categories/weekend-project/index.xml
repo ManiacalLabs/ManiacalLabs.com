@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Weekend Project on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/weekend-project/</link>
+    <description>Recent content in Weekend Project on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Nov 2015 12:00:28 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/weekend-project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Weekend Project - QuadWyoDisplay</title>
+      <link>https://ManiacalLabs.com/2015/11/16/weekend-project-quadwyodisplay/</link>
+      <pubDate>Mon, 16 Nov 2015 12:00:28 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/11/16/weekend-project-quadwyodisplay/</guid>
+      <description>After a long week at the Day Job&amp;trade;, I sought the catharsis brought about by creativity and making something. To that end, I took stock of what parts I had lying around. I had been wanting to do something with a couple of TinyTim LED boards I&amp;rsquo;ve had from previous projects. These displays were sent to us by our good friends at WyoLum. I decided I wanted to mount the 4 panels I had loose and make a nice-looking All-In-One 8x32 display.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Project: NExuS</title>
+      <link>https://ManiacalLabs.com/2015/07/27/weekend-project-nexus/</link>
+      <pubDate>Mon, 27 Jul 2015 14:34:18 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/07/27/weekend-project-nexus/</guid>
+      <description>NExuS
+   Introduction I&amp;rsquo;ve had an NES (my wife&amp;rsquo;s actual childhood NES, in fact) sitting in my parts drawer, with the intent of ripping it apart, gutting it, and jamming in a Raspberry Pi to make an awesome emulation box since&amp;hellip; well, ever since the Raspberry Pi came out.</description>
+    </item>
+    
+  </channel>
+</rss>

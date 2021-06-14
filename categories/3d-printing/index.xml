@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3d Printing on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/3d-printing/</link>
+    <description>Recent content in 3d Printing on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Jun 2016 12:32:38 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/3d-printing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jumbo1K: 32x32 LED Networked Display</title>
+      <link>https://ManiacalLabs.com/2016/06/28/jumbo1k-32x32-led-networked-display/</link>
+      <pubDate>Tue, 28 Jun 2016 12:32:38 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2016/06/28/jumbo1k-32x32-led-networked-display/</guid>
+      <description>Over two years ago, I bought this awesome display panel:                                1484-02
+  
+It&amp;rsquo;s a 7.5&amp;rdquo; square, 32x32 resolution, 6mm LED spacing, panel that would normally be used for digital signage. Though it is a &amp;ldquo;dumb&amp;rdquo; display that requires CPU intensive multiplexing (it&amp;rsquo;s supposed to be driven by an FPGA or ASIC), with the right tools it can be way easier to use than building, ahem, other types of displays ;) I have covered this exact panel a few other times, but after a couple years of sitting in my LED storage it was time to finally make it something awesome.</description>
+    </item>
+    
+    <item>
+      <title>Loading KiCad dimensions into 123D Design</title>
+      <link>https://ManiacalLabs.com/2015/05/27/loading-kicad-dimensions-into-123d-design/</link>
+      <pubDate>Wed, 27 May 2015 13:00:12 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/05/27/loading-kicad-dimensions-into-123d-design/</guid>
+      <description>PCBtoCase
+   As the AllPixel Kickstarter neared an end, we wanted to make design files for a case available for anyone wanting to 3D print their own. However, neither of us are particularly well versed in 3D design, and the usual method of breaking out the calipers to laboriously measure all of the final board dimensions seemed silly when all the dimension and placement data was right there in KiCad.</description>
+    </item>
+    
+    <item>
+      <title>3D Modelling Software Review #1</title>
+      <link>https://ManiacalLabs.com/2014/03/25/123ddesign_app/</link>
+      <pubDate>Tue, 25 Mar 2014 04:05:05 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/03/25/123ddesign_app/</guid>
+      <description>Hey Igors, Miles here.
+Yes, I&amp;rsquo;ve decided that fans of Maniacal Labs are hereby dubbed Igor, regardless of gender (I suppose female Igors might want to be referred to as Igorina, but I will allow them to petition for this at a later date [Fans of the great Sir Terry Pratchett, REJOICE!]).
+The other maniacs and I have decided to do some reviews of modelling software that is available as freeware out there on the internet tubes.</description>
+    </item>
+    
+    <item>
+      <title>3D Printing Services Now Offered!</title>
+      <link>https://ManiacalLabs.com/2014/03/04/3d-printing-services-now-offered/</link>
+      <pubDate>Wed, 05 Mar 2014 01:10:25 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/03/04/3d-printing-services-now-offered/</guid>
+      <description>We are excited to announce that we now offer 3D printing services!
+We&amp;rsquo;ve had a MakerBot Replicator 2 for a while now, which we absolutely love, and now we want to share it.
+This is a bit of an experiment, so we&amp;rsquo;re trying it all out via MakeXYZ; a great community of 3D printer owners and those who need 3D printed items. It typically deals with connecting local people, but we will ship to anywhere in the USA.</description>
+    </item>
+    
+    <item>
+      <title>Adventures in 3D Printering - All Charged Up</title>
+      <link>https://ManiacalLabs.com/2014/02/04/adventures-in-3d-printering-all-charged-up/</link>
+      <pubDate>Tue, 04 Feb 2014 12:54:26 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/02/04/adventures-in-3d-printering-all-charged-up/</guid>
+      <description>We love our MakerBot Replicator 2 at Maniacal Labs HQ but eventually you get tired of printing off Portal Companion Cubs, Tardiss (Tardii?), gears, etc. It&amp;rsquo;s actually a lot more fun to create things that solve a real problem!
+I recently got a new Nexus 5 phone and Nexus 7 tablet, both of which have the ability to utilize wireless charging pads. Since I&amp;rsquo;m lazy, this sounded like a good idea (I know, first world problem).</description>
+    </item>
+    
+  </channel>
+</rss>

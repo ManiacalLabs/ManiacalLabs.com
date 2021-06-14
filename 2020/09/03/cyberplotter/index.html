@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta name="generator" content="Hugo 0.54.0" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> CyberPlotter </title>
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  <meta name="author" content="Adam Haile">
+
+
+  <meta property="og:title" content="CyberPlotter" />
+<meta property="og:description" content="Earlier this year we released designs for the Engravinator and while designing that, I caught the CNC bug&hellip; hard. I&rsquo;ve been using all sorts of CNC-type machines for years, of course, already owning multiple 3D printers, lasers, and CNC routers." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ManiacalLabs.com/2020/09/03/cyberplotter/" />
+<meta property="article:published_time" content="2020-09-03T01:00:00-04:00"/>
+<meta property="article:modified_time" content="2020-09-03T01:00:00-04:00"/>
+
+  
+    <meta property="og:image" content="https://ManiacalLabs.com/2020/09/03/cyberplotter/!header.png" />
+
+
+  
+  
+  
+  
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-41371810-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  
+
+  <link rel="canonical" href="https://ManiacalLabs.com/2020/09/03/cyberplotter/">  
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  <link rel="shortcut icon" type="image/png" href="data:image/png;base64,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">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+
+  <link href="https://ManiacalLabs.com/css/font.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/kube.min.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/kube.legenda.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/highlight.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/master.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/kube.demo.css" rel="stylesheet" type="text/css">
+
+ <link href="https://ManiacalLabs.com/css/custom.css" rel="stylesheet" type="text/css">
+
+  <script src="https://ManiacalLabs.com/js/jquery-2.1.4.min.js" type="text/javascript">
+  </script>
+
+  <script type="text/javascript" src="https://ManiacalLabs.com/js/tocbot.min.js"></script>
+
+  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/d7b7e2f1b852bedbcc9503f71/24f91ff71f999da17a5b29481.js");</script>
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#f36926",
+        "text": "#000000"
+      },
+      "button": {
+        "background": "#000000",
+        "text": "#f36926"
+      }
+    },
+    "position": "top",
+    "static": true,
+    "theme": "edgeless"
+  })});
+  </script>
+
+</head>
+
+
+<body class="page-kube">
+  <header> <div class="show-sm">
+    <div id="nav-toggle-box">
+      <div id="nav-toggle-brand">
+        <a href="https://ManiacalLabs.com/">Maniacal Labs</a>
+      </div><a data-component="toggleme" data-target="#top" href="#" id="nav-toggle"><i class="kube-menu"></i></a>
+    </div>
+  </div>
+  <div class="hide-sm" id="top">
+    <div id="top-brand">
+      <a href="https://ManiacalLabs.com/" title="home"><img src="https://ManiacalLabs.com/images/logo-beaker.png"></a>
+    </div>
+    <nav id="top-nav-main">
+      <ul>
+       
+       
+    <li><a href="https://ManiacalLabs.com/products/" >Products</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/posts/" >Blog</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/projects/" >Projects</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/buildlog/" >Build Log</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/about/" >About</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/contact/" >Contact</a></li>
+    
+        <li><a href="http://GitHub.com/ManiacalLabs"><i class="fab fa-github"></i></a></li>
+<li><a href="http://twitter.com/ManiacalLabs"><i class="fab fa-twitter"></i></a></li>
+<li><a href="http://Facebook.com/ManiacalLabs"><i class="fab fa-facebook"></i></a></li>
+<li><a href="http://Instagram.com/ManiacalLabs"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </nav>
+    <nav id="top-nav-extra">
+      <ul>
+        
+      </ul>
+    </nav>
+  </div>
+ </header>
+  <main>
+<div class="push-center" itemscope itemtype="http://schema.org/BlogPosting">
+    
+<meta itemprop="name" content="CyberPlotter">
+<meta itemprop="description" content="Earlier this year we released designs for the Engravinator and while designing that, I caught the CNC bug&hellip; hard. I&rsquo;ve been using all sorts of CNC-type machines for years, of course, already owning multiple 3D printers, lasers, and CNC routers.">
+
+
+<meta itemprop="datePublished" content="2020-09-03T01:00:00-04:00" />
+<meta itemprop="dateModified" content="2020-09-03T01:00:00-04:00" />
+<meta itemprop="wordCount" content="2130">
+
+
+
+<meta itemprop="keywords" content="" />
+
+    <div id="hero">
+        <h1 itemprop="headline"> CyberPlotter</h1>
+        
+        <time class="post-time"><span class="icon">
+  <i class="fa fa-clock-o" aria-hidden="true"></i>
+</span>
+<span>10 minute read</span>
+<span class="icon">
+ <i class="fa fa-pencil" aria-hidden="true"></i>
+</span>
+
+  Published: <time datetime="2020-09-03T01:00:00-04:00">3 Sep, 2020</time>
+
+</time>
+    </div>
+    <div id="post-box">
+        <div id="post" itemprop="articleBody">
+
+            
+
+
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://ManiacalLabs.com/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://ManiacalLabs.com/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="!header.png" />
+    </div>
+    <a href="!header.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>Earlier this year we released designs for the <a href="https://ManiacalLabs.com/2020/02/29/engravinator-for-sale-on-tindie/">Engravinator</a> and while designing that, I caught the CNC bug&hellip; hard. I&rsquo;ve been using all sorts of CNC-type machines for years, of course, already owning multiple 3D printers, lasers, and CNC routers. What I mean is the bug for building my own.</p>
+
+<p>The Engravinator is a great little machine and that&rsquo;s what it&rsquo;s designed to be. Small. But I quickly wanted to be able to work with much larger material and have a level of flexibility that the Engravinator just did not afford. So for a few months, the idea of a roughly 1 meter by 1 meter, 2-axis motion system rumenated in my mind.</p>
+
+<p>It needed to not only have a large working area but have but the flexibility to use more than just a laser or pen as a toolhead. It needed to be a development platform for all my computerized motion control needs. And while I wanted it to be accessible in terms of the ability to replicate the design (which of course makes future repairs simpler for myself as well), I wanted the over-arching philosophy to be:</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="spared-no-expense.jpg" />
+    </div>
+    <a href="spared-no-expense.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>So when things, well&hellip; got crazy in March 2020, I decided it was a good time to barricade myself in the shop and start chipping away at a design. And, well, it turned it out to be a pretty awesome machine, if I do say so myself :)</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="plotter_irl.jpg" />
+    </div>
+    <a href="plotter_irl.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<h2 id="specs">Specs</h2>
+
+<p>Let&rsquo;s get right to the good stuff, shall we?</p>
+
+<ul>
+<li>800mm x ~750mm working area (Y axis depends on current tool)</li>
+<li>2040 Aluminum extrusion frame</li>
+<li>ExoSlide Linear slides for both axis</li>
+<li>9mm wide GT3 heavy-duty belts</li>
+<li>Nema 23, 1.2 Nm motors (1 on X and 2 on Y)</li>
+<li>DM542Y 4A motor drivers</li>
+<li>40mm travel Z-axis</li>
+<li>SmoothieBoard 5X</li>
+<li>Interchangeable tool heads with common power and signal connectors</li>
+<li>5V, 12V, and 24V available for tools and accessories</li>
+<li>Travel speeds up to 1000mm/s on X and 500mm/s on Y</li>
+<li>Built in white and UV LEDs</li>
+</ul>
+
+<h2 id="tools">Tools</h2>
+
+<p>Originally I had considered creating a system that could do automatic tool changes, likely using the new E3D tool changer specification. But I quickly realized that I wanted to have larger tools than that could support and that a 3 minute manual change was perfectly fine for my needs. It could certainly support an automatic change system, I just didn&rsquo;t need the feature. But getting even a manual tool change down to a couple minutes still took some careful consideration.</p>
+
+<p>The core of the system is a series of custom designed circuit boards each with the same mounting pattern, basic size, and electrical connections.</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="pcbs.jpg" />
+    </div>
+    <a href="pcbs.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>The signal input is handled via a standard shielded ethernet cable while ground, 5V, 12V, and 24V power are supplied by a 2x2 molex connector. This allowed me to simply run a standard Cat6 shielded ethernet cable and 4 wire power cable through the drag chains. Both the ethernet and molex connectors are also designed to be robust through many connect/disconnect cycles and are already designed specifically for carrying data signals and power, respectively.</p>
+
+<p>By using an 8-pin ethernet cable, I also have plenty of room to grow in case any future tools need another signal. Right now the connections are as follows:</p>
+
+<ol>
+<li>Tool On/Off (non-PWM &ldquo;laser&rdquo; output from controller)</li>
+<li>Laser PWM</li>
+<li>Unused</li>
+<li>Unused</li>
+<li>Z-Step</li>
+<li>Z-Direction</li>
+<li>Z-Limit</li>
+<li>Ground</li>
+</ol>
+
+<p>The Smoothieboard has the ability to set a &ldquo;TTL&rdquo; output pin which is required for some types of laser cutters. However, it was useful in this case as it flips to a high logic state whenever the laser PWM signal is anything other that 0. Basically every tool other than the laser requires this simpler on/off state. This signal gets utilized in some creative ways that will be described later.</p>
+
+<p>The final part of the tool system is that it uses a standard M4 bolt mounting pattern on every tool. The X-axis carriage has a plate with captive M4 nuts and each tool can be simply fastened to this plate with M4x18mm bolts and then have the power and signal lines connected.</p>
+
+<h3 id="z-axis">Z-Axis</h3>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="z_axis.png" />
+    </div>
+    <a href="z_axis.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>The Z-axis, design-wise, is more of a meta-tool and was honestly an afterthought during the process. While not strictly necessary for things like a pen-plotter I realized that it might be worth having at least a little Z movement available. Since the controller could support it without issue, I decided to go ahead as long as it didn&rsquo;t cause more trouble than it was worth.</p>
+
+<p>The design I came up with bolts to the X-axis with the same exact mounting system the rest of the tools use and then provides the reciprocal mounting surface for tools to be mounted on. The back plate contains a motor, M5 screw rod, and two 4mm linear rods. A front plate then contains four LMU4 linear bearings and a captive M5 nut. This allows for about 40mm of Z-axis travel with decent enough accuracy and incredibly low speed. I honestly hesitate to call it a real Z-axis as it was simply designed to be as compact as possible and provide very basic up and down movement during setup but then to never move again.</p>
+
+<p>One of the tricker bits of this axis, however, is the custom PCB that not only passes along the power and signal lines but contains a built in motor driver. Controlling the motor directly from the Smoothieboard would require 4 dedicated lines <em>just</em> for the motor and at least one more for the Z-axis limit switch. But I realized that I already had power available and then could control the motor with only step and direction signals. With the limit switch I was at three wires total, saving me two. This also prevents any issues that might arise from having over 2 meters of stepper motor wires running next to signal lines.</p>
+
+<h3 id="laser">Laser</h3>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="laser.jpg" />
+    </div>
+    <a href="laser.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>You&rsquo;ve got to have at least one laser!</p>
+
+<p>This was the first tool design because it was the simplest. There&rsquo;s nothing special; just power, a PWM signal, and a way to hold the laser.</p>
+
+<p>Because I literally have a box full of various diode laser modules (from Engravinator testing) I decided to forgo using any of the built in mounting holes on the modules and instead build what amounts to basically a clamp. M5 bolts come in from both sides, with large pads and just hold the module in place with pressure and friction. This allows me to hold a wide variety of modules without much fuss.</p>
+
+<h3 id="pen-lift">Pen Lift</h3>
+
+<p>The bread and butter of the plotter world. I, of course, had to have a pen lift mechanism - otherwise how could I ever be part of <a href="https://twitter.com/hashtag/plottertwitter">#plottertwitter</a>?</p>
+
+<p>This went through multiple revisions before I finalized the current design:</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="pen_versions.png" />
+    </div>
+    <a href="pen_versions.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>In the end, I remembered my &ldquo;Spared no expense&rdquo; mantra and just went ahead with using an MGN9 linear rail. This may seem like complete and utter overkill but it <strong>vastly</strong> simplifies the design. For one, the most important thing for a pen lift mechanism is to be able to lift the pen and place it back down in exactly the same spot. Previous versions that used a levered mechanism were not particularly great at doing this. But the MGN rail is already designed to move smoothly in exactly one dimension. This also allowed for the whole system to be basically 3 components. The rail, a pen holder that bolts to the rail, and a servo.</p>
+
+<p>The control setup is where things get interesting. Technically the smoothieboard can control a servo directly, however this would require yet another control line (even if there are space for them) but, more importantly, would require changes to the controller config and the control software. Instead the hookup PCB contains an ATTiny85 microcontroller that does little more than read the tool on/off signal and then output a servo control signal.</p>
+
+<p>This allows for the software to not even be aware that it&rsquo;s controlling something other than a laser. The only tweak that generally needs to be made is a very slight delay at the start and stop of each line to allow the pen to move.</p>
+
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube-nocookie.com/embed/lBYMKzrXiTg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<br/><br/></p>
+
+<p>It&rsquo;s absolutely amazing to be able to do huge plots like this 500mm x 500mm Delaunay sphere.</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="sphere.jpg" />
+    </div>
+    <a href="sphere.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<h3 id="airbrush">Airbrush</h3>
+
+<p>This was my first attempt to make something out of the ordinary. I found a couple very old videos of actual, proper, paint airbrushes being attached to a CNC machine but they had to be modified to work in that orientation. But the thing that kept coming back to mind was this cool marker airbrush made by <a href="https://copic.jp/en/product/abs/">Copic</a>. Based on that I tried to copy the same basic concept but with a standard Sharpie marker. Amazingly, even the first rough proof-of-concept worked surprisingly well.</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="airbrush_poc.jpg" />
+    </div>
+    <a href="airbrush_poc.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>In order to make things as simple as possible I used a basic 24V pneumatic solenoid which was then connected to a coupler and a standard MK8 style 3D printer nozzle. Aside from being abundantly available it also allows for quickly changing the nozzle size and therefore change the flow and pressure characteristics.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube-nocookie.com/embed/SIzmbvQwSyo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<p>I tried a box full of various markers and, honestly, the best was always the venerable Sharpie. They are consistent and last a long time before going dry.</p>
+
+<p>Like the pen lift mechanism, the airbrush is controlled via an ATTiny85 but with a MOSFET at the output instead. The ATTiny is not strictly required in this case but it allows me to do some signal filtering as well as make sure that the MOSFET gets enough current to be driven quickly.</p>
+
+<p>Oh&hellip; and purely because Sharpie makes fluorescent markers, it has UV lights :D</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="uv.jpg" />
+    </div>
+    <a href="uv.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<h3 id="camera">Camera</h3>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="camera.jpg" />
+    </div>
+    <a href="camera.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>Yes - a camera. This is where I started to get a little crazy. The idea was to mount a high resolution camera with a microscope lens that could be precisely moved around to take a grid of pictures which could be later stitched together. As it stands right now this is still in the proof of concept stage. It basically works but I still need flesh out the process some more.</p>
+
+<p>The hard part was not really the hardware in this case but the control software. This called for something that could both control the movement of the machine but coordinate that movement with taking pictures from the camera. What I eventually came up with is <strong>very</strong> much in the alpha stage - I call it <a href="https://github.com/adammhaile/PlotterCon">PlotterCon</a>. It&rsquo;s written in wxPython and uses the <code>printcore</code> module that&rsquo;s the core of <a href="https://github.com/kliment/Printrun">Pronterface</a> for all machine communications.</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="plottercon.jpg" />
+    </div>
+    <a href="plottercon.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>I&rsquo;ve designed the software to be a framework for any custom plotter control. For example, I would like to make a stippling tool and would need to likely find circles in an SVG file and process them into individual points to be impacted by the tool. This should be easy enough to add to PlotterCon since all the core control features already exist.</p>
+
+<p>Once images are captured it&rsquo;s mainly a matter of post-processing everything into a single image. There&rsquo;s no lack of information on automatic image stitching online so I won&rsquo;t repeat it here but it&rsquo;s still not exactly an easy process. Especially when you need to process over 1200 5-megapixel images into a single 1500 megapixel image, such as this one of <a href="http://hyperzoom.adamhaile.com/zooms/Hamilton/">Alexander Hamilton on the $10 bill</a>.</p>
+
+<h2 id="what-s-next">What&rsquo;s Next?</h2>
+
+<p>I have more tools in mind and will be continuing to hack at the design as needed. Just a few new addons I have in mind:</p>
+
+<ul>
+<li>Drag knife</li>
+<li>Stipple spike (solenoid driven spike to make stipple art with actual punched holes)</li>
+<li>Automated punch embroidery</li>
+<li>Mini plasma cutter</li>
+<li>3D printer with extreme XY and very limited Z height</li>
+</ul>
+
+<p>While all the design files for the entire machine are available (and linked below) there is no plan or desire to release this as a kit or even with extensive build documentation, like with the Engravinator. The full Fusion 360 project is available and if you use my design to build your own I&rsquo;d love to see it! But you&rsquo;ll have to handle the build with just the design files alone :)</p>
+
+<h2 id="design-files">Design Files</h2>
+
+<p>Basically everything you need is contained in the <a href="https://github.com/adammhaile/CyberPlotter">CyberPlotter GitHub Repo</a>, including:</p>
+
+<ul>
+<li>All PCB KiCAD designs</li>
+<li>Fusion 360 project files</li>
+<li>A mostly complete Bill of Materials</li>
+<li>Smoothieware configuration</li>
+</ul>
+
+<p>While I won&rsquo;t be providing a step by step build guide or anything please don&rsquo;t hesitate to reach out on the <a href="https://forum.maniacallabs.com/">Maniacal Labs Forum</a> if you are interested in building all or even part of this machine and have questions.</p>
+
+<p>I&rsquo;ve also put up a gallery of a handful more random pictures from throughout the design and build process on <a href="https://photos.app.goo.gl/7eR7wozWzBtCJnM49">Google Photos</a>.</p>
+
+<p>And if you stay tuned to our website you might even get to see something that fits nicely between the CyberPlotter and the Engravinator soon&hellip; that only takes a couple hours to build :)</p>
+
+
+        </div>
+
+        <div class="">
+            <p>
+  Published
+  
+    
+      by <span itemprop="author">Adam Haile</span>
+    
+  
+  <time datetime="2020-09-03T01:00:00-04:00">
+    3 Sep, 2020
+  </time>
+  
+  
+  using <span itemprop="wordCount">2130</span> words.
+</p>
+ 
+
+
+
+        </div>
+
+        
+        <article>
+            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "maniacallabs" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+        
+
+    </div>
+</div>
+</main>
+  <footer>   <footer id="footer">
+    <nav>
+      <ul>
+        
+        
+       <li><a href="https://ManiacalLabs.com/products/" >Products</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/posts/" >Blog</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/projects/" >Projects</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/buildlog/" >Build Log</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/about/" >About</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/contact/" >Contact</a></li>
+       
+       <li><a href="http://GitHub.com/ManiacalLabs"><i class="fab fa-github"></i></a></li>
+<li><a href="http://twitter.com/ManiacalLabs"><i class="fab fa-twitter"></i></a></li>
+<li><a href="http://Facebook.com/ManiacalLabs"><i class="fab fa-facebook"></i></a></li>
+<li><a href="http://Instagram.com/ManiacalLabs"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2018 Maniacal Labs, LLC</p>
+  </footer> </footer>
+
+
+  <script src="https://ManiacalLabs.com/js/kube.js" type="text/javascript">
+  </script>
+  <script src="https://ManiacalLabs.com/js/kube.legenda.js" type="text/javascript">
+  </script>
+  <script src="https://ManiacalLabs.com/js/master.js" type="text/javascript">
+  </script>
+</body>
+
+</html>

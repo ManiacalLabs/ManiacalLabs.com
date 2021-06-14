@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Longpixel on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/longpixel/</link>
+    <description>Recent content in Longpixel on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 May 2016 22:45:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/longpixel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LongPixel Demo: Variable Color Temperature Light</title>
+      <link>https://ManiacalLabs.com/2016/05/24/longpixel-demo-variable-color-temperature-light/</link>
+      <pubDate>Tue, 24 May 2016 22:45:05 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2016/05/24/longpixel-demo-variable-color-temperature-light/</guid>
+      <description>The LongPixel was designed to make using analog LED strips super easy and, typically, that means RGB LEDs as they are the most common. But the beauty of the way in which the LongPixel drives these LED strips is that it really doesn&amp;rsquo;t matter what color the LEDs are. Sure, the 4 wire, 3 color RGB strips are the most convenient in most cases. But you could, for example, connect 3 single color, 2 wire, strips, of whatever color you desired.</description>
+    </item>
+    
+  </channel>
+</rss>

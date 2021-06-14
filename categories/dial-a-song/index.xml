@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dial a Song on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/dial-a-song/</link>
+    <description>Recent content in Dial a Song on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Apr 2014 14:21:47 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/dial-a-song/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dial-A-Song: Part 2</title>
+      <link>https://ManiacalLabs.com/2014/04/01/dial-a-song-part-2/</link>
+      <pubDate>Tue, 01 Apr 2014 14:21:47 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/04/01/dial-a-song-part-2/</guid>
+      <description>For part two of the Dial-A-Song project, I&amp;rsquo;m going to go through the hookup of the phone&amp;rsquo;s keypad so that it can act as an input to the Raspberry Pi.
+The first thing to do was remove the short ribbon cable that came on the keypad and replace it with something a little longer so I could more easily hook it up to the Pi. Here&amp;rsquo;s the old ribbon cable:</description>
+    </item>
+    
+    <item>
+      <title>Dial-A-Song: Part 1</title>
+      <link>https://ManiacalLabs.com/2014/03/11/dial-a-song-part-1/</link>
+      <pubDate>Tue, 11 Mar 2014 14:56:08 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/03/11/dial-a-song-part-1/</guid>
+      <description>Earlier this week, we got the great news that we have been accepted to the North Carolina Maker Faire. We&amp;rsquo;re absolutely ecstatic to get to share some of our projects with the public but it&amp;rsquo;s also been a great push to get some other projects done. I&amp;rsquo;ve had this particular project bouncing around my head for a couple of years now. I call it Dial-A-Song.
+Much of the inspiration came from They Might Be Giants, who used to leave recordings of their songs on their answering machine, which could be listened to by calling (718) 387-6962.</description>
+    </item>
+    
+  </channel>
+</rss>

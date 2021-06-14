@@ -1,0 +1,120 @@
+body {
+    font-family: 'Overpass', sans-serif;
+}
+
+h1.title, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Overpass', sans-serif;
+}
+
+button, .button {
+    font-family: 'Overpass', sans-serif;
+}
+
+a {
+    color: #f36926;
+    text-decoration: none;
+}
+
+#components h2 {
+    color: #f36926;
+    text-decoration: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* #components h2 a:hover {
+    color: #f36926;
+} */
+
+#components p {
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 1.5em;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+#posts h2 a {
+    color: #f36926;
+    text-decoration: none;
+}
+
+#posts h2 a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.button.outline {
+    background: 0 0;
+    border-width: 2px;
+    border-color: #f36926;
+    color: #f36926;
+}
+
+#posts {
+    text-align: left;
+}
+
+/* #posts img{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+li h2 {
+    text-align: center;
+}
+
+#posts {
+    margin-top: 0;
+}
+
+#posts li {
+    margin-bottom: 1em;
+}
+
+#posts h2 {
+    margin-top: 1em;
+}
+
+#hero {
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+#components .item {
+    background-size: 100%;
+}
+
+#components .item:hover {
+    background-image: none;
+    background-size: 100%;
+    -moz-transition: none;
+    transition: none;
+    /* background: none; */
+    background-size: 0%;
+    background-color: #ffffff;
+}
+
+#top-brand img {
+    max-width: 60px;
+}
+
+#top #top-brand {
+    margin-right: 2em;
+}
+
+.front-page-section h1 {
+    text-align: center;
+}
+
+.fab {
+    font-size: 2em;
+}
+
+#top #top-nav-main li {
+    margin-right: 25px;
+}

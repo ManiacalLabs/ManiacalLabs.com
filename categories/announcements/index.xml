@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Announcements on Maniacal Labs</title>
+    <link>https://ManiacalLabs.com/categories/announcements/</link>
+    <description>Recent content in Announcements on Maniacal Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Apr 2017 13:00:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://ManiacalLabs.com/categories/announcements/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sneak Peak - ULTiM8x8 LED Panel System</title>
+      <link>https://ManiacalLabs.com/2017/04/13/ultim8x8-prelaunch/</link>
+      <pubDate>Thu, 13 Apr 2017 13:00:54 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2017/04/13/ultim8x8-prelaunch/</guid>
+      <description>Ultimate, Modular, No Solder, RGB LED Panel System. Coming Soon. Get pumped.
+crowdsupply.com/maniacal-labs-wyolum/ultim8x8
+https://youtu.be/QYNyK__wYmM</description>
+    </item>
+    
+    <item>
+      <title>Coming Soon...The AllPixelMini!</title>
+      <link>https://ManiacalLabs.com/2017/01/28/coming-soon-the-allpixelmini/</link>
+      <pubDate>Sat, 28 Jan 2017 16:04:24 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2017/01/28/coming-soon-the-allpixelmini/</guid>
+      <description>Good News, Everyone! We&amp;rsquo;ve been toying around with the idea of updating the design for our AllPixel LED Controler for a while now, and we&amp;rsquo;re making great progress. The image above is our first prototype, fresh from MacroFab.</description>
+    </item>
+    
+    <item>
+      <title>New Library: ESP Serial WiFi Manager</title>
+      <link>https://ManiacalLabs.com/2016/08/09/new-library-esp-serial-wifi-manager/</link>
+      <pubDate>Tue, 09 Aug 2016 13:00:17 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2016/08/09/new-library-esp-serial-wifi-manager/</guid>
+      <description>The ESP8266 Arduino package provides a great and familiar to use ecosystem for developing code on the chip. However, most examples for WiFi network connection and management involve building and uploading new code every time you want to change the network settings. That&amp;rsquo;s just more than should be required if you want to simply connect an existing and complete project to a new network.
+A forthcoming project in which we plan to use a large number of the Adafruit ESP8266 Feather boards for was going to be far to cumbersome to manage if we had to upload new code not only to change the WiFi network but to set static IPs.</description>
+    </item>
+    
+    <item>
+      <title>Exciting Updates!</title>
+      <link>https://ManiacalLabs.com/2015/01/18/exciting-updates/</link>
+      <pubDate>Sun, 18 Jan 2015 16:11:46 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/01/18/exciting-updates/</guid>
+      <description>It&amp;rsquo;s been a little over a month since the Kickstarter for our AllPixel finished and things are progressing nicely. We&amp;rsquo;ve certainly learned a lot about communicating with an overseas manufacturer and designing a product for mass production. Nothing a few tiny tweaks couldn&amp;rsquo;t fix. Our goal has always been to deliver the best possible product. The final boards should be going into production within the next week or two!
+During the campaign, we set a stretch goal of providing multiple driver support to BiblioPixel.</description>
+    </item>
+    
+    <item>
+      <title>New Site! New Forum! Kickstarter Progress!</title>
+      <link>https://ManiacalLabs.com/2015/01/04/new-site-new-forum-kickstarter-progress/</link>
+      <pubDate>Sun, 04 Jan 2015 13:45:17 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2015/01/04/new-site-new-forum-kickstarter-progress/</guid>
+      <description>It is a bit crazy to see how far we&amp;rsquo;ve come since Maniacal Labs started by launching the Binary Epoch Clock back in 2013. Well, unlike the quick success we&amp;rsquo;ve had with the AllPixel, we just recently sold out of the Epoch Clock kits. But that allowed us to do something we&amp;rsquo;ve wanted to for some time now&amp;hellip; ditch our web store and redesign the site. So we hope you like the new, cleaner design!</description>
+    </item>
+    
+    <item>
+      <title>AllPixel Week 1 Update</title>
+      <link>https://ManiacalLabs.com/2014/11/18/allpixel-week-1-update/</link>
+      <pubDate>Tue, 18 Nov 2014 13:00:42 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/18/allpixel-week-1-update/</guid>
+      <description>It has been an amazing first week! 21 Days to go and we are already at over 200% funding. Thanks so much to all our supporters!
+We&amp;rsquo;ve also announced some new stretch goals, so check those out. We feel certain we will hit the first goal in no time!
+One of the coolest things so far though is that we were featured on the Atmel blog! It&amp;rsquo;s a great honor to get some recognition from such an awesome company.</description>
+    </item>
+    
+    <item>
+      <title>AllPixel Update - Staff Pick!</title>
+      <link>https://ManiacalLabs.com/2014/11/13/allpixel-update-staff-pick/</link>
+      <pubDate>Thu, 13 Nov 2014 04:37:00 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/13/allpixel-update-staff-pick/</guid>
+      <description>First of all, the AllPixel Kickstarter has been going great! Fully funded in less than 48 hours, chosen as a Kickstarter Staff Pick on the third day, and currently at over 130% funded and 150 backers&amp;hellip; with 26 days left!
+We didn&amp;rsquo;t want to bog down the main page with really technical details about how the AllPixel works, but we thought we should give some more background.
+The Hardware At the core, the AllPixel is not much different from devices like the Arduino Leonardo, Arduino Pro Micro, or Teensy 2.</description>
+    </item>
+    
+    <item>
+      <title>We&#39;ve Kicked It!</title>
+      <link>https://ManiacalLabs.com/2014/11/09/weve-kicked-it/</link>
+      <pubDate>Mon, 10 Nov 2014 01:09:49 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/09/weve-kicked-it/</guid>
+      <description>We&amp;rsquo;re proud to announce our first Kickstarter! We&amp;rsquo;ve been quietly preparing this for months and can&amp;rsquo;t wait to see what everyone thinks. Check out the Kickstarter page for all the juicy details.</description>
+    </item>
+    
+    <item>
+      <title>Stay tuned...</title>
+      <link>https://ManiacalLabs.com/2014/11/03/stay-tuned/</link>
+      <pubDate>Mon, 03 Nov 2014 17:01:37 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/11/03/stay-tuned/</guid>
+      <description>We&amp;rsquo;ve been a little quiet lately. But have no fear, it&amp;rsquo;s only so that we could focus 100% on our next great endeavor.
+1 year of work. 7 prototypes. But oh, so many pixels. Something awesome coming on November 9th. Stay tuned.</description>
+    </item>
+    
+    <item>
+      <title>NC Maker Faire 2014: A Huge Success</title>
+      <link>https://ManiacalLabs.com/2014/06/07/nc-maker-faire-2014-a-huge-success/</link>
+      <pubDate>Sun, 08 Jun 2014 02:09:56 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/06/07/nc-maker-faire-2014-a-huge-success/</guid>
+      <description>Dan and I just got back from NC Maker Faire 2014 here in Raleigh and our brains are still buzzing with all of the awesomeness of the day. Many, many thanks to the great staff and volunteers of this years Faire for creating an awesome experience for all, both maker and attendee. For those that we had wonderful conversations with and are now just checking out our website, you can find more details about all of the projects we were showing off today at our NC Maker Faire 2014 page.</description>
+    </item>
+    
+    <item>
+      <title>3D Printing Services Now Offered!</title>
+      <link>https://ManiacalLabs.com/2014/03/04/3d-printing-services-now-offered/</link>
+      <pubDate>Wed, 05 Mar 2014 01:10:25 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2014/03/04/3d-printing-services-now-offered/</guid>
+      <description>We are excited to announce that we now offer 3D printing services!
+We&amp;rsquo;ve had a MakerBot Replicator 2 for a while now, which we absolutely love, and now we want to share it.
+This is a bit of an experiment, so we&amp;rsquo;re trying it all out via MakeXYZ; a great community of 3D printer owners and those who need 3D printed items. It typically deals with connecting local people, but we will ship to anywhere in the USA.</description>
+    </item>
+    
+    <item>
+      <title>PrismaChron Update</title>
+      <link>https://ManiacalLabs.com/2013/11/27/prismachron-update/</link>
+      <pubDate>Wed, 27 Nov 2013 18:09:10 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/27/prismachron-update/</guid>
+      <description>First of all, many thanks to those who supported our PrismaChron Tindie fundraiser!
+Unfortunately, there wasn&amp;rsquo;t enough interest in this particular project to reach our funding goal. So we won&amp;rsquo;t, at this time, be making the PrismaChron, but it was not a worthless experience for us. We learned a great deal in the process.
+While crowd-funding didn&amp;rsquo;t work out this time, we still see great potential in it, given the right product.</description>
+    </item>
+    
+    <item>
+      <title>Direct Credit Card Payments Now Accepted!</title>
+      <link>https://ManiacalLabs.com/2013/11/21/direct-credit-card-payments-now-accepted/</link>
+      <pubDate>Thu, 21 Nov 2013 19:33:27 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/21/direct-credit-card-payments-now-accepted/</guid>
+      <description>Good news! Paypal is no longer the only option to purchase our kits! We&amp;rsquo;ve gotten some feedback that, even though you don&amp;rsquo;t have to have a PayPal account to checkout in our store, not everyone is keen on the purchase being processed by them. So, effective immediately, you can pay directly via all major credit cards. For the security concerned, have no fear, our checkout process is fully protected by SSL encryption and even we don&amp;rsquo;t have direct access to any of your credit card information as it&amp;rsquo;s all handled by our processor, Stripe.</description>
+    </item>
+    
+    <item>
+      <title>One Week Left on the PrismaChron Fundraiser!</title>
+      <link>https://ManiacalLabs.com/2013/11/18/one-week-left-on-the-prismachron-fundraiser/</link>
+      <pubDate>Mon, 18 Nov 2013 13:25:57 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/18/one-week-left-on-the-prismachron-fundraiser/</guid>
+      <description>First of all, many, many thanks to those who have supported the PrismaChron already! It’s been an interesting first week and we’re part of the way there, but we still have a ways to go.
+Unfortunately, if we don’t hit the minimum number of pre-orders, we won’t be able to make the kits cost effective. So we are asking for a little more of your help.
+If you can, please share the following link on the social media of your choosing: https://www.</description>
+    </item>
+    
+    <item>
+      <title>Announcing the PrismaChron!</title>
+      <link>https://ManiacalLabs.com/2013/11/11/announcing-the-prismachron/</link>
+      <pubDate>Mon, 11 Nov 2013 12:37:13 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/11/announcing-the-prismachron/</guid>
+      <description>We are very happy to announce our latest kit, the PrismaChron!
+  The PrismaChron Clock is our take on time as color. The display consists of three RGB LEDs, one each for seconds, minutes and hours. As each value progresses through time, its LED slowly fades through the spectrum from red to violet, and everywhere in between.
+Just like the Binary Epoch Clock, the PrismaChron is fully Arduino compatible, open source, and ready to be hacked.</description>
+    </item>
+    
+    <item>
+      <title>Easy Guide Printing and PDF Download</title>
+      <link>https://ManiacalLabs.com/2013/11/10/printingpdf/</link>
+      <pubDate>Sun, 10 Nov 2013 22:41:59 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/10/printingpdf/</guid>
+      <description>Just a small update to the site, but hopefully one that will be useful. We have added the ability to easily print and download (PDF format) our product guides. Look for this icon at the top right on the Guides pages for our various products:
+                               Click hear on the Guide pages to customize and print (or save to PDF)</description>
+    </item>
+    
+    <item>
+      <title>Coming Soon!</title>
+      <link>https://ManiacalLabs.com/2013/11/06/coming-soon/</link>
+      <pubDate>Wed, 06 Nov 2013 17:17:20 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/11/06/coming-soon/</guid>
+      <description>CC_Teaser
+   Good news everyone! In just a few days, on Monday, November 11th, we&amp;rsquo;ll be launching a new kit!
+We&amp;rsquo;re going to be doing things a little differently this time and will be launching it as a pre-sale over on Tindie.</description>
+    </item>
+    
+    <item>
+      <title>Introducing: EpochPOV</title>
+      <link>https://ManiacalLabs.com/2013/10/21/introducing-epochpov/</link>
+      <pubDate>Tue, 22 Oct 2013 03:32:29 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/10/21/introducing-epochpov/</guid>
+      <description>We would like to introduce a new product. Okay, not really a new product, but a completely different use for the Binary Epoch Clock Kit that we already sell.
+We&amp;rsquo;ve been hinting at it for a while now but we are proud to finally announce EpochPOV, a custom firmware that turns your Binary Epoch Clock into a fully functional Persistence of Vision - or POV for short - display with a 32 pixel resolution!</description>
+    </item>
+    
+    <item>
+      <title>Challenge Accepted! Binary Epoch Clock 1D Pong Mode</title>
+      <link>https://ManiacalLabs.com/2013/10/06/challenge-accepted-binary-epoch-clock-1d-pong-mode/</link>
+      <pubDate>Sun, 06 Oct 2013 19:28:26 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/10/06/challenge-accepted-binary-epoch-clock-1d-pong-mode/</guid>
+      <description>Last night I got to show off our Binary Epoch Clock kit on Adafruit&amp;rsquo;s excellent Show-And-Tell weekly Hangout. There was a great turnout with tons of cool projects and I&amp;rsquo;d like to thank Adafruit again for letting me join in.
+Check out the whole show. There were a ton of great projects (I&amp;rsquo;m at 2:26):
+  Towards the end of my time, Limor Fried noted that the only thing it needs now is a 1D pong mode and I am rarely one to pass up such a challenge&amp;hellip; So this morning I came up with this:</description>
+    </item>
+    
+    <item>
+      <title>Epoch Clock Kit Review on tronixstuff!</title>
+      <link>https://ManiacalLabs.com/2013/09/15/epoch-clock-kit-review-on-tronixstuff/</link>
+      <pubDate>Sun, 15 Sep 2013 14:38:12 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/09/15/epoch-clock-kit-review-on-tronixstuff/</guid>
+      <description>John over at tronixstuff.com has a review of our Epoch Clock kit. He offers a great walk-through of the un-boxing and building experiences, complete with pictures. He also offers a great explanation of Unix time. A big thanks to John for his consideration of our product! And, of course, we&amp;rsquo;re glad he liked it!
+(tronixstuff.com is based in Melbourne, Australia and was started in 2010 by John Boxall. The site features electronics kit reviews, Arduino tutorials, and other assorted projects.</description>
+    </item>
+    
+    <item>
+      <title>Announcing the Binary Epoch Clock Kit</title>
+      <link>https://ManiacalLabs.com/2013/08/13/announcing-the-binary-epoch-clock-kit/</link>
+      <pubDate>Tue, 13 Aug 2013 05:30:43 +0000</pubDate>
+      
+      <guid>https://ManiacalLabs.com/2013/08/13/announcing-the-binary-epoch-clock-kit/</guid>
+      <description>For nearly as long as the three of us have known each other, we have talked about the things we would make when &amp;ldquo;we had our own company&amp;rdquo;. The seriousness of that statement grew and waned over time and many of the ideas, while still on our very long list, were probably more crazy than not. But then, early this year, a friend who was just getting into working with the Arduino platform built an 8-bit binary counter and an idea was born; why not make a bigger counter?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta name="generator" content="Hugo 0.54.0" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Button Pixel = Bixel </title>
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  <meta name="author" content="Maniacal Labs">
+
+
+  <meta property="og:title" content="Button Pixel = Bixel" />
+<meta property="og:description" content="We&rsquo;ve made all manner of LED displays over the years. Some simple, some complex, some tiny, some huge. But no other has been such a culmination of all the skills we&rsquo;ve learned over the years. We call it the Bixel, for Button/Pixel." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ManiacalLabs.com/2018/09/10/button-pixel-bixel/" />
+<meta property="article:published_time" content="2018-09-10T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-09-10T00:00:00&#43;00:00"/>
+
+  
+    <meta property="og:image" content="https://ManiacalLabs.com/2018/09/10/button-pixel-bixel/!header.png" />
+
+
+  
+  
+  
+  
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-41371810-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  
+
+  <link rel="canonical" href="https://ManiacalLabs.com/2018/09/10/button-pixel-bixel/">  
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAMAAABlApw1AAACxFBMVEUAAADzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSbzaSaoVZCyAAAA63RSTlMAAAZBk9Tj4g2B6f4E+jfoNnSSg4JM9EurqiS3/bYYfdHdASnaJSAX1a0Hrh8cVvZVEr6homj5b2cj09wnA4p8OufNHgmn+GKmUfKzD8PrQnX8BSiPPcUOXvcKG8l4iy3elnBE7hZSY6AI0DQQP0ZFhqVhAofSIp5m4E/xtXPfFO9HSG37nS9dmCo7y2vw7WXEK6hgU7Gy6pCROXZUwXc+sHlfzOZyGS48rJzASroRu7ifzjKEMyHPZIXYcVDlE42auYkL9VdAaSzWW/OOmW4aqRXCjOF6gNsmMccwl+TIm3tcDE68WLQ1xsqjPfB25gAACzVJREFUeNrtnft7FsUVx/MNJIGEhIsQCk0QEkjgDZcGKJiEgEQaNEYwASEh3AUh3AQiIHKRKqIYEFApFAsFtQhCQwxiClhpAVta6IVepBasVmtb3X+imwjvnNndNzszu+++T59n5id4snPO+cw5uztz5sy+cXGKDfHt2ickJvnQEhPat4uHqh3K9nfomJxi+NRSkjt2CJgAnTqm+mV+S0vt2ClYAqR19tN+w+jcJVAAoKu/9htGVwRJAHTzG6BbwAB3+Q3QPVCAOPRI99f+9J4B38QdvuUvQK+An6NA729n+Gd+RmbvYCOoBaHP3X3ZqyC9n3RjMZja9+4+gb+JTYKs7P5hGzIH5Ei2AZnhzv2zs2Jgv0mQOzBsw6CQpAkIDQp3HpgbE/vNIPIEkMcAYhFAGkADaAANoAE0gAbQABpAA2gADaABNIAG0AAaQANoAA2gATSABtAAGkADaAANoAE0gAbQABpAA2gADaABNIAG0AAaQANoAA2gATSABtAA/xcA3o6gEIBYHUEZ3M8fgP5DYnMGCEOHhW3I8wIw7DuBHyJrNSF/eNgEY4TscWB0Gsl6D8+PxTEyfHdU2IKU0bJjCIxOCXcfdU8MXICCQjaERWOkDcCYIta/sCD4M/XFY5n+lHHyIwiMYy4wxhYHfaYe945n6kvuU1CP+0qYhPH3BhxEmPA9pr10oop2YGIpk3H/hIDP1D9QxpQ/WK6kHOUPMhllDwR7JD33IaZ70mQ13cDkSUzKQ0G+joGHK5jqbqqfhEAl+bRAxcMBugBT2Elio3+2qmYgm8qZEhgAiqcyvRkeRs70JDnXPjWoRynwSDJTO83LXBh9pjFJyY8EFESYzuZhRvpQL1rNCSH5vENeMF82AKqqmdJeMzwpxYxeTFZ1VSAuQM1MprOzR7eb4Ui+MjOzJgAAYBa58WZ7vfFQPJs8EGYF4ALMmcs0DuztWSF6s4WpMXdO1AFQOY+8fOZ7HzFgPnkpzquMNgEeXUBe/wt9UIeFZFqy4NEoA/ATsMf8CFngMe8TQ3Fli9g60lhc64sy1C5mMkctiup9jJwlTFfi0jZVAcuWr3jcbCvmuDyqsDSRSV2SE0UAZNEPO61s+5MuWLgqfVhrS1ztcmXdE0TsXVH8Ugw3VGvWuozrovDTpdDlBYW1a4Qd68n+0DoSrE+6BCv5ENr6AS6X4klya62TTZIJ24+nNjA1G5e5qMGm8LWb3d53WLaRSd7wVJTuYzxNUnFbvu+mRAYgDs9sYbKHPx0VAODZrUzJc65+lgMIPcdkb302Ki7A2gSmY/M2qwrU1dRwz4+IAKgtmG6zENs2M+kJa6MAwD3r7Kk4VE4sXPM8Xd5HAkDNC0l52239uUTdE3W+EwAvklRcvTWjj047dhrGS7vIK8sZAKjJMy3dvcdGMKSeyR//ou9BhBkvM/mlr1jkf2O/ORcjBI4At+13IABeIYm6l70t9Jwc8CqZce0td7af84EzwG37nQjKf8A0lL3qswu4Oe++5bx0FN+xnxI4AIDZ30pgGaPl+5gOX2bqVPgmsurYz6figJ4vsT+Go8gOYNo/iNypmflWP/6Q/bFik58u4FNoRdutQ7ffIO2ODxwAyPi3oB6w3sfbi9hf1RN+TgDFxMSM12y334/KKMFtH1gBYLHfOJhre5QeIvmC/f4l6szoJKm43bZUHOJnpdsJLACW+DEn/l3sb7M+u9nfk3/smwsw/TB5PjisIxE6whG0RpEVwDL+S9Ic5HCry8PTfQIAXqdbKU7rSMTbCXgAEftbNn7uZ5eUvu6TCzDkDSb1zQOOUq0+aIkiDsAaP2nOYnDgTXbRG/7s4POpuEjbifYowk8YQMFRkfGPi06iDm+xkggjIeLE2BpFC1YzD/Q7dlzM/pZEHZnz9nvLj7RN6G0msa0tdasPOp8IOy75YIag/aa/7yGry7d9WF3i5AYm8KcNbQi0EkRqbdlvSmk4xS7dcNJ76rKhkcjr0WZQWqNIxX7TBT3IiDU2eCTgU3HvuHhUxAcu9rcIeYfErNdEHQY3MWlJp92Xtm4ErvabQk4nseubBnvbQOFSce+658zcokjAflPpu6SHt0QdzpBUXN/3BEQhNKsNguYuIhGB9/qyLolnvGwi0rxx6c/sky/EN+RbWkPu2dJI9p9bUZ4v0srPk5+X8JADB96nmXv73ApH5zU3WVtJc3UkgJ/XNwm1kjUEoOx95fsYH5BU3ILH7fYXX3B75vjRhn+gXMqwgwzEL+y/tIIJvwwCIHWHogtQ0GYqrgWgUd0siZagVlGH4otMRsYRxA7AuKiyugSOkVTctKOOy4+AAMYfUwgiXGLf1zcuD0UsAYxBlxSqIj+8zAQcdqwjCQ7g8ofSLkAuSRBM+pXzArB2o7pNcm23bEUd0JWk4qY6V8UBv76sbpNUq5D8oSDgCllH/mZApBVs7W+nXrC22SOvRjKj8NoFmdZtPeva74oUAeJ/x/pu/b1MX/zhjxF/32XfRJnnIXCeRMELMj9ZBkwm6dqD18W72vI/fON2QNyF5f6JdJWpTsX0vaynzGTKlj+0tgUyBPxkcq94oo6vilslUdWMIXlt2i/pA0xYxXpKVNTx21XideUu8SPvA75Gvl40UQccUauKE7FfkqD4z6yjcKIO28gjdI14VZzF/hSWzqjgfr9PJorQm5SBCCbquJKO0l2iAWSLn/p14f/+pX2ZIgGwiyxQxcpAcHIn69IoXAFmyz8vPR/+99w9hxx2QMTELiPzrZ0iiTq+R09hB9jz/zS9XumwAyLogp50PN1KZFoPhiiU7jjuX3D7A/HKBFyR0mr3tFhOM7t+vWsqLjz+9v0Lyw6Nww6IoOzTZErU7FZRh7qV7GrHdaSz/Q77F9Y9spCiD4C/kqf6SpcyEKTR01WCbw5cP27Y7Ldvs9p2QASThhhCz2uluQB8RFQcEnMAsMNp/8K20W31wY2/ibrgEOn1kQvAOHKta1ncHQWvOdjvtFPPEyQLZj25gjpjnAvAxySbO0rsLQYU/N1uv2OxB42iimtijzi+pDHxYxeArLOE1q00NKzi5kyb/Y7lNsQHW28Jbr5wRaXGWbcbh0ttG2fFSr8YAcn/O9cL3SEQt7+ODql7it+cfJCZ1ydC+XxGQPcvIpScfRNFFbfE7i9TcpdPmD2pAkHN7eoJr2ZMgn+Yrxm6/xKh6M/0wVUjdZ7o5h23phHb8+NqUIXXk8CUsfu30YsjVi2GqvI2CY6/ZVW55Rmhh0roU8J8QnhFj6wsDjZy3Sgqhfe9cP0EMeZTwefWTVKDulX6tLwrgIwMjCbVwptvikbDZ+TNek7+uLyPAGPOMUsyPhOe29NFvXFNsfTLBwAUXyOGCC/qTRc8zz55YSSrJOd5gPVqAMAxUuo27J8S+akOpMbMOP65mvovws+Pf6l9+AKf01nuYYmjokA7clj88pdKLkBofklCodkG/vs/agLwJUl+R0jxR+rbif4OveP+koCQuvyFre2SYgwe/S8xQu7gO5B9g9z+ggsDfxtfRXpDsg6WrzUu2hMLgCtFzAL5SmRui8m4JZOc98n++FvEAOktJsth8aif0XQwgJ46VTn4zp14iPYZTQf19NSp0nkIPrVd6p5R8td+7sMrEil+KoPWoBolBaEJAbZQAUmlqB5852pQK77KbAywZX5FHoIJqlMprtwmdk253CYO+ae8q/feTil/QgxkPha7VvaFh4+31I6ItfmGMcLLwXecSfJugbeW5KXs0lyod481QHdvJ9SR0+TdBi+tyeM3AoDV1d6tUG/VnmcAuHTxauzsv3pRvtbMTlC1+OuRMWlfL65yt/9/Z97OiYBXh8QAAAAASUVORK5CYII=">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+
+  <link href="https://ManiacalLabs.com/css/font.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/kube.min.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/kube.legenda.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/highlight.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/master.css" rel="stylesheet" type="text/css">
+  <link href="https://ManiacalLabs.com/css/kube.demo.css" rel="stylesheet" type="text/css">
+
+ <link href="https://ManiacalLabs.com/css/custom.css" rel="stylesheet" type="text/css">
+
+  <script src="https://ManiacalLabs.com/js/jquery-2.1.4.min.js" type="text/javascript">
+  </script>
+
+  <script type="text/javascript" src="https://ManiacalLabs.com/js/tocbot.min.js"></script>
+
+  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/d7b7e2f1b852bedbcc9503f71/24f91ff71f999da17a5b29481.js");</script>
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#f36926",
+        "text": "#000000"
+      },
+      "button": {
+        "background": "#000000",
+        "text": "#f36926"
+      }
+    },
+    "position": "top",
+    "static": true,
+    "theme": "edgeless"
+  })});
+  </script>
+
+</head>
+
+
+<body class="page-kube">
+  <header> <div class="show-sm">
+    <div id="nav-toggle-box">
+      <div id="nav-toggle-brand">
+        <a href="https://ManiacalLabs.com/">Maniacal Labs</a>
+      </div><a data-component="toggleme" data-target="#top" href="#" id="nav-toggle"><i class="kube-menu"></i></a>
+    </div>
+  </div>
+  <div class="hide-sm" id="top">
+    <div id="top-brand">
+      <a href="https://ManiacalLabs.com/" title="home"><img src="https://ManiacalLabs.com/images/logo-beaker.png"></a>
+    </div>
+    <nav id="top-nav-main">
+      <ul>
+       
+       
+    <li><a href="https://ManiacalLabs.com/products/" >Products</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/posts/" >Blog</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/projects/" >Projects</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/buildlog/" >Build Log</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/about/" >About</a></li>
+    
+    <li><a href="https://ManiacalLabs.com/contact/" >Contact</a></li>
+    
+        <li><a href="http://GitHub.com/ManiacalLabs"><i class="fab fa-github"></i></a></li>
+<li><a href="http://twitter.com/ManiacalLabs"><i class="fab fa-twitter"></i></a></li>
+<li><a href="http://Facebook.com/ManiacalLabs"><i class="fab fa-facebook"></i></a></li>
+<li><a href="http://Instagram.com/ManiacalLabs"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </nav>
+    <nav id="top-nav-extra">
+      <ul>
+        
+      </ul>
+    </nav>
+  </div>
+ </header>
+  <main>
+<div class="push-center" itemscope itemtype="http://schema.org/BlogPosting">
+    
+<meta itemprop="name" content="Button Pixel = Bixel">
+<meta itemprop="description" content="We&rsquo;ve made all manner of LED displays over the years. Some simple, some complex, some tiny, some huge. But no other has been such a culmination of all the skills we&rsquo;ve learned over the years. We call it the Bixel, for Button/Pixel.">
+
+
+<meta itemprop="datePublished" content="2018-09-10T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-09-10T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="3194">
+
+
+
+<meta itemprop="keywords" content="" />
+
+    <div id="hero">
+        <h1 itemprop="headline"> Button Pixel = Bixel</h1>
+        
+        <time class="post-time"><span class="icon">
+  <i class="fa fa-clock-o" aria-hidden="true"></i>
+</span>
+<span>15 minute read</span>
+<span class="icon">
+ <i class="fa fa-pencil" aria-hidden="true"></i>
+</span>
+
+  Published: <time datetime="2018-09-10T00:00:00&#43;00:00">10 Sep, 2018</time>
+
+</time>
+    </div>
+    <div id="post-box">
+        <div id="post" itemprop="articleBody">
+
+            
+
+
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://ManiacalLabs.com/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://ManiacalLabs.com/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="!header.png" />
+    </div>
+    <a href="!header.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>We&rsquo;ve made all manner of LED displays over the years. Some simple, some complex, some tiny, some huge. But no other has been such a culmination of all the skills we&rsquo;ve learned over the years. We call it the Bixel, for Button/Pixel.</p>
+
+<p>Ok, so we&rsquo;re bad at naming things. Moving on&hellip;</p>
+
+<!-- more -->
+
+<p>Every time we show off our work at Maker Faire or SparkCon we get great response from all the displays, but none more so than the interactive ones. There&rsquo;s just something about a blinky thing you can reach out and touch that really attracts people&rsquo;s attention. With that in mind, we have wanted to build an interactive display where each pixel hides a button so that people can directly touch and manipulate the pixels.</p>
+
+<p>For those that are already screaming &ldquo;just give me the sweet, sweet video!&rdquo;, see below for a wonderful time-lapse build. Otherwise, read on!</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube-nocookie.com/embed/scY-PhBbaS4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<h1 id="design">Design</h1>
+
+<p>Originally the plan was to find some arcade buttons with built-in RGB LEDs as they are literally designed to do what we want. However, the cheapest we could find was more than $2 per button and for a 16x16 display that&rsquo;s over $500 just for the buttons alone.</p>
+
+<h3 id="leds">LEDs</h3>
+
+<p>Beyond just the cost, arcade buttons posed another problem; every one we could find simply had LED wires for Ground, Red, Green, and Blue. This meant that we would need to drive the full 16x16 array with some sort of multiplexing scheme. Not impossible, by any means, but it makes both the code and the PCB layout considerably more complicated.</p>
+
+<p>Even still, we had originally assumed that multiplexing the LEDs would be the cheapest way to go. But after much research and some discussion with our LED supplier in China, we came to the realization that we could use standard digital, chainable LEDs which would simplify the code and the PCB while being far cheaper than the arcade buttons. This was even when our new plan required an enormous PCB, but more on that later.</p>
+
+<p>Typically something like this would just use the bare LED modules (SK9822, an APA102 clone, in our case) soldered directly to the PCB. But besides the fact that these would need to be expertly hand soldered or preferably reflow soldered to the massive PCB, we&rsquo;ve had exceptionally poor luck with using these LEDs in the past. They are extremely heat and moisture sensitive and prone to failure during the soldering process. However, once soldered with the right equipment they seem bulletproof.</p>
+
+<p>So with this in mind, we fell upon a novel solution; we would simply purchase full strips of LEDs, cut them up into the individual pixel sections, and then solder <em>those</em> directly to the PCB. All it took was creating a custom component footprint in KiCad. As you can see below, they turned out quite clean:</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="1.jpg" alt="Footprint test PCB"/>
+    </div>
+    <a href="1.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Footprint test PCB</p>
+      </figcaption>
+  </figure>
+</div>
+
+<h3 id="buttons">Buttons</h3>
+
+<p>The footprints you can see above were actually something new for us; an aggregate footprint. As in a footprint that actually contained the footprints for more than one component on the PCB. This aided greatly in the layout of the next part, the buttons.</p>
+
+<p>Fortunately, this ended up being a solved problem because of the custom computer keyboard community. The task of reading multiple buttons with as few pins as possible happens right under your fingers, every time you use a computer keyboard. There was no lack of information on building your own keyboard with a microcontroller. Aside from nearly double the number of buttons, a keyboard is basically what we were trying to create. One of the best and most complete sources we found was over at <a href="http://www.openmusiclabs.com/learning/digital/input-matrix-scanning/index.html">OpenMusicLabs.com</a></p>
+
+<p>Specifically, we decided to go with a parallel-out shift register setup using the common 595 chip. This allowed us to scan the entire matrix with 19 pins; 3 for the shift registers handling the columns and 16 for the rows. Technically, less pins would&rsquo;ve been possible with more external ICs, but as we were already planning on using the spacious (in terms of GPIO) Teensy 3.6 to handle the matrix, we had the pins to spare.</p>
+
+<p>The circuit itself was incredibly simple and all the research had basically been done leaving the last component easy to find; the 1N4148 diode. This allows what&rsquo;s known as &ldquo;N-Key Rollover&rdquo;, or the ability to press as many keys as you would like simultaneously and read them all. That specific diode is basically the de-facto standard for the custom keyboard scene so we went with that and it works wonderfully.</p>
+
+<h3 id="pcb">PCB</h3>
+
+<p>At the start of the project, the thought of creating a 500x500mm (20x20 inch) PCB was absolutely insane. But thanks to cheap PCB manufacturing from China, we were able to manufacture this behemoth of a PCB for a mere $100 each!</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="2.jpg" alt="Giant PCB"/>
+    </div>
+    <a href="2.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Giant PCB</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="3.jpg" />
+    </div>
+    <a href="3.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>Have you ever seen a PCB that large?!</p>
+
+<p>Ok, so we had to buy 5 of them as that was the minimum order, but even if we don&rsquo;t use all of them that&rsquo;s still a complete steal. And, come on&hellip; we&rsquo;re going to build more of these :)</p>
+
+<p>This monster was, of course, entirely designed in the wonderful KiCad EDA and required all the tricks in the book to keep from going insane during the layout process. The aforementioned aggregate footprint helped a great deal, but it was still quite the task.</p>
+
+<p>Amazingly, we were able to do all this with a standard 2-layer PCB. A big part of that is because we went with the digital LEDs still attached to the strip. This allowed us to run the button row traces under the LEDs. All that was left after that was the button column traces which simply run in between the LED/Button columns. The most complicated part ended up fitting all the row and column traces and, as you can see above, we actually shifted the whole matrix off-center to accommodate the traces and shift registers. But then by mounting this in the case off-center in the other direction, you would never know everything isn&rsquo;t perfectly centered.</p>
+
+<p>To simplify the design we also opted to not include anything but the bare essentials on the main PCB, and instead move all control hardware to another PCB.</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="4.jpg" alt="controller PCB"/>
+    </div>
+    <a href="4.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>controller PCB</p>
+      </figcaption>
+  </figure>
+</div>
+
+<p>Aside from just simplifying the larger PCB this also made things a lot more flexible. The purple PCB you see above was designed <em>after</em> we had already ordered the main board. We were still debating the best option for controlling the whole setup, and this made it super easy to just connect everything up to whatever we finally decided on. Speaking of which&hellip;</p>
+
+<h1 id="control">Control</h1>
+
+<p>The original plan was to run absolutely everything off a Teensy 3.6 as it&rsquo;s a tremendously powerful microcontroller. This would, in theory, work. But, in practice, there were some issues. Fortunately, we started with a rough prototype to test out the basic concepts:</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="5.jpg" alt="Perfboard prototype"/>
+    </div>
+    <a href="5.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Perfboard prototype</p>
+      </figcaption>
+  </figure>
+</div>
+
+<p>But in testing with this crazy prototype, we quickly noticed weird behavior; the buttons would eventually stop responding.</p>
+
+<p>After a great deal of testing and research it came down to the fact that the button scanning was using interrupts as was the <a href="http://fastled.io">FastLED</a> library to drive the LEDs. There was a non-zero chance that eventually two sets of interrupts would interfere with each other and cause the whole thing to fall over. And that was with even the most basic animation, never mind something more complex like an interactive game.</p>
+
+<p>So the next best solution was to offload the animation and LED control to something else. Of course, the logical answer was a Raspberry Pi 3. So, instead, the Teensy simply scanned the buttons and reports their state to the Pi over a USB serial connection. Then, we can run python code on the Pi to talk to the Teensy, run the animations, and drive the LEDs directly over the SPI output.</p>
+
+<p>Normally, our own <a href="https://ManiacalLabs.com/projects/bibliopixel">BiblioPixel</a> would&rsquo;ve been used to run everything. But, in this case, we wanted to simplify things as much as possible. So, with liberal borrowing of code from BiblioPixel, we instead created a custom, simplified, and bespoke framework to drive the system. Surely some of tricks we found along the way will make it back into BiblioPixel at some point.</p>
+
+<p>The new framework breaks each of the games/animations down into classes similar to how BiblioPixel handles animation classes. But the framework automatically handles all of the button polling outside of the frame rendering and simply passes along the button data for each frame. The framerate is also fixed at 30 as that was about as fast as we could reliably scan the buttons. So we were left with a nice 1 frame per full button matrix scan relationship.</p>
+
+<h1 id="bringing-it-together">Bringing It Together</h1>
+
+<p>At the genesis of this project, the plan was to 3D print the whole assembly. It would&rsquo;ve been&hellip; tedious. But hey, it&rsquo;s what we had.</p>
+
+<p>But then, this past spring, our good friend Justin of <a href="http://wyolum.com">WyoLum</a> offered us this amazing piece of equipment:</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="6.jpg" alt="Lasersaur"/>
+    </div>
+    <a href="6.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Lasersaur</p>
+      </figcaption>
+  </figure>
+</div>
+
+<p>Yep, that is the amazing open source <a href="http://lasersaur.com">LaserSaur</a> - a 100W CO2 laser cutter with a 1200mm x 600mm (48in x 24in) working area. We are certainly fans of &ldquo;the right tool for the job&rdquo; and this&hellip; this was it. So, with the proper tool in hand (or, on a giant custom table) it was off to Fusion 360 to design a case (another &ldquo;right tool&rdquo;).</p>
+
+<p>As noted above, this design was all about keeping the cost per button low. So we came up with a nifty little cheat to turn small, cheap tactile switches into large buttons. The reason we used two tactile switches is because they are then able to support a circle of 3mm acrylic, but that circle needs to be kept in the right place. The tactile switches are 5mm tall, so we used 5mm brass standoffs to elevate two 3mm thick acrylic sheets above the PCB.</p>
+
+<p>The acrylic sheet closest to the PCB has 25mm holes and the top sheet has only 20mm holes. This allowed us to hold semi-transparent white acrylic circles directly above the buttons and able to move up and down, pressing the switches, but not side to side or fall out. You can see how this all works with this mini clear prototype we made:</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="7.jpg" alt="mini prototype"/>
+    </div>
+    <a href="7.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>mini prototype</p>
+      </figcaption>
+  </figure>
+</div>
+
+<p>Much to even our surprise, this works <em>perfectly</em>. First time, first design and it&rsquo;s perfect. Try as we might there&rsquo;s no way to press the acrylic button without at least one of the tactile switches registering the press. So now we just had to scale it up!</p>
+
+<p>The rest was many hours of CAD modeling of every component (gotta love the McMaster Carr import!) and after much work, we wound up with this:</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="f360_animation.gif" alt="Fusion 360 Design"/>
+    </div>
+    <a href="f360_animation.gif" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Fusion 360 Design</p>
+      </figcaption>
+  </figure>
+</div>
+
+<p>With that done, we were ready to start cutting, but good acrylic is expensive so we started with some cheap clear acrylic we picked up at the local <a href="http://scrapexchange.org/">Scrap Exchange</a>. Using clear acrylic was kind of a happy accident as it worked well to really get a feel for how everything was fitting and make a few small adjustments.</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="8.jpg" alt="full prototype case"/>
+    </div>
+    <a href="8.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>full prototype case</p>
+      </figcaption>
+  </figure>
+</div>
+
+<p>Now, we just needed to bring everything together!</p>
+
+<h1 id="assembly">Assembly</h1>
+
+<h3 id="so-much-soldering">So Much Soldering</h3>
+
+<p>Even if we had gone with completely surface mount components, any sort of automated assembly was never really considered. For a one-off board of this size, our experience said that it would be <em>far</em> too expensive. This meant that we would have to suck it up and solder the entire thing by hand. This was a <em>tremendous</em> amount of work that we managed to knock out over a very long 11 hour day between the both of us. It was tedious work but, due to a well thought out design, not really all that difficult. The video above includes a protracted version of the time-lapse of this whole process, but if time-lapses are your thing, checkout the <a href="https://www.youtube.com/watch?v=aa7VSIQ94Kw">full version here</a>.</p>
+
+<p>Given how much work this was, we felt it was only right to sign our work:</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="signed.jpg" />
+    </div>
+    <a href="signed.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<h3 id="pew-pew">Pew Pew!</h3>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="lasersign.jpg" />
+    </div>
+    <a href="lasersign.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>High quality acrylic in hand (the good stuff is <em>so</em> worth it), we set about firing the laser. As you might imagine with a design like this, it was slow going. The design isn&rsquo;t complicated, it&rsquo;s just (as is the theme of this project) tedious. We went slow and took our time getting everything perfectly setup for best success. After a couple evenings of cutting we had all the parts necessary.</p>
+
+<p>While not likely a complete necessity, we decided to go ahead and secure the case sides to the bottom with acrylic cement. Though we made sure to make the tolerances as small as possible, this greatly helped close the gaps and increase the case rigidity as acrylic cement is a chemical solvent that permanently bonds the parts together.</p>
+
+<p><em>Adam chooses to simply ignore the part where he glued the bottom on backwards and had to cut more&hellip;</em></p>
+
+<h3 id="hardware">Hardware</h3>
+
+<p>Again with the tedium, to do this right the design includes:</p>
+
+<ul>
+<li>289 5mm M3 standoffs</li>
+<li>249 M3 nuts</li>
+<li>50 35mm M3 standoffs</li>
+<li>339 8mm M3 screws</li>
+</ul>
+
+<p>The 5mm standoffs hold up the top acrylic plates as mentioned before and the 35mm standoffs provide spacing to mount all the control and power components underneath the PCB.</p>
+
+<p>We originally just bolted everything together and tightened things as much as felt comfortable, but upon trying to dismantle the clear test case we quickly found that some of the standoffs were coming loose, making it nearly impossible to completely undo the 8mm screws holding the top and bottom parts of the case together. This was solved with a combination of Loctite thread locker and super glue. After that, all the hardware stayed nicely in place.</p>
+
+<h3 id="electronics">Electronics</h3>
+
+<p>The electronics are really not all that complex and include:</p>
+
+<ul>
+<li>Raspberry Pi 3B+</li>
+<li>Teensy 3.6</li>
+<li>Panel mount USB port (for accessing the Pi USB)</li>
+<li>2x 24mm arcade buttons (for brightness and menu)</li>
+<li>2x rocker switches (power and read-only control)</li>
+<li>C14 power plug socket</li>
+<li>2x 30x30mm 5V fan</li>
+<li>Meanwell LRS-100-5 90 watt power supply</li>
+</ul>
+
+<p>Mounting holes for everything were included right in the bottom of the case, and after copious amounts of gaffer tape cable management, we were able to get everything cleanly installed. In the picture below, you can see gold sharpie marks at various holes. This was from the first test case we made and figured out exactly where all the 35mm standoffs would end up. Therefore these marks made it easy to ensure that none of the cables would get in the way.</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="9.jpg" alt="Installed electronics"/>
+    </div>
+    <a href="9.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Installed electronics</p>
+      </figcaption>
+  </figure>
+</div>
+
+<p>Were we to redesign this, we might include holes for looping zip ties around the cable or something. But for a first version, we are still quite happy with how this worked out.</p>
+
+<p>All of what you see above connects to the main PCB via four power wires (the PCB is powered in halves) and a single 24 pin ribbon cable that can be seen in the top left corner.</p>
+
+<h3 id="capping-it-off">Capping It Off</h3>
+
+<p>All that&rsquo;s left is to bring everything together. We first placed the PCB in the bottom of the case (with all the hardware pre-installed) and secured it with a handful of screws. Then, the first top acrylic sheet was slotted onto the side panel tabs. Then came yet another tedium of inserting all the translucent white acrylic circles that act as the buttons.</p>
+
+<p>The original design calls for simply placing the top black acrylic sheet on top at this point, but in doing so, we realized that at this large of a scale, there was some flex in the system. This flex meant that sometimes tightening the top screws caused the acrylic circles to push down on the tactile switches and make that button permanently pressed. We thought about several potential changes that generally included slightly thinner or thicker acrylic to be used, but 3mm is kind of a standard and the sizes we wanted just didn&rsquo;t exist. So in the interest of expediency, we fell to the plan of cutting a new middle sheet out of some 0.5mm mylar we already had on hand for making stencils. This ended up being just thick enough to add the extra tolerance needed.</p>
+
+<p>So with the new middle sheet, on goes the top&hellip; and all 289 screws. Hooray for tedium!</p>
+
+<p>And we&rsquo;ve gotta say, it turned out great!</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="off.png" alt="Fully Assembled Bixel"/>
+    </div>
+    <a href="off.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Fully Assembled Bixel</p>
+      </figcaption>
+  </figure>
+</div>
+
+<h1 id="software">Software</h1>
+
+<p>As mentioned above, everything is controlled by a custom Python framework that handles animations, buttons, and driving the LEDs. In previous projects we&rsquo;ve setup all sorts of flashy web-based remote controls for our displays. These <em>seem</em> great, but in a situation like a Maker Faire or SparkCon, it means extra networking infrastructure is required. At the 2017 SparkCon, we had a huge number of displays, and it took nearly 2 hours just to get the network setup and all the displays connected.</p>
+
+<p>So, we&rsquo;ve finally learned. The Bixel employs a very simple control scheme: 2 buttons.</p>
+
+<p>One button cycles through brightness levels and the other enters a stupidly simple menu mode. The menu literally consists of one button lit up for each available game or animation. Press the button and it loads that option. Sure, there&rsquo;s no direct indication other than position and color, but sometimes simple is better.</p>
+
+<p>To top it all off, we used a basic <a href="https://github.com/ManiacalLabs/Bixel/blob/master/MainApp/bixel.service">systemd service</a> that quickly starts up the whole framework shortly after boot.</p>
+
+<h3 id="avoiding-oops">Avoiding Oops</h3>
+
+<p>The other thing we&rsquo;ve learned with the many Raspberry Pi displays we&rsquo;ve made is that full Linux systems <em>really</em> hate being powered off without warning. Too many times we&rsquo;ve had a display stop working because the SD card got corrupted by an unintentional shutdown. Fortunately, the work of many smart Raspberry Pi hackers came to the rescue with this brilliant <a href="https://learn.adafruit.com/read-only-raspberry-pi/">Read Only Raspberry Pi script</a>.</p>
+
+<p>This great little hack configures the Pi to be completely read only everywhere except the <code>/tmp</code> directory, which is redirected to RAM. This could be problematic for software that needs to write somewhere other than <code>/tmp</code>, but the Bixel framework never needs to write anything.</p>
+
+<p>We did however want to make sure that updates to the code could be made, if necessary, and fortunately this hack can take care of that too. One of the rocker switches listed above connects between GPIO 21 and ground. If the switch is closed, shorting GPIO 21 to ground, at boot time the Pi will boot into a normal mode that allows writing. So, most of the time we leave this switch off and the Bixel can be power-cycled without fear. But simply flip that switch, cycle power, and now we can edit all we want.</p>
+
+<p>That being said, it never hurts to include a backup access hatch for the SD card ;)</p>
+
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="10.jpg" alt="SD Access Hatch"/>
+    </div>
+    <a href="10.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>SD Access Hatch</p>
+      </figcaption>
+  </figure>
+</div>
+
+<h1 id="open-source">Open Source</h1>
+
+<p>Now that you&rsquo;ve made it this far, here&rsquo;s the good stuff. As with everything we do, this project is 100% open source.</p>
+
+<p>You can find all the firmware, python framework, and PCB files here:</p>
+
+<p><a href="https://github.com/ManiacalLabs/Bixel">https://github.com/ManiacalLabs/Bixel</a></p>
+
+<p>And for the full CAD model from which we cut the case and planned the layout, checkout the Fusion 360 project here:</p>
+
+<p><a href="https://a360.co/2O7vIte">https://a360.co/2O7vIte</a></p>
+
+<h1 id="pretty-pictures">Pretty Pictures</h1>
+
+<p>As reward for making it this far, here&rsquo;s a gallery from various stages of this project. Thanks for reading!</p>
+
+<p>
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="20180804_171900_HDR.jpg" />
+    </div>
+    <a href="20180804_171900_HDR.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="IMG_20180730_205012.jpg" />
+    </div>
+    <a href="IMG_20180730_205012.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="IMG_20180810_165027.jpg" />
+    </div>
+    <a href="IMG_20180810_165027.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="bloom.png" />
+    </div>
+    <a href="bloom.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="noise.png" />
+    </div>
+    <a href="noise.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="IMG_20180804_171037.jpg" />
+    </div>
+    <a href="IMG_20180804_171037.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="IMG_20180812_182712.jpg" />
+    </div>
+    <a href="IMG_20180812_182712.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+
+
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="dejeweled.png" />
+    </div>
+    <a href="dejeweled.png" itemprop="contentUrl"></a>
+  </figure>
+</div></p>
+
+
+        </div>
+
+        <div class="">
+            <p>
+  Published
+  
+    
+      by <span itemprop="author">Maniacal Labs</span>
+    
+  
+  <time datetime="2018-09-10T00:00:00&#43;00:00">
+    10 Sep, 2018
+  </time>
+  
+  
+  using <span itemprop="wordCount">3194</span> words.
+</p>
+ 
+
+
+
+        </div>
+
+        
+        <article>
+            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "maniacallabs" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+        
+
+    </div>
+</div>
+</main>
+  <footer>   <footer id="footer">
+    <nav>
+      <ul>
+        
+        
+       <li><a href="https://ManiacalLabs.com/products/" >Products</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/posts/" >Blog</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/projects/" >Projects</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/buildlog/" >Build Log</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/about/" >About</a></li>
+       
+       <li><a href="https://ManiacalLabs.com/contact/" >Contact</a></li>
+       
+       <li><a href="http://GitHub.com/ManiacalLabs"><i class="fab fa-github"></i></a></li>
+<li><a href="http://twitter.com/ManiacalLabs"><i class="fab fa-twitter"></i></a></li>
+<li><a href="http://Facebook.com/ManiacalLabs"><i class="fab fa-facebook"></i></a></li>
+<li><a href="http://Instagram.com/ManiacalLabs"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2018 Maniacal Labs, LLC</p>
+  </footer> </footer>
+
+
+  <script src="https://ManiacalLabs.com/js/kube.js" type="text/javascript">
+  </script>
+  <script src="https://ManiacalLabs.com/js/kube.legenda.js" type="text/javascript">
+  </script>
+  <script src="https://ManiacalLabs.com/js/master.js" type="text/javascript">
+  </script>
+</body>
+
+</html>
